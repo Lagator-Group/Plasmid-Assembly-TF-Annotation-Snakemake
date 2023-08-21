@@ -1,0 +1,1 @@
+All text files here are configured to only function using the University of Manchester CSF.

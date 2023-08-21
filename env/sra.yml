@@ -1,0 +1,7 @@
+name: sra
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - sra-tools=2.8.0=0
+prefix: /home/jtdejardin/anaconda3/envs/sra
