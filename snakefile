@@ -1,5 +1,9 @@
 sample=1284
 
+rule all:
+    input: 
+        'results/prokka_plasmid/{sample}'
+
 rule filtlong:
     input:
         'data/{sample}.fastq'
@@ -14,6 +18,7 @@ rule filtlong:
         'mkdir data/pre_filtlong && mv {input} data/pre_filtlong'
 
 #for unicycler rules, comment out the unnecessary rules depending on whether or not you want to run hybrid, long or short de novo assembly.
+'''
 rule unicycler: #use for hybrid assembly
     input:
         short_F='data/{sample}_F.fastq',
@@ -29,7 +34,7 @@ rule unicycler: #use for hybrid assembly
         'unicycler -1 {input.short_F} -2 {input.short_R} -l {input._long} -o {output}'
 
 
-'''
+
 rule unicycler: #use to only assembly short reads
     input:
         short_F='data/{sample}_F.fastq',
@@ -42,7 +47,7 @@ rule unicycler: #use to only assembly short reads
         'log/unicycler/{sample}.log'
     shell:
         'unicycler -1 {input.short_F} -2 {input.short_R} -o {output}'
-
+'''
 rule unicycler: #use to only assemble long reads
     input:
         _long='data/{sample}.fastq.gz'
@@ -54,7 +59,7 @@ rule unicycler: #use to only assemble long reads
         'log/unicycler/{sample}.log'
     shell:
         'unicycler -l {input._long} -o {output}'
-'''
+
         
 rule abricate:
     input:

@@ -1,7 +1,0 @@
-name: seqkit
-channels:
-  - bioconda
-  - defaults
-dependencies:
-  - seqkit=2.4.0=h9ee0642_0
-prefix: /mnt/iusers01/merman01/c59670jd/.conda/envs/seqkit
