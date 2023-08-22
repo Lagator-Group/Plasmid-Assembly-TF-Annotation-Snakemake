@@ -1,0 +1,10 @@
+#!/bin/bash --login
+#$ -cwd
+
+#$ -l mem512 #gives 32GB memory
+#$ -pe smp.pe 8 #allocates 8 cores
+
+cd "/scratch/c59670jd/hybrid_assemblies/De-Novo-Plasmid-Assembly-and-Annotation-Snakemake/"
+
+conda activate snakemake
+snakemake --use-conda
