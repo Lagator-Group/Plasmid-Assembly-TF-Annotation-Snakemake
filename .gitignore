@@ -1,5 +1,5 @@
 
-data/
+data/*
 .snakemake/
 log/
 results/
