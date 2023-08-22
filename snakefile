@@ -17,11 +17,10 @@ rule filtlong:
         '(filtlong --min_length 1000 --keep_percent 95 --target_bases 500000000 {input} | gzip > {output}) > {log} 2>&1'
 
 #for unicycler rules, comment out the unnecessary rules depending on whether or not you want to run hybrid, long or short de novo assembly.
-'''
 rule unicycler: #use for hybrid assembly
     input:
-        short_F='data/{sample}_F.fastq',
-        short_R='data/{sample}_R.fastq',
+        short_F='data/{sample}_1.fastq',
+        short_R='data/{sample}_2.fastq',
         _long='data/{sample}.fastq.gz'
     output:
         directory('results/unicycler/{sample}')
@@ -33,11 +32,11 @@ rule unicycler: #use for hybrid assembly
         'unicycler -1 {input.short_F} -2 {input.short_R} -l {input._long} -o {output}'
 
 
-
+'''
 rule unicycler: #use to only assembly short reads
     input:
-        short_F='data/{sample}_F.fastq',
-        short_R='data/{sample}_R.fastq',
+        short_F='data/{sample}_1.fastq',
+        short_R='data/{sample}_2.fastq',
     output:
         directory('results/unicycler/{sample}')
     conda:
@@ -46,7 +45,7 @@ rule unicycler: #use to only assembly short reads
         'log/unicycler/{sample}.log'
     shell:
         'unicycler -1 {input.short_F} -2 {input.short_R} -o {output}'
-'''
+        
 rule unicycler: #use to only assemble long reads
     input:
         _long='data/{sample}.fastq.gz'
@@ -58,7 +57,7 @@ rule unicycler: #use to only assemble long reads
         'log/unicycler/{sample}.log'
     shell:
         'unicycler -l {input._long} -o {output}'
-
+'''
         
 rule abricate:
     input:
