@@ -1,8 +1,8 @@
-sample=1284
+SAMPLES=['1284']
 
 rule all:
-    input: 
-        'results/prokka_plasmid/{sample}'
+    input:
+        expand('data/{sample}.fastq.gz', sample=SAMPLES)
 
 rule filtlong:
     input:
@@ -14,8 +14,7 @@ rule filtlong:
     log:
         'log/filtlong/{sample}.log'
     shell:
-        '(filtlong --min_length 1000 --keep_percent 95 --target_bases 500000000 {input} | gzip > {output}) > {log} 2>&1 &&'
-        'mkdir data/pre_filtlong && mv {input} data/pre_filtlong'
+        '(filtlong --min_length 1000 --keep_percent 95 --target_bases 500000000 {input} | gzip > {output}) > {log} 2>&1'
 
 #for unicycler rules, comment out the unnecessary rules depending on whether or not you want to run hybrid, long or short de novo assembly.
 '''
