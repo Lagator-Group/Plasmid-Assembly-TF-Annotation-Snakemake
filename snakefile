@@ -1,4 +1,4 @@
-SAMPLES=['1284']
+SAMPLES=['1284','7764','9246']
 
 rule all:
     input:
