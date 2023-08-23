@@ -1,9 +1,3 @@
-SAMPLES=['1284','7764','9246']
-
-rule all:
-    input:
-        expand('results/prokka_plasmid/{sample}',sample=SAMPLES)
-
 #for unicycler rules, comment out the unnecessary rules depending on whether or not you want to run hybrid, long or short de novo assembly.
 
 rule unicycler: #hybrid assembly
@@ -78,3 +72,11 @@ rule prokka:
         'log/prokka/{sample}.log'
     shell:
         '(prokka --outdir {output} --prefix {wildcards.sample} {input}) > {log}'
+
+rule end:
+    input:
+        'results/prokka_plasmid/{sample}'
+    output:
+        'results/{sample}'
+    shell:
+        'echo "done" > {output}'
