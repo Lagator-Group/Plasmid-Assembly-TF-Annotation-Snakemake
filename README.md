@@ -16,4 +16,4 @@ sample.fastq #long read
 5. In the ```snakemake``` conda environment, run ```snakemake --use-conda --cores all --conda-frontend conda```.
 6. Results will be output in ```results``` folder.
 7. If you want to process multiple samples, run the following command in the terminal: ```snakemake --use-conda --cores all --conda-frontend conda results/prokka_plasmid/{sample1} ; results/prokka_plasmid/{sample2} ; etc```. This is so that if 1 sample fails for a reason, it won't affect the processing of the other samples.
-8. If you spot an error in your scipt(s), it is best to let it fail naturally rather than cancelling it whilst it's running.
+8. If you spot an error in your script(s), it is best to let it fail naturally rather than cancelling it whilst it's running.
