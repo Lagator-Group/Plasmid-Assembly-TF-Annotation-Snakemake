@@ -35,7 +35,7 @@ def write_batch_file(sample):
 #$ -pe smp.pe 8 #allocates 8 cores\n\
 \n\
 conda activate snakemake\n\
-snakemake --use-conda --cores all --conda-frontend conda results/'+sample)
+snakemake --use-conda --conda-frontend --cores all conda results/'+sample)
 
 for fastq in final_fastq:
     write_batch_file(fastq)
