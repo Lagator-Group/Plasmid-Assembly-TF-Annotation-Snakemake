@@ -59,7 +59,7 @@ rule contig_plasmid:
     log:
         'log/contig_plasmid/{sample}.log'
     script:
-        '(bin/contig_plasmid.py) > {log}'
+        'bin/contig_plasmid.py'
 
 rule prokka:
     input:
