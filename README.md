@@ -4,6 +4,8 @@ Uses Snakemake pipeline for sequence alignment and annotation. Needs Snakemake e
 
 ## Complete Pipeline Instructions
 
+First run will take the longest as it will need to install the various environments. All subsequent runs SHOULD be faster as the environments will already have been installed, and will just need to be run.
+
 1. Create folder ```data``` and copy sequence files to it.
 2. Rename the sequence files to follow the following naming convention:
 ```
