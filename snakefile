@@ -1,10 +1,16 @@
-#for unicycler rules, comment out the unnecessary rules depending on whether or not you want to run hybrid, long or short de novo assembly.
+SAMPLES=['1284','7764','9246']
 
+rule all:
+    input:
+        expand('results/{sample}',sample=SAMPLES)
+
+#for unicycler rules, comment out the unnecessary rules depending on whether or not you want to run hybrid, long or short de novo assembly.
+'''
 rule unicycler: #hybrid assembly
     input:
-        _long='data/{sample}.fastq',
-        short_1='data/{sample}_1.fastq',
-        short_2='data/{sample}_2.fastq'
+        long1='data/{sample}.fastq',
+        short1='data/{sample}_1.fastq',
+        short2='data/{sample}_2.fastq'
     output:
         directory('results/unicycler/{sample}')
     conda:
@@ -12,12 +18,12 @@ rule unicycler: #hybrid assembly
     log:
         'log/unicycler/{sample}.log'
     shell:
-        '(unicycler -1 {input.short_1} -2 {input.short_2} -l {input._long} -o {output}) > {log}'
-'''        
+        '(unicycler -1 {input.short1} -2 {input.short2} -l {input.long1} -o {output}) > {log}'
+
 rule unicycler: #short assembly
     input:
-        short_1='data/{sample}_1.fastq',
-        short_2='data/{sample}_2.fastq'
+        short1='data/{sample}_1.fastq',
+        short2='data/{sample}_2.fastq'
     output:
         directory('results/unicycler/{sample}')
     conda:
@@ -25,8 +31,8 @@ rule unicycler: #short assembly
     log:
         'log/unicycler/{sample}.log'
     shell:
-        '(unicycler -1 {input.short_1} -2 {input.short_2} -o {output}) > {log}'
-
+        '(unicycler -1 {input.short1} -2 {input.short2} -o {output}) > {log}'
+'''
 rule unicycler: #long assembly
     input:
         'data/{sample}.fastq'
@@ -38,7 +44,7 @@ rule unicycler: #long assembly
         'log/unicycler/{sample}.log'
     shell:
         '(unicycler -l {input} -o {output}) > {log}'
-'''
+
 rule abricate:
     input:
         'results/unicycler/{sample}'
@@ -59,7 +65,7 @@ rule contig_plasmid:
     log:
         'log/contig_plasmid/{sample}.log'
     script:
-        'bin/contig_plasmid.py'
+        'scripts/contig_plasmid.py'
 
 rule prokka:
     input:
