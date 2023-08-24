@@ -27,7 +27,7 @@ for fastq in pre_final_fastq:
 
 #writes batch file
 def write_batch_file(sample):
-    with open(sample+'.txt','w') as f:
+    with open('assembly_'+sample+'.txt','w') as f:
         f.write('\
 #!/bin/bash --login\n\
 #$ -cwd\n\
@@ -35,7 +35,7 @@ def write_batch_file(sample):
 #$ -pe smp.pe 8 #allocates 8 cores\n\
 \n\
 conda activate snakemake\n\
-snakemake --use-conda --cores all --conda-frontend conda results/assembly_'+sample+'.txt')
+snakemake --use-conda --cores all --conda-frontend conda results/'+sample)
 
 for fastq in final_fastq:
     write_batch_file(fastq)
@@ -64,5 +64,3 @@ for file in os.listdir():
 
 with open('qsub_commands.txt','w') as f:
     f.write(';'.join(batch))
-
-
