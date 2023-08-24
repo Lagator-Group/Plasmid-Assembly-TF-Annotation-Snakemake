@@ -7,5 +7,4 @@
 cd "/scratch/c59670jd/hybrid_assemblies/De-Novo-Plasmid-Assembly-and-Annotation-Snakemake/"
 
 conda activate snakemake
-snakemake --use-conda --cores all --conda-frontend conda results/{sample1}
-snakemake --use-conda --cores all --conda-frontend conda results/{sample2} 
+snakemake --use-conda --cores all --conda-frontend conda
