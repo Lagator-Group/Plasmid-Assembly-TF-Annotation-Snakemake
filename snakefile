@@ -1,9 +1,3 @@
-SAMPLES=['1284','7764','9246']
-
-rule all:
-    input:
-        expand('results/prokka_plasmid/{sample}',sample=SAMPLES)
-
 rule unicycler: 
     input:
         long_='data/{sample}.fastq',
