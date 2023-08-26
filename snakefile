@@ -43,3 +43,24 @@ rule prokka:
         'log/prokka/{sample}.log'
     shell:
         '(prokka --outdir {output} --prefix {wildcards.sample} {input}) > {log}'
+    
+rule get_hypothetical:
+    input:
+        tsv='results/prokka_plasmid/{sample}/{sample}.tsv',
+        fnn='results/prokka_plasmid/{sample}/{sample}.fnn'
+    output:
+        temp('results/annotation/{sample}_hypothetical.fasta')
+    script:
+        'scripts/get_hypothetical.py'
+
+rule makeblastdb:
+    input:
+        'bin/swissprot.tar.gz'
+    output:
+        temp(directory('bin/swissprot')),
+        temp('bin/swissprot/swissprot.phr'),
+        temp('bin/swissprot/swissprot.pin'),
+        temp('bin/swissprot/swissprot.psq')
+    shell:
+        'tar -xvzf {input}'
+
