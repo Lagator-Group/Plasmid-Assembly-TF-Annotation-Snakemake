@@ -53,33 +53,38 @@ rule get_hypothetical:
     script:
         'scripts/get_hypothetical.py'
 
-rule uniprot_sprot:
+rule wget_uniprot:
     input:
 
     output:
-        'bin/swissprot/uniprot_sprot.fasta'
+        uniprot_fasta='bin/swissprot/uniprot_sprot.fasta',
     params:
         'https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz'
+    log:
+        'log/wget_uniprot.log'
     shell:
-        'wget {params} -P bin/swissprot/ && '
-        'gunzip {output}.gz'
+        '(wget {params} -P bin/swissprot && '
+        'gunzip {output.uniprot_fasta}.gz) > {log}'
 
 rule makeblastdb:
     input:
         uniprot_fasta='bin/swissprot/uniprot_sprot.fasta'
     output:
-        db='bin/swissprot/swissprot'
+        phr='bin/swissprot/uniprot_sprot.fasta.phr',
+        pin='bin/swissprot/uniprot_sprot.fasta.pin',
+        psq='bin/swissprot/uniprot_sprot.fasta.psq'
     conda:
         'env/blast.yml'
     log:
         'log/makeblastdb.log'
     shell:
-        'makeblastdb -dbtype prot -in {input.uniprot_fasta}'
+        '(makeblastdb -dbtype prot -in {input.uniprot_fasta}) > {log}'
 '''
 rule blastx:
     input:
     output:
     conda:
+        'env/blast.yml'
     log:
         'log/blastx/{sample}.log'
     shell:
