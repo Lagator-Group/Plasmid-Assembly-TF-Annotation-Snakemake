@@ -63,15 +63,26 @@ rule uniprot_sprot:
     shell:
         'wget {params} -P bin/swissprot/ && '
         'gunzip {output}.gz'
-'''
-rule: makeblastdb:
+
+rule makeblastdb:
     input:
         uniprot_fasta='bin/swissprot/uniprot_sprot.fasta'
     output:
+        db='bin/swissprot/swissprot'
+    conda:
+        'env/blast.yml'
+    log:
+        'log/makeblastdb.log'
+    shell:
+        'makeblastdb -dbtype prot -in {input.uniprot_fasta}'
+'''
+rule blastx:
+    input:
+    output:
     conda:
     log:
+        'log/blastx/{sample}.log'
     shell:
-    'makeblastdb -dbtype prot -in {output.uniprot_fasta} &&'
-    'blastx -query results/annotation/7764_hypothetical.fasta -db bin/swissprot'
-    ' -out results/blast/7764.tsv -outfmt 6 -evalue 10-max_hsps 1 -num_threads 4'
+        'blastx -query results/annotation/7764_hypothetical.fasta -db bin/swissprot'
+        ' -out results/blast/7764.tsv -outfmt 6 -evalue 10-max_hsps 1 -num_threads 4'
 '''
