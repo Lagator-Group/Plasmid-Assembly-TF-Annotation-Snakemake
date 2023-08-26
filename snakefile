@@ -53,16 +53,17 @@ rule get_hypothetical:
     script:
         'scripts/get_hypothetical.py'
 
-rule uniprot_tar:
+rule uniprot_sprot:
     input:
-        'bin/swissprot/uniprot_sprot.fasta.tar.gz'
+
     output:
         'bin/swissprot/uniprot_sprot.fasta'
-    log:
+    params:
+        'https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz'
     shell:
-     'tar -xvzf {input}'
-
-
+        'wget {params} -P bin/swissprot/ && '
+        'gunzip {output}.gz'
+'''
 rule: makeblastdb:
     input:
         uniprot_fasta='bin/swissprot/uniprot_sprot.fasta'
@@ -73,3 +74,4 @@ rule: makeblastdb:
     'makeblastdb -dbtype prot -in {output.uniprot_fasta} &&'
     'blastx -query results/annotation/7764_hypothetical.fasta -db bin/swissprot'
     ' -out results/blast/7764.tsv -outfmt 6 -evalue 10-max_hsps 1 -num_threads 4'
+'''
