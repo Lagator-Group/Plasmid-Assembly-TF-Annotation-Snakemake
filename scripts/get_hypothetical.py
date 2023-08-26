@@ -3,7 +3,7 @@ import pandas as pd
 
 # %%
 locus_tags = []
-tsv= 'results\\prokka_plasmid\\7764\\7764.tsv' #snakemake.input[0]
+tsv= snakemake.input[0]
 
 df=pd.read_csv(tsv,sep='\t',usecols=['locus_tag','product'])
 _n=df.shape[0] #get number of rows in df
@@ -19,8 +19,8 @@ while n<_n: #will only run for number of rows in pd.df
     n=n+1
 
 # %%
-fnn= 'results\\prokka_plasmid\\7764\\7764.ffn' #snakemake.input[1]
-hypothetical_proteins = 'results\\annotation\\7764_hypothetical.fasta' #snakemake.output[0]
+fnn= snakemake.input[1]
+hypothetical_proteins = snakemake.output[0]
 with open(fnn, 'r') as f:
     data=f.read()
     for locus in locus_tags:
@@ -30,5 +30,3 @@ with open(fnn, 'r') as f:
 
         with open(hypothetical_proteins,'a') as f:
             f.write(result)
-
-
