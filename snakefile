@@ -113,6 +113,11 @@ rule blastx:
         'env/blast.yml'
     log:
         'log/blastx/{sample}.log'
+    params:
+        db='bin/swissprot/uniprot_sprot.fasta',
+        outfmt='6',
+        evalue='10',
+        max_hsps='1'
     shell:
-        'blastx -query {input.hypothetical} -db bin/swissprot/uniprot_sprot.fasta'
-        ' -out {output} -outfmt 6 -evalue 10 -max_hsps 1 -num_threads 4'
+        'blastx -query {input.hypothetical} -db {params.db}'
+        ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -num_threads 4'
