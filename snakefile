@@ -120,7 +120,7 @@ rule blastx:
     params:
         db='bin/swissprot/swissprot',
         outfmt='6',
-        evalue='10',
+        evalue='0.1',
         max_hsps='1'
     threads:
         config['threads']
