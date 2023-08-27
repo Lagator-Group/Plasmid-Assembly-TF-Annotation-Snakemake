@@ -29,4 +29,4 @@ with open(fnn, 'r') as f:
         result=data[start:end]
 
         with open(hypothetical_proteins,'a') as f:
-            f.write(result)
+            f.write('>'+result)
