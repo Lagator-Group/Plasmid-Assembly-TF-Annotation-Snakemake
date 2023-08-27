@@ -15,8 +15,13 @@ rule unicycler:
         'env/unicycler.yml'
     log:
         'log/unicycler/{sample}.log'
+    params:
+        keep='0',
+        mode='conservative'
+    threads: 
+        config['threads']
     shell:
-        'unicycler -l {input.long_} -o {output.folder}'
+        'unicycler -l {input.long_} -o {output.folder} --keep {params.keep} -t {threads} --mode {params.mode}'
 '''
 rule unicycler: 
     input:
