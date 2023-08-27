@@ -1,6 +1,8 @@
+configfile: 'config.yml'
+
 rule all:
     input:
-        'results/blast/1284.tsv'
+        'results/swissprot/1284.tsv'
 
 rule unicycler: 
     input:
@@ -91,33 +93,37 @@ rule makeblastdb:
     input:
         uniprot_fasta='bin/swissprot/uniprot_sprot.fasta'
     output:
-        phr='bin/swissprot/uniprot_sprot.fasta.phr',
-        pin='bin/swissprot/uniprot_sprot.fasta.pin',
-        psq='bin/swissprot/uniprot_sprot.fasta.psq'
+        phr='bin/swissprot/swissprot.phr',
+        pin='bin/swissprot/swissprot.pin',
+        psq='bin/swissprot/swissprot.psq'
     conda:
         'env/blast.yml'
     log:
         'log/makeblastdb.log'
+    params:
+        db='bin/swissprot/swissprot'
     shell:
-        'makeblastdb -dbtype prot -in {input.uniprot_fasta}'
+        'makeblastdb -dbtype prot -in {input.uniprot_fasta} -out {params.db}'
 
 rule blastx:
     input:
         hypothetical='results/annotation/{sample}_hypothetical.fasta',
-        phr='bin/swissprot/uniprot_sprot.fasta.phr',
-        pin='bin/swissprot/uniprot_sprot.fasta.pin',
-        psq='bin/swissprot/uniprot_sprot.fasta.psq'
+        phr='bin/swissprot/swissprot.phr',
+        pin='bin/swissprot/swissprot.pin',
+        psq='bin/swissprot/swissprot.psq'
     output:
-        'results/blast/{sample}.tsv'   
+        'results/swissprot/{sample}.tsv'   
     conda:
         'env/blast.yml'
     log:
         'log/blastx/{sample}.log'
     params:
-        db='bin/swissprot/uniprot_sprot.fasta',
+        db='bin/swissprot/swissprot',
         outfmt='6',
         evalue='10',
         max_hsps='1'
+    threads:
+        config['threads']
     shell:
         'blastx -query {input.hypothetical} -db {params.db}'
-        ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -num_threads 4'
+        ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -num_threads {threads}'
