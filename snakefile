@@ -2,7 +2,7 @@ configfile: 'config.yml'
 
 rule all:
     input:
-        'results/swissprot/1284.tsv'
+        'results/swissprot/1284_names.tsv'
 
 rule unicycler: 
     input:
@@ -132,3 +132,11 @@ rule blastx:
     shell:
         'blastx -query {input.hypothetical} -db {params.db}'
         ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -num_threads {threads}'
+
+rule uniprot_query:
+    input:
+        'results/swissprot/{sample}.tsv'
+    output:
+        'results/swissprot/{sample}_names.tsv'
+    script:
+        'scripts/uniprot_query.py'
