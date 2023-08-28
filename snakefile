@@ -2,7 +2,7 @@ configfile: 'config.yml'
 
 rule all:
     input:
-        'results/swissprot/1284_names.tsv'
+        'results/annotation/swissprot_1284.tsv'
 
 rule unicycler: 
     input:
@@ -63,14 +63,16 @@ rule prokka:
     output:
         folder=directory('results/prokka_plasmid/{sample}'),
         tsv='results/prokka_plasmid/{sample}/{sample}.tsv',
-        ffn='results/prokka_plasmid/{sample}/{sample}.ffn'
+        ffn='results/prokka_plasmid/{sample}/{sample}.ffn',
+        dest='results/annotation/prokka_{sample}.tsv'
 
     conda:
         'env/prokka.yml'
     log:
         'log/prokka/{sample}.log'
     shell:
-        'prokka --outdir {output.folder} --prefix {wildcards.sample} {input} --force'
+        'prokka --outdir {output.folder} --prefix {wildcards.sample} {input} --force && '
+        'cp {output.tsv} {output.dest}'
     
 rule get_hypothetical:
     input:
@@ -110,14 +112,14 @@ rule makeblastdb:
     shell:
         'makeblastdb -dbtype prot -in {input.uniprot_fasta} -out {params.db}'
 
-rule blastx:
+rule swissprot_blastx:
     input:
-        hypothetical='results/annotation/{sample}_hypothetical.fasta',
+        ffn='results/prokka_plasmid/{sample}/{sample}.ffn',
         phr='bin/swissprot/swissprot.phr',
         pin='bin/swissprot/swissprot.pin',
         psq='bin/swissprot/swissprot.psq'
     output:
-        'results/swissprot/{sample}.tsv'   
+        temp('results/annotation/swissprot_{sample}_temp.tsv')   
     conda:
         'env/blast.yml'
     log:
@@ -130,13 +132,13 @@ rule blastx:
     threads:
         config['threads']
     shell:
-        'blastx -query {input.hypothetical} -db {params.db}'
+        'blastx -query {input.ffn} -db {params.db}'
         ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -num_threads {threads}'
 
 rule uniprot_query:
     input:
-        'results/swissprot/{sample}.tsv'
+        'results/annotation/swissprot_{sample}_temp.tsv'
     output:
-        'results/swissprot/{sample}_names.tsv'
+        'results/annotation/swissprot_{sample}.tsv'
     script:
         'scripts/uniprot_query.py'
