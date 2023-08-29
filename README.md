@@ -13,7 +13,11 @@ sample_1.fastq #forward read
 sample_2.fastq #reverse read
 sample.fastq #long read
 ``` 
-3. Open ```snakefile``` in a text editor and edit the value for sample. If you have many samples, you can run ```python3 scripts/sample_list.py``` to generate a list of all your samples in ```samples_list.txt``` and paste that at the top of ```snakefile```.
+3. Open ```snakefile``` in a text editor and edit the value for sample. If you have many samples, it's best to run each pipeline in sequence instead of parralel as it would seem to cause conflicts whilst being run. Further testing still required to understand how it all behaves.
 4. In the ```snakemake``` conda environment, run ```snakemake --use-conda --cores all --conda-frontend conda```.
 5. Results will be output in ```results``` folder.
 6. If you spot an error in your script(s), it is best to let it fail naturally rather than cancelling it whilst it's running.
+
+## Branch Menu
+- Main: Hybrid assembly, separation of plasmid contigs, swissprot and prokka annotation in ```results/annotation/```
+- 
