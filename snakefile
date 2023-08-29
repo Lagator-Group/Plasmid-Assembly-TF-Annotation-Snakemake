@@ -17,8 +17,6 @@ rule unicycler:
 
     conda:
         'env/unicycler.yml'
-    log:
-        'log/unicycler/{sample}.log'
     params:
         keep='0',
         mode='conservative'
@@ -34,8 +32,6 @@ rule abricate_plasmid:
         'results/abricate_plasmid/{sample}.tab'
     conda:
         'env/abricate.yml'
-    log:
-        'log/abricate/{sample}.log'
     shell:
         'abricate -db plasmidfinder {input} > {output}'
 
@@ -68,8 +64,6 @@ rule prokka:
 
     conda:
         'env/prokka.yml'
-    log:
-        'log/prokka/{sample}.log'
     shell:
         'prokka --outdir {output.folder} --prefix {wildcards.sample} {input} --force && '
         'cp {output.tsv} {output.dest}'
@@ -90,8 +84,6 @@ rule wget_uniprot:
         uniprot_fasta='bin/swissprot/uniprot_sprot.fasta',
     params:
         'https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz'
-    log:
-        'log/wget_uniprot.log'
     shell:
         'wget {params} -P bin/swissprot && '
         'gunzip {output.uniprot_fasta}.gz'
@@ -105,8 +97,6 @@ rule makeblastdb:
         psq='bin/swissprot/swissprot.psq'
     conda:
         'env/blast.yml'
-    log:
-        'log/makeblastdb.log'
     params:
         db='bin/swissprot/swissprot'
     shell:
@@ -122,8 +112,6 @@ rule swissprot_blastx:
         temp('results/annotation/swissprot_{sample}_temp.tsv')   
     conda:
         'env/blast.yml'
-    log:
-        'log/blastx/{sample}.log'
     params:
         db='bin/swissprot/swissprot',
         outfmt='6',
