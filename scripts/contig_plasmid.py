@@ -27,8 +27,6 @@ def get_contig(tab):
             result=data[start:end] #isolates contig from '>' from '>'
 
             contig_directory='contigs_plasmid'
-            if not os.path.isdir(contig_directory):
-                os.mkdir(contig_directory)
 
             _fname=str(df['#FILE'][n])[:-15]
             fname=_fname+'_'+str(df['SEQUENCE'][n])+'.fasta' #final file name example = 0flye_contig_1.fasta
