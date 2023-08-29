@@ -1,4 +1,4 @@
-# Sequence Alignment and Annotation
+# Sequence Assembly and Annotation
 
 Uses Snakemake pipeline for sequence alignment and annotation. Needs Snakemake environments to be [installed](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html).
 
