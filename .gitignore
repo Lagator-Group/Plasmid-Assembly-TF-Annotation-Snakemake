@@ -3,6 +3,4 @@ data/
 .snakemake/
 log/
 results/
-bin/swissprot/swissprot.phr
-bin/swissprot/swissprot.pin
-bin/swissprot/swissprot.psq
+bin/
