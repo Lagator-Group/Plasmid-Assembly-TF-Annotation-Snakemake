@@ -3,8 +3,4 @@ data/
 .snakemake/
 log/
 results/
-swissprot.phr
-swissprot.pin
-swissprot.psq
-bin/swissprot/uniprot_sprot.fasta
 bin/
