@@ -1,12 +1,16 @@
 configfile: 'config.yml'
 
+SAMPLE=['1284']
+
 rule all:
     input:
-        'results/annotation/swissprot_1284.tsv'
+        'results/annotation/swissprot_{sample}.tsv',sample=SAMPLE
 
 rule unicycler: 
     input:
-        long_='data/{sample}.fastq'
+        long_='data/{sample}.fastq',
+        short_1='data/{sample}_1.fastq',
+        short_2='data/{sample}_2.fastq'
     output:
         folder=directory('results/unicycler/{sample}'),
         fasta='results/unicycler/{sample}/assembly.fasta'
@@ -21,22 +25,8 @@ rule unicycler:
     threads: 
         config['threads']
     shell:
-        'unicycler -l {input.long_} -o {output.folder} --keep {params.keep} -t {threads} --mode {params.mode}'
-'''
-rule unicycler: 
-    input:
-        long_='data/{sample}.fastq',
-        short_1='data/{sample}_1.fastq',
-        short_2='data/{sample}_2.fastq'
-    output:
-        directory('results/unicycler/{sample}')
-    conda:
-        'env/unicycler.yml'
-    log:
-        'log/unicycler/{sample}.log'
-    shell:
-        '(unicycler -1 {input.short_1} -2 {input.short_2} -l {input.long_} -o {output}) > {log}'
-'''
+        'unicycler -l {input.long_} -1 {input.short_1} -2 {input.short_2} -o {output.folder} --keep {params.keep} -t {threads} --mode {params.mode}'
+
 rule abricate:
     input:
         'results/unicycler/{sample}/assembly.fasta'
