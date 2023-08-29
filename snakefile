@@ -31,13 +31,15 @@ rule abricate:
     input:
         'results/unicycler/{sample}/assembly.fasta'
     output:
-        'results/abricate_plasmid/{sample}.tab'
+        plasmid='results/abricate_plasmid/{sample}.tab',
+        amr='results/annotation/{sample}.tab'
     conda:
         'env/abricate.yml'
     log:
         'log/abricate/{sample}.log'
     shell:
-        'abricate -db plasmidfinder {input} > {output}'
+        'abricate -db plasmidfinder {input} > {output.plasmid} &&'
+        'abricate {input} > {output.amr}'
 
 rule contig_plasmid:
     input:
