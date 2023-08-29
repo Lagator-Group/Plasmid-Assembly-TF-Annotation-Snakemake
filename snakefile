@@ -37,7 +37,7 @@ rule abricate_plasmid:
     log:
         'log/abricate/{sample}.log'
     shell:
-        'abricate -db plasmidfinder {input} > {output.plasmid}'
+        'abricate -db plasmidfinder {input} > {output}'
 
 rule contig_plasmid:
     input:
