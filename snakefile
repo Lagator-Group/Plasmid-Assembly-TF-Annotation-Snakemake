@@ -32,7 +32,7 @@ rule abricate:
         'results/unicycler/{sample}/assembly.fasta'
     output:
         plasmid='results/abricate_plasmid/{sample}.tab',
-        amr='results/annotation/{sample}.tab'
+        amr='results/annotation/abricate_{sample}.tab'
     conda:
         'env/abricate.yml'
     log:
