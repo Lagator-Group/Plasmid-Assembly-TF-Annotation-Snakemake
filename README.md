@@ -20,4 +20,4 @@ sample.fastq #long read
 
 ## Branch Menu
 - Main: Hybrid assembly, separation of plasmid contigs, swissprot and prokka annotation in ```results/annotation/```
-- No Assembly: Same as above, but no assembly. Place assembled sequences in ```data/```
+- No Assembly: Same as above, but no assembly. Place assembled sequences in ```data/{sample}.fasta```
