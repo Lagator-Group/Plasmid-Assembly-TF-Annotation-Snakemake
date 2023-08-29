@@ -37,7 +37,7 @@ conda activate snakemake\n')
     
 for fastq in final_fastq:
     with open('denovo_plasmid.txt','a') as f:
-        f.write('snakemake --use-conda --cores all --conda-frontend conda results/prokka_plasmid/'+fastq+'\n')
+        f.write('snakemake --use-conda --cores all --conda-frontend conda results/annotation/swissprot_'+fastq+'.tsv\n')
 
 #converts CRLF to LF
 import re
