@@ -27,19 +27,17 @@ rule unicycler:
     shell:
         'unicycler -l {input.long_} -1 {input.short_1} -2 {input.short_2} -o {output.folder} --keep {params.keep} -t {threads} --mode {params.mode}'
 
-rule abricate:
+rule abricate_plasmid:
     input:
         'results/unicycler/{sample}/assembly.fasta'
     output:
-        plasmid='results/abricate_plasmid/{sample}.tab',
-        amr='results/annotation/abricate_{sample}.tab'
+        'results/abricate_plasmid/{sample}.tab'
     conda:
         'env/abricate.yml'
     log:
         'log/abricate/{sample}.log'
     shell:
-        'abricate -db plasmidfinder {input} > {output.plasmid} &&'
-        'abricate {input} > {output.amr}'
+        'abricate -db plasmidfinder {input} > {output.plasmid}'
 
 rule contig_plasmid:
     input:
@@ -48,6 +46,16 @@ rule contig_plasmid:
         'results/contigs_plasmid/{sample}.fasta'
     script:
         'scripts/contig_plasmid.py'
+
+rule plasmid_amr:
+    input:
+        'results/contigs_plasmid/{sample}.fasta'
+    output:
+        'results/annotation/abricate_{sample}.tab'
+    conda:
+        'env/abricate.yml'
+    shell:
+        'abricate {input} > {output}'
 
 rule prokka:
     input:
