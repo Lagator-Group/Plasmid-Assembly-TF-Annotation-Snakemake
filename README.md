@@ -21,6 +21,5 @@ sample.fastq #long read
 ## Branch Menu
 - Main: Hybrid assembly with unicycler, separation of plasmid contigs, swissprot and prokka annotation in ```results/annotation/```.
 - Long assembly: Same as above, but long-read assembly only using flye.
-- Short assembly Spades: Same as above, but short-read assembly only using Shovill and Spades.
 - Short assembly Velvet: Same as above, but short-read assembly only using Shovill and Velvet.
 - No Assembly: Same as above, but no assembly. Place assembled sequences in ```data/{sample}.fasta```.
