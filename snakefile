@@ -4,7 +4,7 @@ SAMPLE=['1284']
 
 rule all:
     input:
-        'results/annotation/swissprot_{sample}.tsv',sample=SAMPLE
+        'results/{sample}_done.txt',sample=SAMPLE
 
 rule unicycler: 
     input:
@@ -130,3 +130,13 @@ rule uniprot_query:
         'results/annotation/swissprot_{sample}.tsv'
     script:
         'scripts/uniprot_query.py'
+
+rule done:
+    input:
+        'results/annotation/abricate_{sample}.tab',
+        'results/annotation/prokka_{sample}.tsv',
+        'results/annotation/swissprot_{sample}.tsv'
+    output:
+        'results/{sample}_done.txt'
+    shell:
+        'echo "{wildcards.sample} done > {output}'
