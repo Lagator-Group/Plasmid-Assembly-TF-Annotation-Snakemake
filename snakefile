@@ -4,7 +4,7 @@ SAMPLE=['1284']
 
 rule all:
     input:
-        'results/{sample}_done.txt',sample=SAMPLE
+        expand('results/{sample}_done.txt',sample=SAMPLE)
 
 rule unicycler: 
     input:
