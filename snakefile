@@ -1,6 +1,6 @@
 configfile: 'config.yml'
 
-SAMPLE=['1284']
+SAMPLE=['1284','7764','9246']
 
 rule all:
     input:
@@ -81,7 +81,7 @@ rule wget_uniprot:
     input:
 
     output:
-        temp(uniprot_fasta='bin/swissprot/uniprot_sprot.fasta')
+        temp('bin/swissprot/uniprot_sprot.fasta')
     params:
         'https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz'
     shell:
