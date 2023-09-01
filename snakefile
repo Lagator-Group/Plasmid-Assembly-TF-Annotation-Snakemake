@@ -81,7 +81,7 @@ rule wget_uniprot:
     input:
 
     output:
-        uniprot_fasta='bin/swissprot/uniprot_sprot.fasta',
+        temp(uniprot_fasta='bin/swissprot/uniprot_sprot.fasta')
     params:
         'https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz'
     shell:
