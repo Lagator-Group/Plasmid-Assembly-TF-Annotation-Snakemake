@@ -14,7 +14,6 @@ rule unicycler:
     output:
         folder=directory('results/unicycler/{sample}'),
         fasta='results/unicycler/{sample}/assembly.fasta'
-
     conda:
         'env/unicycler.yml'
     params:
