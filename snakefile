@@ -86,7 +86,7 @@ rule wget_uniprot:
         'https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz'
     shell:
         'wget {params} -P bin/swissprot && '
-        'gunzip {output.uniprot_fasta}.gz'
+        'gunzip {output}.gz'
 
 rule makeblastdb:
     input:
