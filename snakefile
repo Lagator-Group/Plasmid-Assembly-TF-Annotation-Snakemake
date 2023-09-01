@@ -139,4 +139,4 @@ rule done:
     output:
         'results/{sample}_done.txt'
     shell:
-        'echo "{wildcards.sample} done > {output}'
+        'echo "{wildcards.sample} done" > {output}'
