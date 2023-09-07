@@ -130,11 +130,19 @@ rule uniprot_query:
     script:
         'scripts/uniprot_query.py'
 
+rule keep_TF:
+    input:
+        'results/annotation/swissprot_{sample}.tsv'
+    output:
+        'results/annotation/sprot_TF_{sample}.tsv'
+    script:
+        'scripts/sprot_keep_TF.py'
+
 rule done:
     input:
         'results/annotation/abricate_{sample}.tab',
         'results/annotation/prokka_{sample}.tsv',
-        'results/annotation/swissprot_{sample}.tsv'
+        'results/annotation/sprot_TF_{sample}.tsv'
     output:
         'results/{sample}_done.txt'
     shell:
