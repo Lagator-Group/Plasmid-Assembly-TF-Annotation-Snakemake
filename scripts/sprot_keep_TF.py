@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Read the .tsv file into a DataFrame
-sprot_df = pd.read_csv('results/annotation/swissprot_1284.tsv', delimiter='\t')
+sprot_df = pd.read_csv(snakemake.input[0], delimiter='\t')
 
 # %%
 tf_names=['transcription','repressor','activator','regulator']
@@ -46,7 +46,7 @@ best_data={'Locus Tag':locus_tag_list,'Entry':entry_list,'Protein names':protein
 best_df=pd.DataFrame(best_data)
 
 # %%
-with open('results/annotation/best_sprot_1284.tsv','w') as f:
+with open(snakemake.output[0],'w') as f:
     best_df.to_csv(f,index=False,sep='\t')
 
 
