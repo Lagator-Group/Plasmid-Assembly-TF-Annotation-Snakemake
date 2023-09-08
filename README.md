@@ -1,25 +1,34 @@
 # Sequence Assembly and Annotation
 
-Uses Snakemake pipeline for sequence alignment and annotation. Needs Snakemake environments to be [installed](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html).
+Uses Snakemake pipeline for sequence alignment and annotation. Needs Snakemake environment to be [installed](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html).
 
 ## Complete Pipeline Instructions
-
+### Assembly: Hybrid, Short or Long
 First run will take the longest as it will need to install the various environments. All subsequent runs SHOULD be faster as the environments will already have been installed, and will just need to be run.
 
 1. Create folder ```data``` and copy sequence files to it.
 2. Rename the sequence files to follow the following naming convention:
 ```
-sample_1.fastq #forward read
-sample_2.fastq #reverse read
-sample.fastq #long read
+sample_1.fastq #forward read, only relevant for short read
+sample_2.fastq #reverse read, only relevant for short read
+sample.fastq #long read, only relevant for long read
 ``` 
-3. Open ```snakefile``` in a text editor and edit the value for sample. If you have many samples, it's best to run each pipeline in sequence instead of parrallel as it would seem to cause conflicts whilst being run. Further testing still required to understand how it all behaves.
-4. In the ```snakemake``` conda environment, run ```snakemake --use-conda --cores all --conda-frontend conda```.
-5. Results will be output in ```results``` folder.
-6. If you spot an error in your script(s), it is best to let it fail naturally rather than cancelling it whilst it's running.
+3. Run ```scritps/get_samples.py``` to generate sample list.
+4. Copy sample list to ```config.yml```
+5. If necessary, adjust the values in ```config.yml```, particularly the threads available.
+6. To execute:
+```
+snakemake -s {desired_snakefile_pipeline} --cores {core_available i.e 8} --use-conda --conda-frontend conda
+```
+7. Results will be generated and stored in ```results/```
 
-## Branch Menu
-- Main: Hybrid assembly with unicycler, separation of plasmid contigs, swissprot and prokka annotation in ```results/annotation/```.
-- Long assembly: Same as above, but long-read assembly only using flye.
-- Short assembly Velvet: Same as above, but short-read assembly only using Shovill and Velvet.
-- No Assembly: Same as above, but no assembly. Place assembled sequences in ```data/{sample}.fasta```.
+### Annotation Only
+Same as above, but place pre-assembled sequences in ```data/``` in ```.fasta``` format.
+
+## Pipeline Options (-s)
+- ```snakefile_hybrid```: Runs hybrid assembly using Unicycler.
+- ```snakefile_long```: Runs long assembly using Flye. Input format can be changed in ```config.yml```
+- ```snakefile_short```: Runs short assembly using Shovill + Skesa. If OS is Linux (i.e. not WSL), recommended to change ```assebmler```to ```spades``` in ```config.yml```. 
+- ```snakefile_plasmid_from_genome```: Extracts and annotates plasmid sequences from pre-assembled WGS.
+- ```snakefile_plasmid_annotation```: Annotates pre-assembled plasmid sequences.
+- ```snakefile_plasmid_TF```: Annotates pre-assembled plasmid sequences and isolates transcription factor-related annotations to ```results/annotation/TF_{sample}.tsv```.
