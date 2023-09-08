@@ -1,8 +1,9 @@
 #!/bin/bash --login
 #$ -cwd
 
-#$ -l mem512 #gives 32GB memory
-#$ -pe smp.pe 8 #allocates 8 cores
+#$ -pe smp.pe 16 #allocates 16 cores
+
+# -s allows you to change what pipeline to run among the available snakefiles
 
 conda activate snakemake
-snakemake --use-conda --cores all --conda-frontend conda results/prokka_plasmid/{sample}
+snakemake -s snakefile_hybrid_plasmid_annotation --use-conda --cores 16 --conda-frontend conda 
