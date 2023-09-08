@@ -19,7 +19,7 @@ rule plasmid_amr:
 
 rule prokka:
     input:
-        'results/contigs_plasmid/{sample}.fasta'
+        'data/{sample}.fasta'
     output:
         folder=directory('results/prokka_plasmid/{sample}'),
         tsv='results/prokka_plasmid/{sample}/{sample}.tsv',
@@ -27,7 +27,7 @@ rule prokka:
         dest='results/annotation/prokka_{sample}.tsv'
     conda:
         'env/prokka.yml'
-    threads: 4
+    threads: 8
     shell:
         'prokka --outdir {output.folder} --prefix {wildcards.sample} {input} --force && '
         'cp {output.tsv} {output.dest}'
