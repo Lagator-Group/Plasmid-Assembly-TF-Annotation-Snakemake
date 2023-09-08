@@ -6,29 +6,9 @@ rule all:
         expand('results/annotation/prokka_{sample}.tsv',sample=config['samples']),
         expand('results/annotation/sprot_{sample}.tsv',sample=config['samples'])
 
-rule abricate_plasmid:
-    input:
-        'data/{sample}.fasta'
-    output:
-        'results/abricate_plasmid/{sample}.tab'
-    conda:
-        'env/abricate.yml'
-    threads: 4
-    shell:
-        'abricate -db plasmidfinder {input} > {output}'
-
-rule contig_plasmid:
-    input:
-        'results/abricate_plasmid/{sample}.tab'
-    output:
-        'results/contigs_plasmid/{sample}.fasta'
-    threads: 2
-    script:
-        'scripts/contig_plasmid.py'
-
 rule plasmid_amr:
     input:
-        'results/contigs_plasmid/{sample}.fasta'
+        'data/{sample}.fasta'
     output:
         'results/annotation/abricate_{sample}.tab'
     conda:
