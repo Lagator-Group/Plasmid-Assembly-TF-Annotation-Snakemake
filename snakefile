@@ -126,14 +126,6 @@ rule uniprot_query:
     input:
         'results/annotation/swissprot_{sample}_temp.tsv'
     output:
-        'results/annotation/swissprot_{sample}.tsv'
-    script:
-        'scripts/uniprot_query.py'
-
-rule uniprot_query:
-    input:
-        'results/annotation/swissprot_{sample}_temp.tsv'
-    output:
         temp('results/annotation/swissprot_{sample}.tsv')
     script:
         'scripts/uniprot_query.py'
