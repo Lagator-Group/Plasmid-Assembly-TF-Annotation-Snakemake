@@ -4,7 +4,7 @@ rule all:
     input:
         expand('results/annotation/abricate_{sample}.tab',sample=config['samples']),
         expand('results/annotation/prokka_{sample}.tsv',sample=config['samples']),
-        expand('results/annotation/sprot_{sample}.tsv',sample=config['samples'])
+        expand('results/annotation/TF_{sample}.tsv',sample=config['samples'])
 
 rule plasmid_amr:
     input:
@@ -96,3 +96,12 @@ rule keep_best:
     threads: 2
     script:
         'scripts/sprot_keep_best.py'
+
+rule find_TF:
+    input:
+        'results/annotation/sprot_{sample}.tsv'
+    output:
+        'results/annotation/TF_{sample}.tsv'
+    threads: 2
+    script:
+        'scripts/find_TF.py'
