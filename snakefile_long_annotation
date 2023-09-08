@@ -15,7 +15,7 @@ rule flye:
     conda:
         'env/flye.yml'
     params:
-        read_type='--nano-raw' #can be: --pacbio-raw | --pacbio-corr | --pacbio-hifi | --nano-raw | --nano-corr | --nano-hq
+        read_type=config['read_type']
     threads: 
         config['threads']
     shell:
