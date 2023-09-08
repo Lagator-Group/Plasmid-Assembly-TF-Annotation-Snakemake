@@ -1,10 +1,8 @@
 configfile: 'config.yml'
 
-SAMPLE=['1284','7764','9246']
-
 rule all:
     input:
-        expand('results/{sample}_done.txt',sample=SAMPLE)
+        expand('results/{sample}_done.txt',sample=config['samples'])
 
 rule unicycler: 
     input:
