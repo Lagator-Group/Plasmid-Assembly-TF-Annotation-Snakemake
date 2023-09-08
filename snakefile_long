@@ -48,7 +48,7 @@ rule plasmid_amr:
         'results/annotation/abricate_{sample}.tab'
     conda:
         'env/abricate.yml'
-    threads: 4
+    threads: 8
     shell:
         'abricate {input} > {output}'
 
