@@ -67,15 +67,6 @@ rule prokka:
         'prokka --outdir {output.folder} --prefix {wildcards.sample} {input} --force && '
         'cp {output.tsv} {output.dest}'
     
-rule get_hypothetical:
-    input:
-        tsv='results/prokka_plasmid/{sample}/{sample}.tsv',
-        ffn='results/prokka_plasmid/{sample}/{sample}.ffn'
-    output:
-        'results/annotation/{sample}_hypothetical.fasta'
-    script:
-        'scripts/get_hypothetical.py'
-
 rule wget_uniprot:
     input:
 
