@@ -6,23 +6,21 @@ rule all:
         expand('results/annotation/prokka_{sample}.tsv',sample=config['samples']),
         expand('results/annotation/sprot_{sample}.tsv',sample=config['samples'])
 
-rule unicycler: 
+rule shovill: 
     input:
-        long_='data/{sample}.fastq',
         short_1='data/{sample}_1.fastq',
         short_2='data/{sample}_2.fastq'
     output:
-        folder=directory('results/unicycler/{sample}'),
-        fasta='results/unicycler/{sample}/assembly.fasta'
+        folder=directory('results/'+ASSEMBLER+'/{sample}'),
+        fasta='results/'+ASSEMBLER+'/{sample}/'+ASSEMBLER+'.fasta'
     conda:
-        'env/unicycler.yml'
-    params:
-        keep='0',
-        mode='conservative'
+        'env/shovill.yml'
     threads: 
         config['threads']
+    params:
+        assembler=ASSEMBLER
     shell:
-        'unicycler -l {input.long_} -1 {input.short_1} -2 {input.short_2} -o {output.folder} --keep {params.keep} -t {threads} --mode {params.mode}'
+        'shovill --outdir {output.folder} --R1 {input.short_1} --R2 {input.short_2} --assembler {params.assembler} --force'
 
 rule abricate_plasmid:
     input:
