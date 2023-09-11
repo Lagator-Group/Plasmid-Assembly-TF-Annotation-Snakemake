@@ -6,4 +6,4 @@
 # -s allows you to change what pipeline to run among the available snakefiles
 
 conda activate snakemake
-snakemake -s snakefile_hybrid_plasmid_annotation --use-conda --cores 16 --conda-frontend conda 
+snakemake -s snakefile_plasmid_tf --use-conda --cores 16 --conda-frontend conda 
