@@ -16,10 +16,10 @@ with open(snakemake.input[0]) as f:
 
 query_df.reset_index(drop=True,inplace=True)
 
-df=pd.DataFrame(columns=['Entry','Protein names'])
+df=pd.DataFrame(columns=['Entry','Protein names','Gene Names'])
 for i in query_df['Entry']:
     url = 'https://rest.uniprot.org/uniprotkb/'+i+'.tsv'
-    df = pd.concat([df,pd.read_csv(url, sep='\t',usecols=['Entry','Protein names'])])
+    df = pd.concat([df,pd.read_csv(url, sep='\t',usecols=['Entry','Protein names','Gene Names'])])
 
 query_df=query_df.merge(df,on='Entry',how='left')
 
