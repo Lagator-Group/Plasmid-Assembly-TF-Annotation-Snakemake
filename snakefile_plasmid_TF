@@ -66,7 +66,7 @@ rule swissprot_blastx:
         pin='bin/swissprot/swissprot.pin',
         psq='bin/swissprot/swissprot.psq'
     output:
-        temp('results/annotation/swissprot_{sample}_temp.tsv')   
+        temp('results/annotation/swissprot_{sample}_temp.tsv')
     conda:
         'env/blast.yml'
     params:
