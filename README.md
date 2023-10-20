@@ -31,4 +31,4 @@ Same as above, but place pre-assembled sequences in ```data/``` in ```.fasta``` 
 - ```snakefile_short```: Runs short assembly using Shovill + Skesa. If OS is Linux (i.e. not WSL), recommended to change assembler to ```spades``` in ```config.yml```. 
 - ```snakefile_plasmid_from_genome```: Extracts and annotates plasmid sequences from pre-assembled WGS.
 - ```snakefile_plasmid_annotation```: Annotates pre-assembled plasmid sequences.
-- ```snakefile_plasmid_tf```: Annotates pre-assembled plasmid sequences and isolates transcription factor-related annotations to ```results/annotation/TF_{sample}.tsv```.
+- ```snakefile_plasmid_tf_sprot```: Annotates pre-assembled plasmid sequences and isolates transcription factor-related annotations to ```results/annotation/TF_{sample}.tsv```.
