@@ -3,4 +3,4 @@ read_type: --nano-raw #can be: --pacbio-raw | --pacbio-corr | --pacbio-hifi | --
 
 threads: 8
 
-samples: ['pOXA-48']
+samples: ['1284','7764','9246','pLL35_2','pLL35_3','pLL35_4','pOXA-48']
