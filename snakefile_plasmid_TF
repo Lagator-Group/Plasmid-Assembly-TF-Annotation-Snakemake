@@ -77,9 +77,7 @@ rule makeblastdb_trembl:
     input:
         uniprot_fasta='bin/trembl/uniprot_trembl.fasta'
     output:
-        phr='bin/trembl/trembl.phr',
-        pin='bin/trembl/trembl.pin',
-        psq='bin/trembl/trembl.psq'
+        pal='bin/trembl/trembl.pal'
     conda:
         'env/blast.yml'
     params:
@@ -111,9 +109,7 @@ rule swissprot_blastx:
 rule trembl_blastx:
     input:
         ffn='results/prokka_plasmid/{sample}/{sample}.ffn',
-        phr='bin/trembl/trembl.phr',
-        pin='bin/trembl/trembl.pin',
-        psq='bin/trembl/trembl.psq'
+        pal='bin/trembl/trembl.pal'
     output:
         temp('results/annotation/trembl_{sample}_temp.tsv')
     conda:
