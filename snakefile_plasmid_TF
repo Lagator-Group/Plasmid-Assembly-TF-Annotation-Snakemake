@@ -124,6 +124,15 @@ rule trembl_blastx:
         'blastx -query {input.ffn} -db {params.db}'
         ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -num_threads {threads}'
 
+rule trembl_column_head:
+    input:
+        'results/annotation/trembl_{sample}_temp.tsv'
+    output:
+        temp('results/annotation/trembl_{sample}_temp2.tsv')
+    threads: 2
+    script:
+        'scripts/trembl_column.py'
+
 rule sprot_query:
     input:
         'results/annotation/swissprot_{sample}_temp.tsv'
@@ -131,16 +140,16 @@ rule sprot_query:
         temp('results/annotation/swissprot_{sample}.tsv')
     threads: 2
     script:
-        'scripts/uniprot_query.py'
+        'scripts/sprot_query.py'
 
 rule trembl_query:
     input:
-        'results/annotation/trembl_{sample}_temp.tsv'
+        'results/annotation/trembl_{sample}_temp2.tsv'
     output:
-        temp('results/annotation/1_trembl_{sample}.tsv')
+        temp('results/annotation/trembl_{sample}_temp3.tsv')
     threads: 2
     script:
-        'scripts/uniprot_query.py'
+        'scripts/trembl_query.py'
 
 rule sprot_keep_best:
     input:
@@ -153,7 +162,7 @@ rule sprot_keep_best:
 
 rule trembl_keep_best:
     input:
-        'results/annotation/1_trembl_{sample}.tsv'
+        'results/annotation/trembl_{sample}_temp3.tsv'
     output:
         'results/annotation/trembl_{sample}.tsv'
     threads: 2
