@@ -100,11 +100,12 @@ rule swissprot_blastx:
         db='bin/swissprot/swissprot',
         outfmt='6',
         evalue='0.1',
-        max_hsps='1'
+        max_hsps='1',
+        max_seqs='1'
     threads: 4
     shell:
         'blastx -query {input.ffn} -db {params.db}'
-        ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -num_threads {threads}'
+        ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -max_target_seqs {params.max_seqs} -num_threads {threads}'
 
 rule trembl_blastx:
     input:
@@ -118,11 +119,12 @@ rule trembl_blastx:
         db='bin/trembl/trembl',
         outfmt='6',
         evalue='0.1',
-        max_hsps='1'
+        max_hsps='1',
+        max_seqs='1'
     threads: 4
     shell:
         'blastx -query {input.ffn} -db {params.db}'
-        ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -num_threads {threads}'
+        ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -max_target_seqs {params.max_seqs} -num_threads {threads}'
 
 rule sprot_query:
     input:
