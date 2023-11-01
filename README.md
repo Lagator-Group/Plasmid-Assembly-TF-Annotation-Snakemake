@@ -26,7 +26,7 @@ snakemake -s {desired_snakefile_pipeline} --cores {core_available i.e 8} --use-c
 Same as above, but place pre-assembled sequences in ```data/``` in ```.fasta``` format.
 
 ### Pipeline Options (-s)
-- ```snakefile_hybrid```: Runs hybrid assembly using Unicycler.
+- ```snakefile_hybrid```: Runs hybrid assembly using Unicycler. Not compatible with WSL.
 - ```snakefile_long```: Runs long assembly using Flye. Input format can be changed in ```config.yml```
 - ```snakefile_short```: Runs short assembly using Shovill + Skesa. If OS is Linux (i.e. not WSL), recommended to change assembler to ```spades``` in ```config.yml```. 
 - ```snakefile_plasmid_from_genome```: Extracts and annotates plasmid sequences from pre-assembled WGS.
