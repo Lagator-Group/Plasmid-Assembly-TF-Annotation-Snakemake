@@ -23,7 +23,7 @@ rule flye:
 
 rule abricate_plasmid:
     input:
-        'results/unicycler/{sample}/assembly.fasta'
+        'results/flye/{sample}/assembly.fasta'
     output:
         'results/abricate_plasmid/{sample}.tab'
     conda:
@@ -48,7 +48,7 @@ rule plasmid_amr:
         'results/annotation/abricate_{sample}.tab'
     conda:
         'env/abricate.yml'
-    threads: 8
+    threads: 4
     shell:
         'abricate {input} > {output}'
 
@@ -62,7 +62,7 @@ rule prokka:
         dest='results/annotation/prokka_{sample}.tsv'
     conda:
         'env/prokka.yml'
-    threads: 4
+    threads: 8
     shell:
         'prokka --outdir {output.folder} --prefix {wildcards.sample} {input} --force && '
         'cp {output.tsv} {output.dest}'
@@ -101,7 +101,7 @@ rule swissprot_blastx:
         pin='bin/swissprot/swissprot.pin',
         psq='bin/swissprot/swissprot.psq'
     output:
-        temp('results/annotation/swissprot_{sample}_temp.tsv')   
+        'results/annotation/temp/swissprot_blastx_{sample}.tsv'
     conda:
         'env/blast.yml'
     params:
@@ -109,23 +109,24 @@ rule swissprot_blastx:
         outfmt='6',
         evalue='0.1',
         max_hsps='1'
+        max_seqs='10'
     threads: 4
     shell:
         'blastx -query {input.ffn} -db {params.db}'
-        ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -num_threads {threads}'
+        ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -max_target_seqs {params.max_seqs} -num_threads {threads}'
 
 rule uniprot_query:
     input:
-        'results/annotation/swissprot_{sample}_temp.tsv'
+        'results/annotation/temp/swissprot_blastx_{sample}.tsv'
     output:
-        temp('results/annotation/swissprot_{sample}.tsv')
+        'results/annotation/temp/swissprot_query_{sample}.tsv'
     threads: 2
     script:
         'scripts/uniprot_query.py'
 
 rule keep_best:
     input:
-        'results/annotation/swissprot_{sample}.tsv'
+        'results/annotation/temp/swissprot_query_{sample}.tsv'
     output:
         'results/annotation/sprot_{sample}.tsv'
     threads: 2
