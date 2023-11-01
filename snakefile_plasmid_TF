@@ -68,7 +68,7 @@ rule trembl_blastx:
         pin='bin/trembl/trembl.00.pin',
         psq='bin/trembl/trembl.00.psq'
     output:
-        temp('results/annotation/temp_trembl_{sample}_temp.tsv')
+        'results/annotation/temp/trembl_blastx_{sample}.tsv'
     conda:
         'env/blast.yml'
     params:
@@ -76,7 +76,7 @@ rule trembl_blastx:
         outfmt='6',
         evalue='0.1',
         max_hsps='1',
-        max_seqs='1'
+        max_seqs='10'
     threads: 4
     shell:
         'blastx -query {input.ffn} -db {params.db}'
@@ -84,16 +84,16 @@ rule trembl_blastx:
 
 rule trembl_query:
     input:
-        'results/annotation/temp_trembl_{sample}_temp.tsv'
+        'results/annotation/temp/trembl_blastx_{sample}.tsv'
     output:
-        temp('results/annotation/trembl_{sample}_temp1.tsv')
+        'results/annotation/temp/trembl_query_{sample}.tsv'
     threads: 2
     script:
         'scripts/trembl_query.py'
 
 rule trembl_keep_best:
     input:
-        'results/annotation/trembl_{sample}_temp1.tsv'
+        'results/annotation/temp/trembl_query_{sample}.tsv'
     output:
         'results/annotation/trembl_{sample}.tsv'
     threads: 2
@@ -143,7 +143,7 @@ rule swissprot_blastx:
         pin='bin/swissprot/swissprot.pin',
         psq='bin/swissprot/swissprot.psq'
     output:
-        temp('results/annotation/swissprot_{sample}_temp.tsv')
+        'results/annotation/temp/swissprot_blastx_{sample}.tsv'
     conda:
         'env/blast.yml'
     params:
@@ -151,7 +151,7 @@ rule swissprot_blastx:
         outfmt='6',
         evalue='0.1',
         max_hsps='1',
-        max_seqs='1'
+        max_seqs='10'
     threads: 4
     shell:
         'blastx -query {input.ffn} -db {params.db}'
@@ -159,16 +159,16 @@ rule swissprot_blastx:
 
 rule sprot_query:
     input:
-        'results/annotation/swissprot_{sample}_temp.tsv'
+        'results/annotation/temp/swissprot_blastx_{sample}.tsv'
     output:
-        temp('results/annotation/swissprot_{sample}.tsv')
+        'results/annotation/temp/swissprot_query_{sample}.tsv'
     threads: 2
     script:
         'scripts/sprot_query.py'
 
 rule sprot_keep_best:
     input:
-        'results/annotation/swissprot_{sample}.tsv'
+        'results/annotation/temp/swissprot_query_{sample}.tsv'
     output:
         'results/annotation/sprot_{sample}.tsv'
     threads: 2
