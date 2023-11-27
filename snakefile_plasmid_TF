@@ -7,7 +7,6 @@ rule all:
         expand('results/annotation/TF_sprot_{sample}.tsv',sample=config['samples']),
         expand('results/annotation/TF_trembl_{sample}.tsv',sample=config['samples'])
 
-
 rule plasmid_amr:
     input:
         'data/{sample}.fasta'
