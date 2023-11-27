@@ -24,6 +24,7 @@ rule prokka:
         folder=directory('results/prokka_plasmid/{sample}'),
         tsv='results/prokka_plasmid/{sample}/{sample}.tsv',
         ffn='results/prokka_plasmid/{sample}/{sample}.ffn',
+        faa='results/prokka_plasmid/{sample}/{sample}.faa',
         dest='results/annotation/prokka_{sample}.tsv'
     conda:
         'env/prokka.yml'
@@ -182,3 +183,13 @@ rule find_TF_sprot:
     script:
         'scripts/find_TF.py'
 
+rule deeptfactor:
+    input:
+        'results/prokka_plasmid/{sample}/{sample}.faa'
+    output:
+        'results/annotation/deeptfactor_{sample}.tsv'
+    threads: 2
+    conda:
+        'env/deeptfactor.yml'
+    script:
+        'scripts/deeptfactor.py'
