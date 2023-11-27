@@ -1,0 +1,184 @@
+configfile: 'config.yml'
+
+rule all:
+    input:
+        expand('results/annotation/abricate_{sample}.tab',sample=config['samples']),
+        expand('results/annotation/prokka_{sample}.tsv',sample=config['samples']),
+        expand('results/annotation/TF_sprot_{sample}.tsv',sample=config['samples'])
+
+rule plasmid_amr:
+    input:
+        'data/{sample}.fasta'
+    output:
+        'results/annotation/abricate_{sample}.tab'
+    conda:
+        'env/abricate.yml'
+    threads: 4
+    shell:
+        'abricate {input} > {output}'
+
+rule prokka:
+    input:
+        'data/{sample}.fasta'
+    output:
+        folder=directory('results/prokka_plasmid/{sample}'),
+        tsv='results/prokka_plasmid/{sample}/{sample}.tsv',
+        ffn='results/prokka_plasmid/{sample}/{sample}.ffn',
+        dest='results/annotation/prokka_{sample}.tsv'
+    conda:
+        'env/prokka.yml'
+    threads: 8
+    shell:
+        'prokka --outdir {output.folder} --prefix {wildcards.sample} {input} --force && '
+        'cp {output.tsv} {output.dest}'
+    
+rule wget_trembl:
+    input:
+
+    output:
+        temp('bin/trembl/uniprot_trembl.fasta')
+    params:
+        'https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_trembl.fasta.gz'
+    threads: 2 
+    shell:
+        'wget {params} -P bin/trembl && '
+        'gunzip {output}.gz'
+
+rule makeblastdb_trembl:
+    input:
+        uniprot_fasta='bin/trembl/uniprot_trembl.fasta'
+    output:
+        phr='bin/trembl/trembl.00.phr',
+        pin='bin/trembl/trembl.00.pin',
+        psq='bin/trembl/trembl.00.psq'
+    conda:
+        'env/blast.yml'
+    params:
+        db='bin/trembl/trembl'
+    threads: 4        
+    shell:
+        'makeblastdb -dbtype prot -in {input.uniprot_fasta} -out {params.db}'
+    
+rule trembl_blastx:
+    input:
+        ffn='results/prokka_plasmid/{sample}/{sample}.ffn',
+        phr='bin/trembl/trembl.00.phr',
+        pin='bin/trembl/trembl.00.pin',
+        psq='bin/trembl/trembl.00.psq'
+    output:
+        'results/annotation/temp/trembl_blastx_{sample}.tsv'
+    conda:
+        'env/blast.yml'
+    params:
+        db='bin/trembl/trembl',
+        outfmt='6',
+        evalue='0.1',
+        max_hsps='1',
+        max_seqs='10'
+    threads: 4
+    shell:
+        'blastx -query {input.ffn} -db {params.db}'
+        ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -max_target_seqs {params.max_seqs} -num_threads {threads}'
+
+rule trembl_query:
+    input:
+        'results/annotation/temp/trembl_blastx_{sample}.tsv'
+    output:
+        'results/annotation/temp/trembl_query_{sample}.tsv'
+    threads: 2
+    script:
+        'scripts/trembl_query.py'
+
+rule trembl_keep_best:
+    input:
+        'results/annotation/temp/trembl_query_{sample}.tsv'
+    output:
+        'results/annotation/trembl_{sample}.tsv'
+    threads: 2
+    script:
+        'scripts/uniprot_keep_best.py'
+
+rule find_TF_trembl:
+    input:
+        'results/annotation/trembl_{sample}.tsv'
+    output:
+        'results/annotation/TF_trembl_{sample}.tsv'
+    threads: 2
+    script:
+        'scripts/find_TF.py'
+
+rule wget_sprot:
+    input:
+
+    output:
+        temp('bin/swissprot/uniprot_sprot.fasta')
+    params:
+        'https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz'
+    threads: 2 
+    shell:
+        'wget {params} -P bin/swissprot && '
+        'gunzip {output}.gz'
+
+rule makeblastdb_sprot:
+    input:
+        uniprot_fasta='bin/swissprot/uniprot_sprot.fasta'
+    output:
+        phr='bin/swissprot/swissprot.phr',
+        pin='bin/swissprot/swissprot.pin',
+        psq='bin/swissprot/swissprot.psq'
+    conda:
+        'env/blast.yml'
+    params:
+        db='bin/swissprot/swissprot'
+    threads: 4        
+    shell:
+        'makeblastdb -dbtype prot -in {input.uniprot_fasta} -out {params.db}'
+
+rule swissprot_blastx:
+    input:
+        ffn='results/prokka_plasmid/{sample}/{sample}.ffn',
+        phr='bin/swissprot/swissprot.phr',
+        pin='bin/swissprot/swissprot.pin',
+        psq='bin/swissprot/swissprot.psq'
+    output:
+        'results/annotation/temp/swissprot_blastx_{sample}.tsv'
+    conda:
+        'env/blast.yml'
+    params:
+        db='bin/swissprot/swissprot',
+        outfmt='6',
+        evalue='0.1',
+        max_hsps='1',
+        max_seqs='10'
+    threads: 4
+    shell:
+        'blastx -query {input.ffn} -db {params.db}'
+        ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -max_target_seqs {params.max_seqs} -num_threads {threads}'
+
+rule sprot_query:
+    input:
+        'results/annotation/temp/swissprot_blastx_{sample}.tsv'
+    output:
+        'results/annotation/temp/swissprot_query_{sample}.tsv'
+    threads: 2
+    script:
+        'scripts/sprot_query.py'
+
+rule sprot_keep_best:
+    input:
+        'results/annotation/temp/swissprot_query_{sample}.tsv'
+    output:
+        'results/annotation/sprot_{sample}.tsv'
+    threads: 2
+    script:
+        'scripts/uniprot_keep_best.py'
+
+rule find_TF_sprot:
+    input:
+        'results/annotation/sprot_{sample}.tsv'
+    output:
+        'results/annotation/TF_sprot_{sample}.tsv'
+    threads: 2
+    script:
+        'scripts/find_TF.py'
+
