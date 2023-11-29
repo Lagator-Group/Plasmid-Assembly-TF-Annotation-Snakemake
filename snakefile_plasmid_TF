@@ -110,6 +110,9 @@ rule find_TF_sprot:
 
 rule deeptfactor:
     input:
+        'results/prokka_plasmid/{sample}/{sample}.faa'
     output:
-    threads:
+        'results/annotation/dna_binding_prediction/'
+    threads: 2
     shell:
+        'python3 scripts/tf_running.py -i {input} -o {output} -g cpu'
