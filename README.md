@@ -1,3 +1,6 @@
+### Current plans for improvement
+1. To include DNA-binding protein prediction using deeptfactor. Necessary scripts, environments and instructions currently found in ```scripts/deeptfactor```.
+
 # Sequence Assembly and Annotation
 
 Uses Snakemake pipeline for sequence alignment and annotation. Needs Snakemake environment to be [installed](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html).
@@ -31,4 +34,5 @@ Same as above, but place pre-assembled sequences in ```data/``` in ```.fasta``` 
 - ```snakefile_short```: Runs short assembly using Shovill + Skesa. If OS is Linux (i.e. not WSL), recommended to change assembler to ```spades``` in ```config.yml```. 
 - ```snakefile_plasmid_from_genome```: Extracts and annotates plasmid sequences from pre-assembled WGS.
 - ```snakefile_plasmid_annotation```: Annotates pre-assembled plasmid sequences.
-- ```snakefile_plasmid_tf```: Annotates pre-assembled plasmid sequences and isolates transcription factor-related annotations to ```results/annotation/TF_{sample}.tsv```.
+- ```snakefile_plasmid_tf```: Annotates pre-assembled plasmid sequences using the swissprot database and isolates transcription factor-related annotations to ```results/annotation/TF_{sample}.tsv```.
+- ```snakefile_plasmid_tf_trembl```: Annotates pre-assembled plasmid sequences using the trembl database (NOTE: database is 200GB big and will take a long time to download) and isolates transcription factor-related annotations to ```results/annotation/TF_{sample}.tsv```.
