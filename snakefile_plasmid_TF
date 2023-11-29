@@ -107,3 +107,9 @@ rule find_TF_sprot:
     threads: 2
     script:
         'scripts/find_TF.py'
+
+rule deeptfactor:
+    input:
+    output:
+    threads:
+    shell:
