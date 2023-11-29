@@ -9,10 +9,10 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
 
-from deeptfactor.process_data import read_fasta_data
-from deeptfactor.data_loader import EnzymeDataset
-from deeptfactor.utils import argument_parser
-from deeptfactor.models import DeepTFactor
+from scripts.process_data import read_fasta_data
+from scripts.data_loader import EnzymeDataset
+from scripts.utils import argument_parser
+from scripts.models import DeepTFactor
 
 
 
