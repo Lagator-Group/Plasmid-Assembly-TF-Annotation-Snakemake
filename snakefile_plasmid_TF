@@ -112,7 +112,12 @@ rule deeptfactor:
     input:
         'results/prokka_plasmid/{sample}/{sample}.faa'
     output:
-        'results/annotation/dna_binding_prediction/'
+        folder = directory('results/annotation/temp/deeptfactor_{sample}/'),
+        txt = 'results/annotation/temp/deeptfactor_{sample}/prediction_results.txt'
+    conda:
+        'env/deeptfactor.yml'
+    params:
+        'scripts/trained_model/DeepTFactor_ckpt.pt'
     threads: 2
     shell:
-        'python3 scripts/tf_running.py -i {input} -o {output} -g cpu'
+        'python3 scripts/tf_running.py -i {input} -o {output.folder} -ckpt {params} -g cpu'
