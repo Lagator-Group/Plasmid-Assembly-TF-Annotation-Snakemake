@@ -2,16 +2,16 @@ configfile: 'config.yml'
 
 rule all:
     input:
-        expand('abricate/amr/{sample}.tab',sample=config['samples']),
-        expand('prokka/plasmid/{sample}/{sample}.tsv',sample=config['samples']),
-        expand('swissprot/{sample}.tsv',sample=config['samples'])
+        expand('data/abricate/amr/{sample}.tab',sample=config['samples']),
+        expand('data/prokka/plasmid/{sample}/{sample}.tsv',sample=config['samples']),
+        expand('data/swissprot/{sample}.tsv',sample=config['samples'])
 
 rule flye: 
     input:
-        'fastq/{sample}.fastq' #can be more than 1 input file
+        'data/fastq/{sample}.fastq' #can be more than 1 input file
     output:
-        folder=directory('results/flye/{sample}'),
-        fasta='flye/{sample}/assembly.fasta'
+        folder=directory('data/flye/{sample}'),
+        fasta='data/flye/{sample}/assembly.fasta'
     conda:
         'env/flye.yml'
     params:
@@ -23,9 +23,9 @@ rule flye:
 
 rule abricate_plasmid:
     input:
-        'flye/{sample}/assembly.fasta'
+        'data/flye/{sample}/assembly.fasta'
     output:
-        'abricate/plasmid/{sample}.tab'
+        'data/abricate/plasmid/{sample}.tab'
     conda:
         'env/abricate.yml'
     threads: 4
@@ -34,18 +34,18 @@ rule abricate_plasmid:
 
 rule plasmid_contigs:
     input:
-        'abricate/plasmid/{sample}.tab'
+        'data/abricate/plasmid/{sample}.tab'
     output:
-        'plasmid_contigs/{sample}.fasta'
+        'data/plasmid_contigs/{sample}.fasta'
     threads: 2
     script:
         'scripts/contig_plasmid.py'
 
 rule plasmid_amr:
     input:
-        'plasmid_contigs/{sample}.fasta'
+        'data/plasmid_contigs/{sample}.fasta'
     output:
-        'abricate/amr/{sample}.tab'
+        'data/abricate/amr/{sample}.tab'
     conda:
         'env/abricate.yml'
     threads: 4
@@ -54,11 +54,11 @@ rule plasmid_amr:
 
 rule prokka:
     input:
-        'plasmid_contigs/{sample}.fasta'
+        'data/plasmid_contigs/{sample}.fasta'
     output:
-        folder=directory('prokka/plasmid/{sample}'),
-        tsv='prokka/plasmid/{sample}/{sample}.tsv',
-        ffn='prokka/plasmid/{sample}/{sample}.ffn',
+        folder=directory('data/prokka/plasmid/{sample}'),
+        tsv='data/prokka/plasmid/{sample}/{sample}.tsv',
+        ffn='data/prokka/plasmid/{sample}/{sample}.ffn',
     conda:
         'env/prokka.yml'
     threads: 8
@@ -94,7 +94,7 @@ rule makeblastdb:
 
 rule swissprot_blastx:
     input:
-        ffn='prokka/plasmid/{sample}/{sample}.ffn',
+        ffn='data/prokka/plasmid/{sample}/{sample}.ffn',
         phr='bin/swissprot/swissprot.phr',
         pin='bin/swissprot/swissprot.pin',
         psq='bin/swissprot/swissprot.psq'
@@ -115,18 +115,18 @@ rule swissprot_blastx:
 
 rule uniprot_query:
     input:
-        'swissprot/blastx/{sample}.tsv'
+        'data/swissprot/blastx/{sample}.tsv'
     output:
-        'swissprot/query/{sample}.tsv'
+        'data/swissprot/query/{sample}.tsv'
     threads: 2
     script:
         'scripts/uniprot_query.py'
 
 rule keep_best:
     input:
-        'swissprot/query/{sample}.tsv'
+        'data/swissprot/query/{sample}.tsv'
     output:
-        'swissprot/{sample}.tsv'
+        'data/swissprot/{sample}.tsv'
     threads: 2
     script:
         'scripts/sprot_keep_best.py'

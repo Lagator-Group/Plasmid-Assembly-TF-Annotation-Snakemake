@@ -2,16 +2,16 @@ configfile: 'config.yml'
 
 rule all:
     input:
-        expand('abricate/amr/{sample}.tab',sample=config['samples']),
-        expand('prokka/plasmid/{sample}/{sample}.tsv',sample=config['samples']),
-        expand('swissprot/TF/{sample}.tsv',sample=config['samples']),
-        expand('deeptfactor/{sample}/prediction_results.txt',sample=config['samples'])
+        expand('data/abricate/amr/{sample}.tab',sample=config['samples']),
+        expand('data/prokka/plasmid/{sample}/{sample}.tsv',sample=config['samples']),
+        expand('data/swissprot/{sample}.tsv',sample=config['samples'])
+        expand('data/deeptfactor/{sample}/prediction_results.txt',sample=config['samples'])
 
 rule plasmid_amr:
     input:
-        'plasmid_contigs/{sample}.fasta'
+        'data/plasmid_contigs/{sample}.fasta'
     output:
-        'abricate/amr/{sample}.tab'
+        'data/abricate/amr/{sample}.tab'
     conda:
         'env/abricate.yml'
     threads: 4
@@ -20,13 +20,11 @@ rule plasmid_amr:
 
 rule prokka:
     input:
-        'plasmid_contigs/{sample}.fasta'
+        'data/plasmid_contigs/{sample}.fasta'
     output:
-        folder=directory('prokka/plasmid/{sample}'),
-        tsv='prokka/plasmid/{sample}/{sample}.tsv',
-        ffn='prokka/plasmid/{sample}/{sample}.ffn',
-        faa='prokka_plasmid/{sample}/{sample}.faa'
-
+        folder=directory('data/prokka/plasmid/{sample}'),
+        tsv='data/prokka/plasmid/{sample}/{sample}.tsv',
+        ffn='data/prokka/plasmid/{sample}/{sample}.ffn',
     conda:
         'env/prokka.yml'
     threads: 8
@@ -62,7 +60,7 @@ rule makeblastdb:
 
 rule swissprot_blastx:
     input:
-        ffn='prokka/plasmid/{sample}/{sample}.ffn',
+        ffn='data/prokka/plasmid/{sample}/{sample}.ffn',
         phr='bin/swissprot/swissprot.phr',
         pin='bin/swissprot/swissprot.pin',
         psq='bin/swissprot/swissprot.psq'
@@ -83,37 +81,37 @@ rule swissprot_blastx:
 
 rule uniprot_query:
     input:
-        'swissprot/blastx/{sample}.tsv'
+        'data/swissprot/blastx/{sample}.tsv'
     output:
-        'swissprot/query/{sample}.tsv'
+        'data/swissprot/query/{sample}.tsv'
     threads: 2
     script:
         'scripts/uniprot_query.py'
 
 rule keep_best:
     input:
-        'swissprot/query/{sample}.tsv'
+        'data/swissprot/query/{sample}.tsv'
     output:
-        'swissprot/{sample}.tsv'
+        'data/swissprot/{sample}.tsv'
     threads: 2
     script:
         'scripts/sprot_keep_best.py'
 
 rule find_TF_sprot:
     input:
-        'swissprot/{sample}.tsv'
+        'data/swissprot/{sample}.tsv'
     output:
-        'swissprot/TF/{sample}.tsv'
+        'data/swissprot/TF/{sample}.tsv'
     threads: 2
     script:
         'scripts/find_TF.py'
 
 rule deeptfactor:
     input:
-        'prokka_plasmid/{sample}/{sample}.faa'
+        'data/prokka_plasmid/{sample}/{sample}.faa'
     output:
-        folder = directory('deeptfactor/{sample}/'),
-        txt = 'deeptfactor/{sample}/prediction_results.txt'
+        folder = directory('data/deeptfactor/{sample}/'),
+        txt = 'data/deeptfactor/{sample}/prediction_results.txt'
     conda:
         'env/deeptfactor.yml'
     params:
