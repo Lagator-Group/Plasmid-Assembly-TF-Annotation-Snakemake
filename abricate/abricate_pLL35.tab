@@ -1,0 +1,7 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+data/pLL35.fasta	pLL35_3	33107	33763	-	qnrS1	1-657/657	===============	0/0	100.00	100.00	ncbi	NG_050543.1	quinolone resistance pentapeptide repeat protein QnrS1	QUINOLONE
+data/pLL35.fasta	pLL35_3	38404	39279	-	blaCTX-M-15	1-876/876	===============	0/0	100.00	100.00	ncbi	NG_048935.1	class A extended-spectrum beta-lactamase CTX-M-15	CEPHALOSPORIN
+data/pLL35.fasta	pLL35_3	42152	42706	+	aac(6')-Ib-AKT	1-555/555	===============	0/0	100.00	100.00	ncbi	NG_056043.1	AAC(6')-Ib family aminoglycoside 6'-N-acetyltransferase	AMIKACIN;KANAMYCIN;TOBRAMYCIN
+data/pLL35.fasta	pLL35_3	42776	43564	+	aadA1	1-789/789	===============	0/0	100.00	100.00	ncbi	NG_047327.1	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1	STREPTOMYCIN
+data/pLL35.fasta	pLL35_3	43624	44448	+	blaOXA-9	1-825/825	===============	0/0	100.00	99.88	ncbi	NG_049830.1	oxacillin-hydrolyzing class D beta-lactamase OXA-9	BETA-LACTAM
+data/pLL35.fasta	pLL35_3	46719	47579	+	aac(3)-IId	1-861/861	===============	0/0	100.00	100.00	ncbi	NG_047251.1	aminoglycoside N-acetyltransferase AAC(3)-IId	GENTAMICIN

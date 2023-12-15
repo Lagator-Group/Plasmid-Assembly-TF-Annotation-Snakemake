@@ -1,0 +1,39 @@
+Locus Tag	Entry	Protein names	Gene Names
+EBMMMKHN_00001	Q52221	Replication initiation protein (Replication-associated protein)	repA
+EBMMMKHN_00002	Q5ZYC6	Type 4 coupling protein DotL (T4CP)	dotL icmO lpg0446
+EBMMMKHN_00003	Q9CP65	Thiol:disulfide interchange protein DsbC	dsbC PM0191
+EBMMMKHN_00004	Q5ZYC7	Type 4 apparatus protein DotM	dotM icmP lpg0445
+EBMMMKHN_00005	Q07568	Protein IpgF	ipgF CP0135
+EBMMMKHN_00007	P13974	Uncharacterized 24.3 kDa protein (URF 1)	
+EBMMMKHN_00009	P19766	Insertion element IS1 protein InsB	insB
+EBMMMKHN_00010	P0CF10	Insertion element IS1 4 protein InsA (IS1d)	insA4 b4516 JW0971
+EBMMMKHN_00011	P14489	Beta-lactamase OXA-10 (EC 3.5.2.6) (Beta-lactamase PSE-2)	bla oxa10 pse2
+EBMMMKHN_00012	P43011	Uncharacterized HTH-type transcriptional regulator HI_1364 (ORF2)	HI_1364
+EBMMMKHN_00014	P13974	Uncharacterized 24.3 kDa protein (URF 1)	
+EBMMMKHN_00015	P13975	Antitoxin PemI	pemI
+EBMMMKHN_00016	P13976	Endoribonuclease PemK (EC 3.1.-.-) (Kid toxin protein) (mRNA interferase PemK)	pemK
+EBMMMKHN_00017	Q47688	Protein YkfC	ykfC b0258 JW5813
+EBMMMKHN_00018	P0A275	Protein MucA (EC 3.4.21.-) [Cleaved into: Protein MucA']	mucA
+EBMMMKHN_00019	P07375	Protein MucB	mucB
+EBMMMKHN_00024	P0C080	Antitoxin RelB	relB relB1 SF1549 S1670
+EBMMMKHN_00030	O34419	Cryptic phage CTXphi transcriptional repressor RstR	rstR1 VC_1455; rstR2 VC_1464
+EBMMMKHN_00034	P18021	Resolvase (Protein D)	resD D
+EBMMMKHN_00035	P11904	Plasmid segregation protein ParM (ParA locus 36 kDa protein) (Protein StbA)	parM stbA
+EBMMMKHN_00036	P11906	Protein StbB	stbB
+EBMMMKHN_00037	Q1RK58	Phospholipase D (PLD) (EC 3.1.4.4) (Choline phosphatase)	pld pldA RBE_0175
+EBMMMKHN_00043	P52140	UPF0758 protein YfjY	yfjY b2644 JW2625
+EBMMMKHN_00044	Q52331	Transcriptional repressor protein KorC	korC
+EBMMMKHN_00046	P19766	Insertion element IS1 protein InsB	insB
+EBMMMKHN_00047	P0CF10	Insertion element IS1 4 protein InsA (IS1d)	insA4 b4516 JW0971
+EBMMMKHN_00052	P0A3X0	Modulating protein YmoA (Histone-like protein)	ymoA hha YPO3138 y1046 YP_0793
+EBMMMKHN_00055	P0C243	Uncharacterized protein YubJ	yubJ yfhA ECOK12F058
+EBMMMKHN_00057	P52602	Antirestriction protein KlcA	klcA kilC
+EBMMMKHN_00060	Q8EA81	Single-stranded DNA-binding protein (SSB)	ssb SO_4028
+EBMMMKHN_00065	P17909	Protein TraJ (Relaxosome protein)	traJ
+EBMMMKHN_00066	P22898	Protein MobA	mobA
+EBMMMKHN_00069	G3XCX3	Type IV pilus ATPase PilU	pilU PA0396
+EBMMMKHN_00071	P27189	DNA primase TraC (EC 2.7.7.-) (Replication primase)	traC
+EBMMMKHN_00073	P0ACE6	Hemolysin expression-modulating protein Hha	hha SF0405 S0412
+EBMMMKHN_00074	Q9L5H8	DNA-binding protein H-NS, plasmid (Plasmid R27-encoded H-HS) (H-NS-R27)	hns
+EBMMMKHN_00082	Q60270	Probable helicase MJECL08 (EC 3.6.4.12)	MJECL08
+EBMMMKHN_00087	Q7BSX2	Replication regulatory protein repA2 (Protein CopB)	repA2 copB L7006 ECO57PM67

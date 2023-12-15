@@ -1,0 +1,764 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:139 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 139 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:139 features have inconsistent gene locations.
+OVERLAPPING_CDS:2 coding regions overlap another coding region with a similar or identical name.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:3 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:140 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::139 proteins have invalid IDs.
+results/prokka_plasmid/7764/7764:14_1 (length 79)
+results/prokka_plasmid/7764/7764:14_2 (length 123)
+results/prokka_plasmid/7764/7764:14_3 (length 507)
+results/prokka_plasmid/7764/7764:14_4 (length 148)
+results/prokka_plasmid/7764/7764:14_5 (length 189)
+results/prokka_plasmid/7764/7764:14_6 (length 91)
+results/prokka_plasmid/7764/7764:14_7 (length 98)
+results/prokka_plasmid/7764/7764:14_8 (length 92)
+results/prokka_plasmid/7764/7764:14_9 (length 106)
+results/prokka_plasmid/7764/7764:14_10 (length 234)
+results/prokka_plasmid/7764/7764:14_11 (length 717)
+results/prokka_plasmid/7764/7764:14_12 (length 132)
+results/prokka_plasmid/7764/7764:14_13 (length 75)
+results/prokka_plasmid/7764/7764:14_14 (length 1756)
+results/prokka_plasmid/7764/7764:14_15 (length 248)
+results/prokka_plasmid/7764/7764:14_16 (length 186)
+results/prokka_plasmid/7764/7764:14_17 (length 70)
+results/prokka_plasmid/7764/7764:14_18 (length 153)
+results/prokka_plasmid/7764/7764:14_19 (length 113)
+results/prokka_plasmid/7764/7764:14_20 (length 84)
+results/prokka_plasmid/7764/7764:14_21 (length 86)
+results/prokka_plasmid/7764/7764:14_22 (length 285)
+results/prokka_plasmid/7764/7764:14_23 (length 88)
+results/prokka_plasmid/7764/7764:14_24 (length 85)
+results/prokka_plasmid/7764/7764:14_25 (length 256)
+results/prokka_plasmid/7764/7764:14_26 (length 199)
+results/prokka_plasmid/7764/7764:14_27 (length 240)
+results/prokka_plasmid/7764/7764:14_28 (length 490)
+results/prokka_plasmid/7764/7764:14_29 (length 234)
+results/prokka_plasmid/7764/7764:14_30 (length 253)
+results/prokka_plasmid/7764/7764:14_31 (length 628)
+results/prokka_plasmid/7764/7764:14_32 (length 175)
+results/prokka_plasmid/7764/7764:14_33 (length 459)
+results/prokka_plasmid/7764/7764:14_34 (length 427)
+results/prokka_plasmid/7764/7764:14_35 (length 376)
+results/prokka_plasmid/7764/7764:14_36 (length 231)
+results/prokka_plasmid/7764/7764:14_37 (length 161)
+results/prokka_plasmid/7764/7764:14_38 (length 161)
+results/prokka_plasmid/7764/7764:14_39 (length 125)
+results/prokka_plasmid/7764/7764:14_40 (length 234)
+results/prokka_plasmid/7764/7764:14_41 (length 121)
+results/prokka_plasmid/7764/7764:14_42 (length 37)
+results/prokka_plasmid/7764/7764:14_43 (length 389)
+results/prokka_plasmid/7764/7764:14_44 (length 246)
+results/prokka_plasmid/7764/7764:14_45 (length 325)
+results/prokka_plasmid/7764/7764:14_46 (length 98)
+results/prokka_plasmid/7764/7764:14_47 (length 118)
+results/prokka_plasmid/7764/7764:14_48 (length 129)
+results/prokka_plasmid/7764/7764:14_49 (length 125)
+results/prokka_plasmid/7764/7764:14_50 (length 304)
+results/prokka_plasmid/7764/7764:14_51 (length 275)
+results/prokka_plasmid/7764/7764:14_52 (length 285)
+results/prokka_plasmid/7764/7764:14_53 (length 285)
+results/prokka_plasmid/7764/7764:14_54 (length 83)
+results/prokka_plasmid/7764/7764:14_55 (length 71)
+results/prokka_plasmid/7764/7764:14_56 (length 125)
+results/prokka_plasmid/7764/7764:14_57 (length 388)
+results/prokka_plasmid/7764/7764:14_58 (length 323)
+results/prokka_plasmid/7764/7764:14_59 (length 112)
+results/prokka_plasmid/7764/7764:14_60 (length 111)
+results/prokka_plasmid/7764/7764:14_61 (length 167)
+results/prokka_plasmid/7764/7764:14_62 (length 255)
+results/prokka_plasmid/7764/7764:14_63 (length 141)
+results/prokka_plasmid/7764/7764:14_64 (length 123)
+results/prokka_plasmid/7764/7764:14_65 (length 60)
+results/prokka_plasmid/7764/7764:14_66 (length 76)
+results/prokka_plasmid/7764/7764:14_67 (length 453)
+results/prokka_plasmid/7764/7764:14_68 (length 187)
+results/prokka_plasmid/7764/7764:14_69 (length 80)
+results/prokka_plasmid/7764/7764:14_70 (length 78)
+results/prokka_plasmid/7764/7764:14_71 (length 175)
+results/prokka_plasmid/7764/7764:14_72 (length 77)
+results/prokka_plasmid/7764/7764:14_73 (length 652)
+results/prokka_plasmid/7764/7764:14_74 (length 144)
+results/prokka_plasmid/7764/7764:14_75 (length 239)
+results/prokka_plasmid/7764/7764:14_76 (length 45)
+results/prokka_plasmid/7764/7764:14_77 (length 173)
+results/prokka_plasmid/7764/7764:14_78 (length 201)
+results/prokka_plasmid/7764/7764:14_79 (length 52)
+results/prokka_plasmid/7764/7764:14_80 (length 792)
+results/prokka_plasmid/7764/7764:14_81 (length 286)
+results/prokka_plasmid/7764/7764:14_82 (length 234)
+results/prokka_plasmid/7764/7764:14_83 (length 164)
+results/prokka_plasmid/7764/7764:14_84 (length 59)
+results/prokka_plasmid/7764/7764:14_85 (length 279)
+results/prokka_plasmid/7764/7764:14_86 (length 115)
+results/prokka_plasmid/7764/7764:14_87 (length 157)
+results/prokka_plasmid/7764/7764:14_88 (length 337)
+results/prokka_plasmid/7764/7764:14_89 (length 234)
+results/prokka_plasmid/7764/7764:14_90 (length 148)
+results/prokka_plasmid/7764/7764:14_91 (length 507)
+results/prokka_plasmid/7764/7764:14_92 (length 123)
+results/prokka_plasmid/7764/7764:14_93 (length 159)
+results/prokka_plasmid/7764/7764:14_94 (length 108)
+results/prokka_plasmid/7764/7764:14_95 (length 83)
+results/prokka_plasmid/7764/7764:14_96 (length 104)
+results/prokka_plasmid/7764/7764:14_97 (length 250)
+results/prokka_plasmid/7764/7764:14_98 (length 850)
+results/prokka_plasmid/7764/7764:14_99 (length 140)
+results/prokka_plasmid/7764/7764:14_100 (length 161)
+results/prokka_plasmid/7764/7764:14_101 (length 301)
+results/prokka_plasmid/7764/7764:14_102 (length 121)
+results/prokka_plasmid/7764/7764:14_103 (length 138)
+results/prokka_plasmid/7764/7764:14_104 (length 156)
+results/prokka_plasmid/7764/7764:14_105 (length 88)
+results/prokka_plasmid/7764/7764:14_106 (length 56)
+results/prokka_plasmid/7764/7764:14_107 (length 345)
+results/prokka_plasmid/7764/7764:14_108 (length 253)
+results/prokka_plasmid/7764/7764:14_109 (length 410)
+results/prokka_plasmid/7764/7764:14_110 (length 34)
+results/prokka_plasmid/7764/7764:14_111 (length 99)
+results/prokka_plasmid/7764/7764:14_112 (length 87)
+results/prokka_plasmid/7764/7764:14_113 (length 86)
+results/prokka_plasmid/7764/7764:14_114 (length 160)
+results/prokka_plasmid/7764/7764:14_115 (length 282)
+results/prokka_plasmid/7764/7764:14_116 (length 512)
+results/prokka_plasmid/7764/7764:14_117 (length 115)
+results/prokka_plasmid/7764/7764:14_118 (length 134)
+results/prokka_plasmid/7764/7764:14_119 (length 99)
+results/prokka_plasmid/7764/7764:14_120 (length 215)
+results/prokka_plasmid/7764/7764:14_121 (length 507)
+results/prokka_plasmid/7764/7764:14_122 (length 123)
+results/prokka_plasmid/7764/7764:14_123 (length 93)
+results/prokka_plasmid/7764/7764:14_124 (length 499)
+results/prokka_plasmid/7764/7764:14_125 (length 251)
+results/prokka_plasmid/7764/7764:14_126 (length 108)
+results/prokka_plasmid/7764/7764:14_127 (length 88)
+results/prokka_plasmid/7764/7764:14_128 (length 391)
+results/prokka_plasmid/7764/7764:14_129 (length 753)
+results/prokka_plasmid/7764/7764:14_130 (length 258)
+results/prokka_plasmid/7764/7764:14_131 (length 291)
+results/prokka_plasmid/7764/7764:14_132 (length 174)
+results/prokka_plasmid/7764/7764:14_133 (length 84)
+results/prokka_plasmid/7764/7764:14_134 (length 69)
+results/prokka_plasmid/7764/7764:14_135 (length 72)
+results/prokka_plasmid/7764/7764:14_136 (length 115)
+results/prokka_plasmid/7764/7764:14_137 (length 169)
+results/prokka_plasmid/7764/7764:14_138 (length 86)
+results/prokka_plasmid/7764/7764:14_139 (length 91)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 139 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+results/prokka_plasmid/7764/7764:14 (length 117013)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::139 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:31-270	KIHCAMGN_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c568-197	KIHCAMGN_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:862-2385	KIHCAMGN_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS3 family transposase IS629	14:2502-2948	KIHCAMGN_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Serine protease EspC	14:c3520-2951	KIHCAMGN_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c3825-3550	KIHCAMGN_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c4194-3898	KIHCAMGN_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS5 family transposase ISKpn26	14:4323-4601	KIHCAMGN_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c4960-4640	KIHCAMGN_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS6 family transposase IS26	14:c5822-5118	KIHCAMGN_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Coupling protein TraD	14:6306-8459	KIHCAMGN_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	tRNA(fMet)-specific endonuclease VapC	14:c8866-8468	KIHCAMGN_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Antitoxin VapB	14:c9093-8866	KIHCAMGN_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Multifunctional conjugation protein TraI	14:9175-14445	KIHCAMGN_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:14465-15211	KIHCAMGN_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Fertility inhibition protein	14:15266-15826	KIHCAMGN_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:15964-16176	KIHCAMGN_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Endonuclease YhcR	14:16419-16880	KIHCAMGN_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:17173-17514	KIHCAMGN_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:17492-17746	KIHCAMGN_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:17985-18245	KIHCAMGN_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:18538-19395	KIHCAMGN_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS91 family transposase ISSbo1	14:c20690-20424	KIHCAMGN_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c21430-21173	KIHCAMGN_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Putative protein-methionine-sulfoxide reductase subunit YedZ1	14:c22230-21460	KIHCAMGN_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Putative protein-methionine-sulfoxide reductase subunit YedZ1	14:c22840-22241	KIHCAMGN_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Transcriptional regulatory protein WalR	14:22982-23704	KIHCAMGN_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Adaptive-response sensory-kinase SasA	14:23701-25173	KIHCAMGN_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS6 family transposase IS26	14:c26253-25549	KIHCAMGN_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Na(+)-translocating NADH-quinone reductase subunit C	14:26640-27401	KIHCAMGN_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:27748-29634	KIHCAMGN_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	34 kDa membrane antigen	14:29675-30202	KIHCAMGN_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:30306-31685	KIHCAMGN_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:31688-32971	KIHCAMGN_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:32961-34091	KIHCAMGN_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Lipoprotein-releasing system ATP-binding protein LolD	14:34096-34791	KIHCAMGN_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Thiol-disulfide oxidoreductase ResA	14:34778-35263	KIHCAMGN_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:35288-35773	KIHCAMGN_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Glucose-1-phosphatase	14:35895-36272	KIHCAMGN_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS6 family transposase IS26	14:36284-36988	KIHCAMGN_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:36994-37359	KIHCAMGN_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c38858-38745	KIHCAMGN_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c40243-39074	KIHCAMGN_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Tyrosine recombinase XerC	14:40919-41659	KIHCAMGN_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	RepFIB replication protein A	14:c42921-41944	KIHCAMGN_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c43626-43330	KIHCAMGN_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:43667-44023	KIHCAMGN_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Protein UmuC	14:44281-44670	KIHCAMGN_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS1 family transposase IS1A	14:c45227-44850	KIHCAMGN_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	putative periplasmic iron-binding protein	14:45903-46817	KIHCAMGN_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Manganese transport system ATP-binding protein MntB	14:46817-47644	KIHCAMGN_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Manganese transport system membrane protein MntB	14:47641-48498	KIHCAMGN_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Manganese transport system membrane protein MntB	14:48495-49352	KIHCAMGN_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c50196-49945	KIHCAMGN_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c50844-50629	KIHCAMGN_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS1 family transposase IS1A	14:50916-51293	KIHCAMGN_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:51593-52759	KIHCAMGN_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Protein SopB	14:52759-53730	KIHCAMGN_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:54628-54966	KIHCAMGN_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:55035-55370	KIHCAMGN_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS1 family transposase IS1R	14:55615-56118	KIHCAMGN_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS110 family transposase ISEc32	14:c56896-56129	KIHCAMGN_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Antirestriction protein KlcA	14:57298-57723	KIHCAMGN_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:57813-58184	KIHCAMGN_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:58184-58366	KIHCAMGN_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:59360-59590	KIHCAMGN_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:59642-61003	KIHCAMGN_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:61049-61612	KIHCAMGN_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:61612-61854	KIHCAMGN_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c62432-62196	KIHCAMGN_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Plasmid-derived single-stranded DNA-binding protein	14:62497-63024	KIHCAMGN_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:63080-63313	KIHCAMGN_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Nucleoid occlusion protein	14:63372-65330	KIHCAMGN_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Protein PsiB	14:65385-65819	KIHCAMGN_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:65816-66535	KIHCAMGN_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:66535-66672	KIHCAMGN_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS3 family transposase IS103	14:66785-67306	KIHCAMGN_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS3 family transposase IS150	14:67549-68154	KIHCAMGN_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Stable plasmid inheritance protein	14:68261-68419	KIHCAMGN_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Tn3 family transposase TnAs1	14:c71212-68834	KIHCAMGN_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Beta-lactamase TEM	14:c72220-71360	KIHCAMGN_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS6 family transposase IS26	14:72462-73166	KIHCAMGN_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:73489-73983	KIHCAMGN_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:73980-74159	KIHCAMGN_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Dihydropteroate synthase	14:c74928-74089	KIHCAMGN_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Multidrug transporter EmrE	14:c75269-74922	KIHCAMGN_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Dihydrofolate reductase type 1	14:c75926-75453	KIHCAMGN_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Tyrosine recombinase XerC	14:76082-77095	KIHCAMGN_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS6 family transposase IS26	14:c78035-77331	KIHCAMGN_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS3 family transposase IS629	14:c78672-78226	KIHCAMGN_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c80312-78789	KIHCAMGN_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:80606-80977	KIHCAMGN_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Putative transposase InsK for insertion sequence element IS150	14:c81383-80904	KIHCAMGN_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS3 family transposase IS629	14:c81709-81383	KIHCAMGN_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c82012-81761	KIHCAMGN_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:82060-82374	KIHCAMGN_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Chaperone protein caf1M	14:82495-83247	KIHCAMGN_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	F1 capsule-anchoring protein	14:83274-85826	KIHCAMGN_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Protein AfaD	14:85842-86264	KIHCAMGN_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:86372-86857	KIHCAMGN_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS3 family transposase IS2	14:c88060-87155	KIHCAMGN_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c88383-88018	KIHCAMGN_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	putative protein YjiK	14:88595-89011	KIHCAMGN_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Virulence regulon transcriptional activator VirF	14:c89686-89216	KIHCAMGN_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:89790-90056	KIHCAMGN_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:90268-90438	KIHCAMGN_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Hemin transport system permease protein HmuU	14:90438-91475	KIHCAMGN_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Fe(3+) dicitrate transport ATP-binding protein FecE	14:91475-92236	KIHCAMGN_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	Multidrug resistance protein MdtH	14:92248-93480	KIHCAMGN_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:94066-94170	KIHCAMGN_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c94490-94191	KIHCAMGN_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c94743-94480	KIHCAMGN_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c95110-94850	KIHCAMGN_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c95802-95320	KIHCAMGN_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	3'-5' exonuclease DinG	14:c96767-95919	KIHCAMGN_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS66 family transposase ISEc22	14:c98609-97071	KIHCAMGN_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c99005-98658	KIHCAMGN_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c99406-99002	KIHCAMGN_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS3 family transposase IS3	14:99522-99821	KIHCAMGN_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS3 family transposase IS3	14:99818-100465	KIHCAMGN_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c102308-100785	KIHCAMGN_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:102602-102973	KIHCAMGN_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c103181-102900	KIHCAMGN_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:103402-104901	KIHCAMGN_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS21 family transposase ISEc10	14:104898-105653	KIHCAMGN_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS3 family transposase IS629	14:c106121-105795	KIHCAMGN_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS91 family transposase ISSbo1	14:106186-106452	KIHCAMGN_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	putative protein YncE	14:c108150-106975	KIHCAMGN_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	putative TonB-dependent receptor	14:c110480-108219	KIHCAMGN_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c111425-110649	KIHCAMGN_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c112308-111433	KIHCAMGN_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c113164-112640	KIHCAMGN_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:113195-113449	KIHCAMGN_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:114551-114760	KIHCAMGN_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c115114-114896	KIHCAMGN_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:115243-115590	KIHCAMGN_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c116119-115610	KIHCAMGN_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	hypothetical protein	14:c116376-116116	KIHCAMGN_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/7764/7764:CDS	IS3 family transposase IS629	14:116529-116804	KIHCAMGN_00139
+
+DiscRep_ALL:OVERLAPPING_CDS::2 coding regions overlap another coding region with a similar or identical name.
+DiscRep_SUB:OVERLAPPING_CDS::2 coding regions overlap another coding region with a similar or identical name that do not have the appropriate note text
+results/prokka_plasmid/7764/7764:CDS	Manganese transport system membrane protein MntB	14:47641-48498	KIHCAMGN_00052
+results/prokka_plasmid/7764/7764:CDS	Manganese transport system membrane protein MntB	14:48495-49352	KIHCAMGN_00053
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+results/prokka_plasmid/7764/7764:14:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::3 protein sequences are shorter than 50 aa.
+results/prokka_plasmid/7764/7764:14_42 (length 37)
+results/prokka_plasmid/7764/7764:14_76 (length 45)
+results/prokka_plasmid/7764/7764:14_110 (length 34)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+results/prokka_plasmid/7764/7764:14 (length 117013)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+results/prokka_plasmid/7764/7764:14 (length 117013)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+results/prokka_plasmid/7764/7764:14 (length 117013)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+results/prokka_plasmid/7764/7764:14 (length 117013)
+
+DiscRep_ALL:MISSING_PROJECT::140 sequences do not include project.
+results/prokka_plasmid/7764/7764:14 (length 117013)
+results/prokka_plasmid/7764/7764:14_1 (length 79)
+results/prokka_plasmid/7764/7764:14_2 (length 123)
+results/prokka_plasmid/7764/7764:14_3 (length 507)
+results/prokka_plasmid/7764/7764:14_4 (length 148)
+results/prokka_plasmid/7764/7764:14_5 (length 189)
+results/prokka_plasmid/7764/7764:14_6 (length 91)
+results/prokka_plasmid/7764/7764:14_7 (length 98)
+results/prokka_plasmid/7764/7764:14_8 (length 92)
+results/prokka_plasmid/7764/7764:14_9 (length 106)
+results/prokka_plasmid/7764/7764:14_10 (length 234)
+results/prokka_plasmid/7764/7764:14_11 (length 717)
+results/prokka_plasmid/7764/7764:14_12 (length 132)
+results/prokka_plasmid/7764/7764:14_13 (length 75)
+results/prokka_plasmid/7764/7764:14_14 (length 1756)
+results/prokka_plasmid/7764/7764:14_15 (length 248)
+results/prokka_plasmid/7764/7764:14_16 (length 186)
+results/prokka_plasmid/7764/7764:14_17 (length 70)
+results/prokka_plasmid/7764/7764:14_18 (length 153)
+results/prokka_plasmid/7764/7764:14_19 (length 113)
+results/prokka_plasmid/7764/7764:14_20 (length 84)
+results/prokka_plasmid/7764/7764:14_21 (length 86)
+results/prokka_plasmid/7764/7764:14_22 (length 285)
+results/prokka_plasmid/7764/7764:14_23 (length 88)
+results/prokka_plasmid/7764/7764:14_24 (length 85)
+results/prokka_plasmid/7764/7764:14_25 (length 256)
+results/prokka_plasmid/7764/7764:14_26 (length 199)
+results/prokka_plasmid/7764/7764:14_27 (length 240)
+results/prokka_plasmid/7764/7764:14_28 (length 490)
+results/prokka_plasmid/7764/7764:14_29 (length 234)
+results/prokka_plasmid/7764/7764:14_30 (length 253)
+results/prokka_plasmid/7764/7764:14_31 (length 628)
+results/prokka_plasmid/7764/7764:14_32 (length 175)
+results/prokka_plasmid/7764/7764:14_33 (length 459)
+results/prokka_plasmid/7764/7764:14_34 (length 427)
+results/prokka_plasmid/7764/7764:14_35 (length 376)
+results/prokka_plasmid/7764/7764:14_36 (length 231)
+results/prokka_plasmid/7764/7764:14_37 (length 161)
+results/prokka_plasmid/7764/7764:14_38 (length 161)
+results/prokka_plasmid/7764/7764:14_39 (length 125)
+results/prokka_plasmid/7764/7764:14_40 (length 234)
+results/prokka_plasmid/7764/7764:14_41 (length 121)
+results/prokka_plasmid/7764/7764:14_42 (length 37)
+results/prokka_plasmid/7764/7764:14_43 (length 389)
+results/prokka_plasmid/7764/7764:14_44 (length 246)
+results/prokka_plasmid/7764/7764:14_45 (length 325)
+results/prokka_plasmid/7764/7764:14_46 (length 98)
+results/prokka_plasmid/7764/7764:14_47 (length 118)
+results/prokka_plasmid/7764/7764:14_48 (length 129)
+results/prokka_plasmid/7764/7764:14_49 (length 125)
+results/prokka_plasmid/7764/7764:14_50 (length 304)
+results/prokka_plasmid/7764/7764:14_51 (length 275)
+results/prokka_plasmid/7764/7764:14_52 (length 285)
+results/prokka_plasmid/7764/7764:14_53 (length 285)
+results/prokka_plasmid/7764/7764:14_54 (length 83)
+results/prokka_plasmid/7764/7764:14_55 (length 71)
+results/prokka_plasmid/7764/7764:14_56 (length 125)
+results/prokka_plasmid/7764/7764:14_57 (length 388)
+results/prokka_plasmid/7764/7764:14_58 (length 323)
+results/prokka_plasmid/7764/7764:14_59 (length 112)
+results/prokka_plasmid/7764/7764:14_60 (length 111)
+results/prokka_plasmid/7764/7764:14_61 (length 167)
+results/prokka_plasmid/7764/7764:14_62 (length 255)
+results/prokka_plasmid/7764/7764:14_63 (length 141)
+results/prokka_plasmid/7764/7764:14_64 (length 123)
+results/prokka_plasmid/7764/7764:14_65 (length 60)
+results/prokka_plasmid/7764/7764:14_66 (length 76)
+results/prokka_plasmid/7764/7764:14_67 (length 453)
+results/prokka_plasmid/7764/7764:14_68 (length 187)
+results/prokka_plasmid/7764/7764:14_69 (length 80)
+results/prokka_plasmid/7764/7764:14_70 (length 78)
+results/prokka_plasmid/7764/7764:14_71 (length 175)
+results/prokka_plasmid/7764/7764:14_72 (length 77)
+results/prokka_plasmid/7764/7764:14_73 (length 652)
+results/prokka_plasmid/7764/7764:14_74 (length 144)
+results/prokka_plasmid/7764/7764:14_75 (length 239)
+results/prokka_plasmid/7764/7764:14_76 (length 45)
+results/prokka_plasmid/7764/7764:14_77 (length 173)
+results/prokka_plasmid/7764/7764:14_78 (length 201)
+results/prokka_plasmid/7764/7764:14_79 (length 52)
+results/prokka_plasmid/7764/7764:14_80 (length 792)
+results/prokka_plasmid/7764/7764:14_81 (length 286)
+results/prokka_plasmid/7764/7764:14_82 (length 234)
+results/prokka_plasmid/7764/7764:14_83 (length 164)
+results/prokka_plasmid/7764/7764:14_84 (length 59)
+results/prokka_plasmid/7764/7764:14_85 (length 279)
+results/prokka_plasmid/7764/7764:14_86 (length 115)
+results/prokka_plasmid/7764/7764:14_87 (length 157)
+results/prokka_plasmid/7764/7764:14_88 (length 337)
+results/prokka_plasmid/7764/7764:14_89 (length 234)
+results/prokka_plasmid/7764/7764:14_90 (length 148)
+results/prokka_plasmid/7764/7764:14_91 (length 507)
+results/prokka_plasmid/7764/7764:14_92 (length 123)
+results/prokka_plasmid/7764/7764:14_93 (length 159)
+results/prokka_plasmid/7764/7764:14_94 (length 108)
+results/prokka_plasmid/7764/7764:14_95 (length 83)
+results/prokka_plasmid/7764/7764:14_96 (length 104)
+results/prokka_plasmid/7764/7764:14_97 (length 250)
+results/prokka_plasmid/7764/7764:14_98 (length 850)
+results/prokka_plasmid/7764/7764:14_99 (length 140)
+results/prokka_plasmid/7764/7764:14_100 (length 161)
+results/prokka_plasmid/7764/7764:14_101 (length 301)
+results/prokka_plasmid/7764/7764:14_102 (length 121)
+results/prokka_plasmid/7764/7764:14_103 (length 138)
+results/prokka_plasmid/7764/7764:14_104 (length 156)
+results/prokka_plasmid/7764/7764:14_105 (length 88)
+results/prokka_plasmid/7764/7764:14_106 (length 56)
+results/prokka_plasmid/7764/7764:14_107 (length 345)
+results/prokka_plasmid/7764/7764:14_108 (length 253)
+results/prokka_plasmid/7764/7764:14_109 (length 410)
+results/prokka_plasmid/7764/7764:14_110 (length 34)
+results/prokka_plasmid/7764/7764:14_111 (length 99)
+results/prokka_plasmid/7764/7764:14_112 (length 87)
+results/prokka_plasmid/7764/7764:14_113 (length 86)
+results/prokka_plasmid/7764/7764:14_114 (length 160)
+results/prokka_plasmid/7764/7764:14_115 (length 282)
+results/prokka_plasmid/7764/7764:14_116 (length 512)
+results/prokka_plasmid/7764/7764:14_117 (length 115)
+results/prokka_plasmid/7764/7764:14_118 (length 134)
+results/prokka_plasmid/7764/7764:14_119 (length 99)
+results/prokka_plasmid/7764/7764:14_120 (length 215)
+results/prokka_plasmid/7764/7764:14_121 (length 507)
+results/prokka_plasmid/7764/7764:14_122 (length 123)
+results/prokka_plasmid/7764/7764:14_123 (length 93)
+results/prokka_plasmid/7764/7764:14_124 (length 499)
+results/prokka_plasmid/7764/7764:14_125 (length 251)
+results/prokka_plasmid/7764/7764:14_126 (length 108)
+results/prokka_plasmid/7764/7764:14_127 (length 88)
+results/prokka_plasmid/7764/7764:14_128 (length 391)
+results/prokka_plasmid/7764/7764:14_129 (length 753)
+results/prokka_plasmid/7764/7764:14_130 (length 258)
+results/prokka_plasmid/7764/7764:14_131 (length 291)
+results/prokka_plasmid/7764/7764:14_132 (length 174)
+results/prokka_plasmid/7764/7764:14_133 (length 84)
+results/prokka_plasmid/7764/7764:14_134 (length 69)
+results/prokka_plasmid/7764/7764:14_135 (length 72)
+results/prokka_plasmid/7764/7764:14_136 (length 115)
+results/prokka_plasmid/7764/7764:14_137 (length 169)
+results/prokka_plasmid/7764/7764:14_138 (length 86)
+results/prokka_plasmid/7764/7764:14_139 (length 91)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+results/prokka_plasmid/7764/7764:14 (length 117013)
+

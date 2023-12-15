@@ -1,0 +1,215 @@
+>Feature 138
+628	152	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00001
+			product	hypothetical protein
+>Feature 59
+624	190	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00002
+			product	hypothetical protein
+859	638	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00003
+			product	hypothetical protein
+1543	860	CDS
+			EC_number	2.1.1.72
+			db_xref	COG:COG0863
+			gene	yhdJ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P28638
+			locus_tag	POPGGIPM_00004
+			product	DNA adenine methyltransferase YhdJ
+2854	1928	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00005
+			product	hypothetical protein
+3140	2868	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00006
+			product	hypothetical protein
+4539	3568	CDS
+			gene	sopB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P62558
+			locus_tag	POPGGIPM_00007
+			product	Protein SopB
+5705	4539	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00008
+			product	hypothetical protein
+7048	6293	CDS
+			gene	repE_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P03856
+			locus_tag	POPGGIPM_00009
+			product	Replication initiation protein
+8576	7770	CDS
+			gene	xerC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	POPGGIPM_00010
+			product	Tyrosine recombinase XerC
+8882	8577	CDS
+			gene	ccdB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P62554
+			locus_tag	POPGGIPM_00011
+			product	Toxin CcdB
+9102	8884	CDS
+			gene	ccdA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P62552
+			locus_tag	POPGGIPM_00012
+			product	Antitoxin CcdA
+10292	10459	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00013
+			product	hypothetical protein
+>Feature 63
+398	78	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00014
+			product	hypothetical protein
+1385	2362	CDS
+			gene	repB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q57154
+			locus_tag	POPGGIPM_00015
+			product	RepFIB replication protein A
+3345	2605	CDS
+			gene	xerC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	POPGGIPM_00016
+			product	Tyrosine recombinase XerC
+4021	5190	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00017
+			product	hypothetical protein
+6309	6037	CDS
+			gene	papB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04744
+			locus_tag	POPGGIPM_00018
+			product	Major pilu subunit operon regulatory protein PapB
+7270	6905	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00019
+			product	hypothetical protein
+7552	9522	CDS
+			db_xref	COG:COG1629
+			gene	hemR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P31499
+			locus_tag	POPGGIPM_00020
+			product	Hemin receptor
+9529	10320	CDS
+			db_xref	COG:COG5266
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P44196
+			locus_tag	POPGGIPM_00021
+			product	putative protein
+>Feature 71
+1103	168	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00022
+			product	hypothetical protein
+1476	1922	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00023
+			product	hypothetical protein
+4073	2415	CDS
+			EC_number	1.8.1.14
+			gene	cdr
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01608
+			locus_tag	POPGGIPM_00024
+			product	Coenzyme A disulfide reductase
+4240	4581	CDS
+			db_xref	COG:COG0640
+			gene	bigR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9PFB1
+			locus_tag	POPGGIPM_00025
+			product	Biofilm growth-associated repressor
+5933	5400	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00026
+			product	hypothetical protein
+6862	5936	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00027
+			product	hypothetical protein
+7039	7437	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00028
+			product	hypothetical protein
+>Feature 75
+919	665	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00029
+			product	hypothetical protein
+1749	1159	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00030
+			product	hypothetical protein
+1996	1787	CDS
+			gene	hha
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7CR17
+			locus_tag	POPGGIPM_00031
+			product	Hemolysin expression-modulating protein Hha
+2503	2042	CDS
+			EC_number	3.1.31.-
+			db_xref	COG:COG0737
+			gene	yhcR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P54602
+			locus_tag	POPGGIPM_00032
+			product	Endonuclease YhcR
+2960	2748	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00033
+			product	hypothetical protein
+3649	3089	CDS
+			gene	finO
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P29367
+			locus_tag	POPGGIPM_00034
+			product	Fertility inhibition protein
+4612	3752	CDS
+			gene	aidA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:G2JHL6
+			locus_tag	POPGGIPM_00035
+			product	Quorum-quenching protein AidA
+5417	4671	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00036
+			product	hypothetical protein
+6129	5437	CDS
+			gene	traI
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P14565
+			locus_tag	POPGGIPM_00037
+			product	Multifunctional conjugation protein TraI
+>Feature 96
+22	1239	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00038
+			product	hypothetical protein
+2187	1495	CDS
+			gene	repE_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P03856
+			locus_tag	POPGGIPM_00039
+			product	Replication initiation protein
+2973	2719	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00040
+			product	hypothetical protein
+3631	3395	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	POPGGIPM_00041
+			product	hypothetical protein

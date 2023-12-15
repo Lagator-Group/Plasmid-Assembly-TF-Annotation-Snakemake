@@ -1,0 +1,4 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+data/7764.fasta	14	71360	72220	-	blaTEM-1	1-861/861	===============	0/0	100.00	100.00	ncbi	NG_050145.1	class A broad-spectrum beta-lactamase TEM-1	BETA-LACTAM
+data/7764.fasta	14	74089	74928	-	sul1	1-840/840	===============	0/0	100.00	100.00	ncbi	NG_048082.1	sulfonamide-resistant dihydropteroate synthase Sul1	SULFONAMIDE
+data/7764.fasta	14	75453	75926	-	dfrA5	1-474/474	===============	0/0	100.00	100.00	ncbi	NG_051699.1	trimethoprim-resistant dihydrofolate reductase DfrA5	TRIMETHOPRIM

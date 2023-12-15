@@ -1,0 +1,395 @@
+>Feature MT441554.1
+1	1056	CDS
+			gene	repA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q52221
+			locus_tag	EBMMMKHN_00001
+			product	Replication initiation protein
+4512	2425	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00002
+			product	hypothetical protein
+5475	4525	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00003
+			product	hypothetical protein
+6793	5486	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00004
+			product	hypothetical protein
+7188	6793	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00005
+			product	hypothetical protein
+7643	7293	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00006
+			product	hypothetical protein
+7756	8226	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00007
+			product	hypothetical protein
+9335	8205	CDS
+			db_xref	COG:COG3385
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS10A
+			locus_tag	EBMMMKHN_00008
+			product	IS4 family transposase IS10A
+9784	9407	CDS
+			db_xref	COG:COG1662
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS1R
+			locus_tag	EBMMMKHN_00009
+			product	IS1 family transposase IS1R
+10104	9829	CDS
+			db_xref	COG:COG1662
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS1D
+			locus_tag	EBMMMKHN_00010
+			product	IS1 family transposase IS1D
+10323	11120	CDS
+			EC_number	3.5.2.6
+			gene	bla
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P14489
+			locus_tag	EBMMMKHN_00011
+			product	Beta-lactamase OXA-10
+12333	11422	CDS
+			gene	dmlR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P76250
+			locus_tag	EBMMMKHN_00012
+			product	HTH-type transcriptional regulator DmlR
+12636	13844	CDS
+			db_xref	COG:COG3385
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS10A
+			locus_tag	EBMMMKHN_00013
+			product	IS4 family transposase IS10A
+13857	14084	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00014
+			product	hypothetical protein
+14176	14433	CDS
+			gene	pemI
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13975
+			locus_tag	EBMMMKHN_00015
+			product	Antitoxin PemI
+14435	14767	CDS
+			EC_number	3.1.-.-
+			gene	pemK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13976
+			locus_tag	EBMMMKHN_00016
+			product	Endoribonuclease PemK
+16368	14884	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00017
+			product	hypothetical protein
+16770	17204	CDS
+			EC_number	3.4.21.-
+			db_xref	COG:COG1974
+			gene	umuD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AG11
+			locus_tag	EBMMMKHN_00018
+			product	Protein UmuD
+17153	18457	CDS
+			db_xref	COG:COG0389
+			gene	umuC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04152
+			locus_tag	EBMMMKHN_00019
+			product	Protein UmuC
+18789	18580	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00020
+			product	hypothetical protein
+19010	18792	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00021
+			product	hypothetical protein
+19738	19055	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00022
+			product	hypothetical protein
+20007	19735	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00023
+			product	hypothetical protein
+21213	20026	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00024
+			product	hypothetical protein
+21740	22084	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00025
+			product	hypothetical protein
+22109	22267	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00026
+			product	hypothetical protein
+22267	22851	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00027
+			product	hypothetical protein
+23702	23157	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00028
+			product	hypothetical protein
+23843	24304	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00029
+			product	hypothetical protein
+24301	24549	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00030
+			product	hypothetical protein
+24542	25129	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00031
+			product	hypothetical protein
+25126	25611	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00032
+			product	hypothetical protein
+25608	25856	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00033
+			product	hypothetical protein
+25875	26615	CDS
+			gene	xerC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	EBMMMKHN_00034
+			product	Tyrosine recombinase XerC
+26856	27830	CDS
+			gene	parM
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P11904
+			locus_tag	EBMMMKHN_00035
+			product	Plasmid segregation protein ParM
+27833	28276	CDS
+			gene	stbB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P11906
+			locus_tag	EBMMMKHN_00036
+			product	Protein StbB
+28286	28849	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00037
+			product	hypothetical protein
+28967	29473	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00038
+			product	hypothetical protein
+29466	29945	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00039
+			product	hypothetical protein
+29974	30384	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00040
+			product	hypothetical protein
+30502	30765	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00041
+			product	hypothetical protein
+30787	31149	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00042
+			product	hypothetical protein
+31271	31720	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8KES1
+			locus_tag	EBMMMKHN_00043
+			note	UPF0758 protein CT0611
+			product	hypothetical protein
+31765	32031	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00044
+			product	hypothetical protein
+32095	32418	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00045
+			product	hypothetical protein
+32789	32412	CDS
+			db_xref	COG:COG1662
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS1R
+			locus_tag	EBMMMKHN_00046
+			product	IS1 family transposase IS1R
+33109	32834	CDS
+			db_xref	COG:COG1662
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS1D
+			locus_tag	EBMMMKHN_00047
+			product	IS1 family transposase IS1D
+33183	34154	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00048
+			product	hypothetical protein
+34762	34941	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00049
+			product	hypothetical protein
+35014	35874	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00050
+			product	hypothetical protein
+36064	36402	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00051
+			product	hypothetical protein
+36500	36730	CDS
+			gene	ymoA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A3X0
+			locus_tag	EBMMMKHN_00052
+			product	Modulating protein YmoA
+36843	36956	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00053
+			product	hypothetical protein
+37062	37277	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00054
+			product	hypothetical protein
+37349	37759	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00055
+			product	hypothetical protein
+37821	38126	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00056
+			product	hypothetical protein
+38327	38767	CDS
+			gene	klcA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P52603
+			locus_tag	EBMMMKHN_00057
+			product	Antirestriction protein KlcA
+38811	39095	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00058
+			product	hypothetical protein
+39250	39471	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00059
+			product	hypothetical protein
+39543	39977	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00984
+			locus_tag	EBMMMKHN_00060
+			product	Single-stranded DNA-binding protein
+40033	40344	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00061
+			product	hypothetical protein
+40477	41013	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00062
+			product	hypothetical protein
+41083	41223	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00063
+			product	hypothetical protein
+41880	41515	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00064
+			product	hypothetical protein
+42155	42472	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00065
+			product	hypothetical protein
+42459	44438	CDS
+			gene	traI
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q00191
+			locus_tag	EBMMMKHN_00066
+			product	Protein TraI
+44452	44952	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00067
+			product	hypothetical protein
+44949	45728	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00068
+			product	hypothetical protein
+45739	46902	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00069
+			product	hypothetical protein
+46892	47152	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00070
+			product	hypothetical protein
+47177	50614	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00071
+			product	hypothetical protein
+50580	51092	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00072
+			product	hypothetical protein
+51290	51093	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00073
+			product	hypothetical protein
+51687	51277	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00074
+			product	hypothetical protein
+51755	52468	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00075
+			product	hypothetical protein
+52477	53628	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00076
+			product	hypothetical protein
+53640	54989	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00077
+			product	hypothetical protein
+55001	55705	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00078
+			product	hypothetical protein
+55729	56259	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00079
+			product	hypothetical protein
+56276	56665	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00080
+			product	hypothetical protein
+56711	57205	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00081
+			product	hypothetical protein
+57202	60252	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00082
+			product	hypothetical protein
+60249	61457	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00083
+			product	hypothetical protein
+61454	62050	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00084
+			product	hypothetical protein
+62043	64238	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00085
+			product	hypothetical protein
+64240	64893	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00086
+			product	hypothetical protein
+64974	65204	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	EBMMMKHN_00087
+			product	hypothetical protein

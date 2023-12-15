@@ -1,0 +1,497 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:87 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 87 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:87 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:2 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:88 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::87 proteins have invalid IDs.
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_1 (length 351)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_2 (length 695)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_3 (length 316)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_4 (length 435)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_5 (length 131)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_6 (length 116)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_7 (length 156)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_8 (length 376)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_9 (length 125)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_10 (length 91)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_11 (length 265)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_12 (length 303)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_13 (length 402)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_14 (length 75)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_15 (length 85)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_16 (length 110)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_17 (length 494)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_18 (length 144)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_19 (length 434)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_20 (length 69)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_21 (length 72)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_22 (length 227)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_23 (length 90)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_24 (length 395)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_25 (length 114)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_26 (length 52)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_27 (length 194)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_28 (length 181)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_29 (length 153)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_30 (length 82)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_31 (length 195)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_32 (length 161)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_33 (length 82)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_34 (length 246)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_35 (length 324)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_36 (length 147)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_37 (length 187)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_38 (length 168)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_39 (length 159)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_40 (length 136)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_41 (length 87)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_42 (length 120)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_43 (length 149)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_44 (length 88)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_45 (length 107)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_46 (length 125)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_47 (length 91)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_48 (length 323)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_49 (length 59)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_50 (length 286)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_51 (length 112)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_52 (length 76)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_53 (length 37)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_54 (length 71)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_55 (length 136)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_56 (length 101)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_57 (length 146)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_58 (length 94)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_59 (length 73)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_60 (length 144)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_61 (length 103)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_62 (length 178)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_63 (length 46)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_64 (length 121)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_65 (length 105)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_66 (length 659)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_67 (length 166)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_68 (length 259)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_69 (length 387)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_70 (length 86)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_71 (length 1145)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_72 (length 170)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_73 (length 65)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_74 (length 136)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_75 (length 237)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_76 (length 383)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_77 (length 449)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_78 (length 234)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_79 (length 176)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_80 (length 129)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_81 (length 164)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_82 (length 1016)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_83 (length 402)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_84 (length 198)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_85 (length 731)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_86 (length 217)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_87 (length 76)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 87 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1 (length 65499)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::87 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	Replication initiation protein	MT441554.1:1-1056	EBMMMKHN_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c4512-2425	EBMMMKHN_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c5475-4525	EBMMMKHN_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c6793-5486	EBMMMKHN_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c7188-6793	EBMMMKHN_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c7643-7293	EBMMMKHN_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:7756-8226	EBMMMKHN_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	IS4 family transposase IS10A	MT441554.1:c9335-8205	EBMMMKHN_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	IS1 family transposase IS1R	MT441554.1:c9784-9407	EBMMMKHN_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	IS1 family transposase IS1D	MT441554.1:c10104-9829	EBMMMKHN_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	Beta-lactamase OXA-10	MT441554.1:10323-11120	EBMMMKHN_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	HTH-type transcriptional regulator DmlR	MT441554.1:c12333-11422	EBMMMKHN_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	IS4 family transposase IS10A	MT441554.1:12636-13844	EBMMMKHN_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:13857-14084	EBMMMKHN_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	Antitoxin PemI	MT441554.1:14176-14433	EBMMMKHN_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	Endoribonuclease PemK	MT441554.1:14435-14767	EBMMMKHN_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c16368-14884	EBMMMKHN_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	Protein UmuD	MT441554.1:16770-17204	EBMMMKHN_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	Protein UmuC	MT441554.1:17153-18457	EBMMMKHN_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c18789-18580	EBMMMKHN_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c19010-18792	EBMMMKHN_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c19738-19055	EBMMMKHN_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c20007-19735	EBMMMKHN_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c21213-20026	EBMMMKHN_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:21740-22084	EBMMMKHN_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:22109-22267	EBMMMKHN_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:22267-22851	EBMMMKHN_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c23702-23157	EBMMMKHN_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:23843-24304	EBMMMKHN_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:24301-24549	EBMMMKHN_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:24542-25129	EBMMMKHN_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:25126-25611	EBMMMKHN_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:25608-25856	EBMMMKHN_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	Tyrosine recombinase XerC	MT441554.1:25875-26615	EBMMMKHN_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	Plasmid segregation protein ParM	MT441554.1:26856-27830	EBMMMKHN_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	Protein StbB	MT441554.1:27833-28276	EBMMMKHN_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:28286-28849	EBMMMKHN_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:28967-29473	EBMMMKHN_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:29466-29945	EBMMMKHN_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:29974-30384	EBMMMKHN_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:30502-30765	EBMMMKHN_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:30787-31149	EBMMMKHN_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:31271-31720	EBMMMKHN_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:31765-32031	EBMMMKHN_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:32095-32418	EBMMMKHN_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	IS1 family transposase IS1R	MT441554.1:c32789-32412	EBMMMKHN_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	IS1 family transposase IS1D	MT441554.1:c33109-32834	EBMMMKHN_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:33183-34154	EBMMMKHN_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:34762-34941	EBMMMKHN_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:35014-35874	EBMMMKHN_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:36064-36402	EBMMMKHN_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	Modulating protein YmoA	MT441554.1:36500-36730	EBMMMKHN_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:36843-36956	EBMMMKHN_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:37062-37277	EBMMMKHN_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:37349-37759	EBMMMKHN_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:37821-38126	EBMMMKHN_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	Antirestriction protein KlcA	MT441554.1:38327-38767	EBMMMKHN_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:38811-39095	EBMMMKHN_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:39250-39471	EBMMMKHN_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	Single-stranded DNA-binding protein	MT441554.1:39543-39977	EBMMMKHN_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:40033-40344	EBMMMKHN_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:40477-41013	EBMMMKHN_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:41083-41223	EBMMMKHN_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c41880-41515	EBMMMKHN_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:42155-42472	EBMMMKHN_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	Protein TraI	MT441554.1:42459-44438	EBMMMKHN_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:44452-44952	EBMMMKHN_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:44949-45728	EBMMMKHN_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:45739-46902	EBMMMKHN_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:46892-47152	EBMMMKHN_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:47177-50614	EBMMMKHN_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:50580-51092	EBMMMKHN_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c51290-51093	EBMMMKHN_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:c51687-51277	EBMMMKHN_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:51755-52468	EBMMMKHN_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:52477-53628	EBMMMKHN_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:53640-54989	EBMMMKHN_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:55001-55705	EBMMMKHN_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:55729-56259	EBMMMKHN_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:56276-56665	EBMMMKHN_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:56711-57205	EBMMMKHN_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:57202-60252	EBMMMKHN_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:60249-61457	EBMMMKHN_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:61454-62050	EBMMMKHN_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:62043-64238	EBMMMKHN_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:64240-64893	EBMMMKHN_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pOXA-48/pOXA-48:CDS	hypothetical protein	MT441554.1:64974-65204	EBMMMKHN_00087
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::2 protein sequences are shorter than 50 aa.
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_53 (length 37)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_63 (length 46)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1 (length 65499)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1 (length 65499)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1 (length 65499)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1 (length 65499)
+
+DiscRep_ALL:MISSING_PROJECT::88 sequences do not include project.
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1 (length 65499)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_1 (length 351)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_2 (length 695)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_3 (length 316)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_4 (length 435)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_5 (length 131)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_6 (length 116)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_7 (length 156)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_8 (length 376)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_9 (length 125)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_10 (length 91)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_11 (length 265)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_12 (length 303)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_13 (length 402)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_14 (length 75)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_15 (length 85)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_16 (length 110)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_17 (length 494)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_18 (length 144)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_19 (length 434)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_20 (length 69)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_21 (length 72)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_22 (length 227)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_23 (length 90)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_24 (length 395)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_25 (length 114)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_26 (length 52)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_27 (length 194)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_28 (length 181)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_29 (length 153)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_30 (length 82)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_31 (length 195)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_32 (length 161)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_33 (length 82)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_34 (length 246)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_35 (length 324)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_36 (length 147)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_37 (length 187)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_38 (length 168)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_39 (length 159)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_40 (length 136)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_41 (length 87)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_42 (length 120)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_43 (length 149)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_44 (length 88)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_45 (length 107)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_46 (length 125)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_47 (length 91)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_48 (length 323)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_49 (length 59)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_50 (length 286)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_51 (length 112)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_52 (length 76)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_53 (length 37)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_54 (length 71)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_55 (length 136)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_56 (length 101)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_57 (length 146)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_58 (length 94)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_59 (length 73)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_60 (length 144)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_61 (length 103)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_62 (length 178)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_63 (length 46)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_64 (length 121)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_65 (length 105)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_66 (length 659)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_67 (length 166)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_68 (length 259)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_69 (length 387)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_70 (length 86)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_71 (length 1145)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_72 (length 170)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_73 (length 65)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_74 (length 136)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_75 (length 237)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_76 (length 383)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_77 (length 449)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_78 (length 234)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_79 (length 176)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_80 (length 129)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_81 (length 164)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_82 (length 1016)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_83 (length 402)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_84 (length 198)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_85 (length 731)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_86 (length 217)
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1_87 (length 76)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+results/prokka_plasmid/pOXA-48/pOXA-48:MT441554.1 (length 65499)
+

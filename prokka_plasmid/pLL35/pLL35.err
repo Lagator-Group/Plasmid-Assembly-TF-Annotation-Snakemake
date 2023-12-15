@@ -1,0 +1,1741 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:332 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 332 present
+DISC_COUNT_NUCLEOTIDES:3 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:332 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:3 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:5 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:3 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:3 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:3 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:3 sequences do not include structured comments.
+MISSING_PROJECT:335 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::332 proteins have invalid IDs.
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_1 (length 323)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_2 (length 388)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_3 (length 251)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_4 (length 38)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_5 (length 45)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_6 (length 268)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_7 (length 101)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_8 (length 72)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_9 (length 331)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_10 (length 310)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_11 (length 362)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_12 (length 289)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_13 (length 521)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_14 (length 170)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_15 (length 377)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_16 (length 129)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_17 (length 145)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_18 (length 68)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_19 (length 873)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_20 (length 76)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_21 (length 91)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_22 (length 176)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_23 (length 89)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_24 (length 325)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_25 (length 246)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_26 (length 389)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_27 (length 37)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_28 (length 121)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_29 (length 656)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_30 (length 263)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_31 (length 172)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_32 (length 259)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_33 (length 340)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_34 (length 412)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_35 (length 125)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_36 (length 71)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_37 (length 52)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_38 (length 168)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_39 (length 253)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_40 (length 646)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_41 (length 175)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_42 (length 459)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_43 (length 427)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_44 (length 376)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_45 (length 231)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_46 (length 161)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_47 (length 161)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_48 (length 247)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_49 (length 92)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_50 (length 239)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_51 (length 189)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_52 (length 295)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_53 (length 108)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_54 (length 88)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_55 (length 391)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_56 (length 753)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_57 (length 258)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_58 (length 283)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_59 (length 188)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_60 (length 111)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_61 (length 115)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_62 (length 169)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_63 (length 86)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_64 (length 108)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_65 (length 265)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_66 (length 134)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_67 (length 115)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_68 (length 335)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_69 (length 340)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_70 (length 259)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_71 (length 117)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_72 (length 248)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_73 (length 285)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_74 (length 84)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_75 (length 63)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_76 (length 186)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_77 (length 248)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_78 (length 1756)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_79 (length 735)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_80 (length 259)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_81 (length 258)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_82 (length 163)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_83 (length 939)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_84 (length 457)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_85 (length 131)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_86 (length 181)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_87 (length 94)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_88 (length 167)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_89 (length 326)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_90 (length 247)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_91 (length 85)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_92 (length 616)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_93 (length 212)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_94 (length 101)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_95 (length 330)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_96 (length 210)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_97 (length 128)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_98 (length 875)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_99 (length 73)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_100 (length 171)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_101 (length 71)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_102 (length 125)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_103 (length 100)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_104 (length 188)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_105 (length 483)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_106 (length 242)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_107 (length 188)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_108 (length 103)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_109 (length 120)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_110 (length 75)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_111 (length 225)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_112 (length 125)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_113 (length 71)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_114 (length 82)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_115 (length 95)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_116 (length 70)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_117 (length 121)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_118 (length 173)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_119 (length 52)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_120 (length 239)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_121 (length 144)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_122 (length 652)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_123 (length 77)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_124 (length 179)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_125 (length 80)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_126 (length 187)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_127 (length 453)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_128 (length 76)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_129 (length 63)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_130 (length 140)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_131 (length 141)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_132 (length 258)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_133 (length 144)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_134 (length 73)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_135 (length 227)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_136 (length 308)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_1 (length 187)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_2 (length 451)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_3 (length 76)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_4 (length 75)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_5 (length 106)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_6 (length 84)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_7 (length 63)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_8 (length 168)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_9 (length 142)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_10 (length 255)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_11 (length 139)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_12 (length 73)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_13 (length 233)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_14 (length 76)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_15 (length 223)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_16 (length 323)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_17 (length 143)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_18 (length 423)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_19 (length 291)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_20 (length 208)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_21 (length 100)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_22 (length 65)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_23 (length 264)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_24 (length 47)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_25 (length 338)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_26 (length 104)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_27 (length 131)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_28 (length 101)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_29 (length 72)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_30 (length 229)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_31 (length 229)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_32 (length 82)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_33 (length 190)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_34 (length 164)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_35 (length 122)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_36 (length 67)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_37 (length 67)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_38 (length 334)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_39 (length 988)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_40 (length 96)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_41 (length 133)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_42 (length 118)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_43 (length 181)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_44 (length 190)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_45 (length 463)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_46 (length 145)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_47 (length 218)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_48 (length 54)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_49 (length 178)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_50 (length 849)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_51 (length 90)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_52 (length 291)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_53 (length 40)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_54 (length 420)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_55 (length 72)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_56 (length 185)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_57 (length 201)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_58 (length 258)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_59 (length 111)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_60 (length 119)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_61 (length 83)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_62 (length 139)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_63 (length 125)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_64 (length 286)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_65 (length 180)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_66 (length 308)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_67 (length 234)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_68 (length 203)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_69 (length 93)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_70 (length 111)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_71 (length 285)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_72 (length 83)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_73 (length 186)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_74 (length 102)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_75 (length 216)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_76 (length 214)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_77 (length 198)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_78 (length 197)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_79 (length 241)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_80 (length 1753)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_81 (length 770)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_82 (length 229)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_83 (length 243)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_84 (length 182)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_85 (length 949)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_86 (length 455)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_87 (length 147)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_88 (length 185)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_89 (length 79)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_90 (length 250)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_91 (length 108)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_92 (length 82)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_93 (length 84)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_94 (length 651)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_95 (length 212)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_96 (length 329)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_97 (length 133)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_98 (length 211)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_99 (length 129)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_100 (length 879)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_101 (length 130)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_102 (length 134)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_103 (length 103)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_104 (length 72)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_105 (length 194)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_106 (length 474)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_107 (length 246)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_108 (length 188)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_109 (length 101)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_110 (length 122)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_111 (length 66)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_112 (length 233)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_113 (length 130)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_114 (length 161)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_115 (length 104)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_116 (length 273)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_1 (length 134)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_2 (length 110)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_3 (length 85)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_4 (length 217)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_5 (length 285)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_6 (length 86)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_7 (length 196)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_8 (length 69)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_9 (length 153)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_10 (length 186)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_11 (length 286)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_12 (length 248)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_13 (length 1756)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_14 (length 744)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_15 (length 245)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_16 (length 243)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_17 (length 159)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_18 (length 940)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_19 (length 457)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_20 (length 130)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_21 (length 181)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_22 (length 94)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_23 (length 114)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_24 (length 247)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_25 (length 85)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_26 (length 616)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_27 (length 212)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_28 (length 101)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_29 (length 330)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_30 (length 210)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_31 (length 128)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_32 (length 876)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_33 (length 115)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_34 (length 72)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_35 (length 157)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_36 (length 137)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_37 (length 73)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_38 (length 171)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_39 (length 122)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_40 (length 188)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_41 (length 483)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_42 (length 242)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_43 (length 188)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_44 (length 103)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_45 (length 119)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_46 (length 223)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_47 (length 127)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_48 (length 169)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_49 (length 273)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_50 (length 98)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_51 (length 80)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_52 (length 107)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_53 (length 71)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_54 (length 172)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_55 (length 239)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_56 (length 144)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_57 (length 652)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_58 (length 77)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_59 (length 175)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_60 (length 96)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_61 (length 187)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_62 (length 453)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_63 (length 76)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_64 (length 63)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_65 (length 140)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_66 (length 141)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_67 (length 54)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_68 (length 256)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_69 (length 144)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_70 (length 73)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_71 (length 227)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_72 (length 103)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_73 (length 308)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_74 (length 142)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_75 (length 326)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_76 (length 125)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_77 (length 71)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_78 (length 327)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_79 (length 1001)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_80 (length 185)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::3 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::3 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 332 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::3 nucleotide Bioseqs are present
+results/prokka_plasmid/pLL35/pLL35:pLL35_2 (length 122279)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3 (length 94616)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4 (length 69080)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::332 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein SopB	pLL35_2:c1295-324	MOBHGNKF_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c2461-1295	MOBHGNKF_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Replication initiation protein	pLL35_2:c3804-3049	MOBHGNKF_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c4381-4265	MOBHGNKF_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c4531-4394	MOBHGNKF_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Tyrosine recombinase XerC	pLL35_2:c5384-4578	MOBHGNKF_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Toxin CcdB	pLL35_2:c5690-5385	MOBHGNKF_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Antitoxin CcdA	pLL35_2:c5910-5692	MOBHGNKF_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:6618-7613	MOBHGNKF_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:7617-8549	MOBHGNKF_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Transcriptional repressor PifC	pLL35_2:8847-9935	MOBHGNKF_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:9937-10806	MOBHGNKF_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c12428-10863	MOBHGNKF_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:12715-13227	MOBHGNKF_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c14394-13261	MOBHGNKF_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c14950-14561	MOBHGNKF_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c15333-14896	MOBHGNKF_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c15847-15641	MOBHGNKF_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:16238-18859	MOBHGNKF_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:19058-19288	MOBHGNKF_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:19377-19652	MOBHGNKF_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c20405-19875	MOBHGNKF_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c20678-20409	MOBHGNKF_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	RepFIB replication protein A	pLL35_2:21578-22555	MOBHGNKF_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Tyrosine recombinase XerC	pLL35_2:c23618-22878	MOBHGNKF_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:24299-25468	MOBHGNKF_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:25684-25797	MOBHGNKF_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c27548-27183	MOBHGNKF_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Hemin receptor	pLL35_2:27830-29800	MOBHGNKF_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:29807-30598	MOBHGNKF_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS66 family transposase ISEc22	pLL35_2:c31179-30661	MOBHGNKF_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS21 family transposase IS100kyp	pLL35_2:c32116-31337	MOBHGNKF_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c33138-32116	MOBHGNKF_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS21 family transposase ISPpu7	pLL35_2:c34390-33152	MOBHGNKF_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS1 family transposase IS1X2	pLL35_2:c35013-34636	MOBHGNKF_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:35085-35300	MOBHGNKF_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:35796-35954	MOBHGNKF_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Thiol-disulfide oxidoreductase ResA	pLL35_2:35944-36450	MOBHGNKF_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Na(+)-translocating NADH-quinone reductase subunit C	pLL35_2:36687-37448	MOBHGNKF_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:37741-39681	MOBHGNKF_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	34 kDa membrane antigen	pLL35_2:39722-40249	MOBHGNKF_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:40353-41732	MOBHGNKF_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:41735-43018	MOBHGNKF_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:43008-44138	MOBHGNKF_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Lipoprotein-releasing system ATP-binding protein LolD	pLL35_2:44143-44838	MOBHGNKF_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Thiol-disulfide oxidoreductase ResA	pLL35_2:44825-45310	MOBHGNKF_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:45335-45820	MOBHGNKF_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Glucose-1-phosphatase	pLL35_2:45942-46685	MOBHGNKF_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS5 family transposase ISKpn26	pLL35_2:c47002-46724	MOBHGNKF_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c47703-46984	MOBHGNKF_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Serine protease EspC	pLL35_2:47805-48374	MOBHGNKF_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS3 family transposase IS629	pLL35_2:c49264-48377	MOBHGNKF_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS3 family transposase IS629	pLL35_2:c49590-49264	MOBHGNKF_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS91 family transposase ISSbo1	pLL35_2:49655-49921	MOBHGNKF_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	putative protein YncE	pLL35_2:c51619-50444	MOBHGNKF_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	putative TonB-dependent receptor	pLL35_2:c53949-51688	MOBHGNKF_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c54894-54118	MOBHGNKF_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c55753-54902	MOBHGNKF_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c56675-56109	MOBHGNKF_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c58581-58246	MOBHGNKF_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:58710-59057	MOBHGNKF_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c59586-59077	MOBHGNKF_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c59843-59583	MOBHGNKF_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS3 family transposase IS629	pLL35_2:59945-60271	MOBHGNKF_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS3 family transposase IS629	pLL35_2:60271-61068	MOBHGNKF_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:61097-61501	MOBHGNKF_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:61498-61845	MOBHGNKF_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS66 family transposase ISEc22	pLL35_2:61894-62901	MOBHGNKF_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:62915-63937	MOBHGNKF_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS21 family transposase IS100kyp	pLL35_2:63937-64716	MOBHGNKF_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS21 family transposase IS1162	pLL35_2:64810-65163	MOBHGNKF_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS21 family transposase ISEc12	pLL35_2:65178-65924	MOBHGNKF_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c67001-66144	MOBHGNKF_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c67559-67305	MOBHGNKF_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c68047-67856	MOBHGNKF_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Fertility inhibition protein	pLL35_2:c69764-69204	MOBHGNKF_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c70565-69819	MOBHGNKF_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Multifunctional conjugation protein TraI	pLL35_2:c75855-70585	MOBHGNKF_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Coupling protein TraD	pLL35_2:c78062-75855	MOBHGNKF_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c78838-78059	MOBHGNKF_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Lipoprotein YlpA	pLL35_2:c79817-79041	MOBHGNKF_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c80295-79804	MOBHGNKF_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c83139-80320	MOBHGNKF_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c84509-83136	MOBHGNKF_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c84891-84496	MOBHGNKF_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c85691-85146	MOBHGNKF_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraQ	pLL35_2:c85962-85678	MOBHGNKF_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c86960-86457	MOBHGNKF_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS5 family transposase ISKpn26	pLL35_2:c88289-87309	MOBHGNKF_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c89162-88419	MOBHGNKF_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c89412-89155	MOBHGNKF_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Mating pair stabilization protein TraN	pLL35_2:c91289-89439	MOBHGNKF_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c91924-91286	MOBHGNKF_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c92238-91933	MOBHGNKF_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c93260-92268	MOBHGNKF_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c93889-93257	MOBHGNKF_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c94272-93886	MOBHGNKF_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraC	pLL35_2:c96896-94269	MOBHGNKF_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraR	pLL35_2:c97277-97056	MOBHGNKF_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraV	pLL35_2:c97927-97412	MOBHGNKF_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c98377-98162	MOBHGNKF_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS1 family transposase IS1X2	pLL35_2:98449-98826	MOBHGNKF_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c99063-98761	MOBHGNKF_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c99568-99002	MOBHGNKF_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c101009-99558	MOBHGNKF_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c101737-101009	MOBHGNKF_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c102290-101724	MOBHGNKF_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c102623-102312	MOBHGNKF_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Pilin	pLL35_2:c102990-102628	MOBHGNKF_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Relaxosome protein TraY	pLL35_2:c103251-103024	MOBHGNKF_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraJ	pLL35_2:c104016-103339	MOBHGNKF_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS1 family transposase IS1X2	pLL35_2:c104695-104318	MOBHGNKF_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:104767-104982	MOBHGNKF_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c105292-105044	MOBHGNKF_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c105698-105411	MOBHGNKF_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein FlmC	pLL35_2:c106836-106624	MOBHGNKF_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS3 family transposase IS150	pLL35_2:c107341-106976	MOBHGNKF_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS3 family transposase IS103	pLL35_2:c108344-107823	MOBHGNKF_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c108504-108346	MOBHGNKF_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c109223-108504	MOBHGNKF_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein PsiB	pLL35_2:c109654-109220	MOBHGNKF_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Nucleoid occlusion protein	pLL35_2:c111667-109709	MOBHGNKF_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c111966-111733	MOBHGNKF_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Plasmid-derived single-stranded DNA-binding protein	pLL35_2:c112568-112029	MOBHGNKF_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c113453-113211	MOBHGNKF_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c114042-113479	MOBHGNKF_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c115450-114089	MOBHGNKF_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c115732-115502	MOBHGNKF_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c116961-116770	MOBHGNKF_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c117380-116958	MOBHGNKF_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Antirestriction protein KlcA	pLL35_2:c117852-117427	MOBHGNKF_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c119045-118269	MOBHGNKF_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c119530-119096	MOBHGNKF_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c119765-119544	MOBHGNKF_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	DNA adenine methyltransferase YhdJ	pLL35_2:c120449-119766	MOBHGNKF_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_2:c121760-120834	MOBHGNKF_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c590-27	MOBHGNKF_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c1993-638	MOBHGNKF_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c2275-2045	MOBHGNKF_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c2594-2367	MOBHGNKF_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c3652-3332	MOBHGNKF_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c3941-3687	MOBHGNKF_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c4320-4129	MOBHGNKF_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c4869-4363	MOBHGNKF_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Antirestriction protein KlcA	pLL35_3:c5341-4913	MOBHGNKF_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c6789-6022	MOBHGNKF_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c7262-6843	MOBHGNKF_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c7493-7272	MOBHGNKF_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	DNA adenine methyltransferase YhdJ	pLL35_3:c8194-7493	MOBHGNKF_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c8861-8631	MOBHGNKF_00150
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c9595-8924	MOBHGNKF_00151
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Plasmid segregation protein ParM	pLL35_3:c10569-9598	MOBHGNKF_00152
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein UmuD	pLL35_3:10803-11234	MOBHGNKF_00153
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein UmuC	pLL35_3:11234-12505	MOBHGNKF_00154
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Replication protein RepA	pLL35_3:12917-13792	MOBHGNKF_00155
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:14416-15042	MOBHGNKF_00156
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:15039-15341	MOBHGNKF_00157
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:15481-15678	MOBHGNKF_00158
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Tyrosine recombinase XerC	pLL35_3:c16559-15765	MOBHGNKF_00159
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:16619-16762	MOBHGNKF_00160
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c17773-16757	MOBHGNKF_00161
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c18098-17784	MOBHGNKF_00162
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c18520-18125	MOBHGNKF_00163
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Toxin CcdB	pLL35_3:c18994-18689	MOBHGNKF_00164
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Antitoxin CcdA	pLL35_3:c19214-18996	MOBHGNKF_00165
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:19769-20458	MOBHGNKF_00166
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c21179-20490	MOBHGNKF_00167
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:21616-21864	MOBHGNKF_00168
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:21861-22433	MOBHGNKF_00169
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:22464-22958	MOBHGNKF_00170
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:23002-23370	MOBHGNKF_00171
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Modulating protein YmoA	pLL35_3:23404-23607	MOBHGNKF_00172
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:23621-23824	MOBHGNKF_00173
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS110 family transposase IS4321R	pLL35_3:c25010-24006	MOBHGNKF_00174
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Tn3 family transposase ISPa38	pLL35_3:c28055-25089	MOBHGNKF_00175
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:28130-28420	MOBHGNKF_00176
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:28417-28818	MOBHGNKF_00177
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:28808-29164	MOBHGNKF_00178
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:29645-30190	MOBHGNKF_00179
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	DNA-invertase hin	pLL35_3:30327-30899	MOBHGNKF_00180
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	ISKra4 family transposase ISKpn19	pLL35_3:30936-32327	MOBHGNKF_00181
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	DNA-invertase hin	pLL35_3:32351-32788	MOBHGNKF_00182
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Pentapeptide repeat protein	pLL35_3:c33763-33107	MOBHGNKF_00183
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:34362-34526	MOBHGNKF_00184
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS3 family transposase ISEc36	pLL35_3:34655-35191	MOBHGNKF_00185
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Tn3 family transposase Tn2	pLL35_3:c37765-35216	MOBHGNKF_00186
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:38085-38357	MOBHGNKF_00187
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Beta-lactamase CTX-M-1	pLL35_3:c39279-38404	MOBHGNKF_00188
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c39554-39432	MOBHGNKF_00189
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS1380 family transposase ISEcp1	pLL35_3:c40797-39535	MOBHGNKF_00190
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Tn3 family transposase Tn2	pLL35_3:c41197-40979	MOBHGNKF_00191
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Transposon Tn3 resolvase	pLL35_3:41361-41918	MOBHGNKF_00192
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Aminoglycoside N(6')-acetyltransferase type 1	pLL35_3:42101-42706	MOBHGNKF_00193
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Streptomycin 3''-adenylyltransferase	pLL35_3:42788-43564	MOBHGNKF_00194
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Beta-lactamase OXA-18	pLL35_3:43624-43959	MOBHGNKF_00195
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Beta-lactamase OXA-18	pLL35_3:44089-44448	MOBHGNKF_00196
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Transposon Tn3 resolvase	pLL35_3:44714-44965	MOBHGNKF_00197
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Beta-lactamase TEM-12	pLL35_3:45148-45567	MOBHGNKF_00198
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS1 family transposase ISKpn14	pLL35_3:c45938-45561	MOBHGNKF_00199
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	SPbeta prophage-derived aminoglycoside N(3')-acetyltransferase-like protein YokD	pLL35_3:46719-47579	MOBHGNKF_00200
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Tunicamycin resistance protein	pLL35_3:47592-48134	MOBHGNKF_00201
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:49109-50035	MOBHGNKF_00202
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS6 family transposase IS26	pLL35_3:50082-50786	MOBHGNKF_00203
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c51546-50935	MOBHGNKF_00204
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c51881-51600	MOBHGNKF_00205
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:52054-52389	MOBHGNKF_00206
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c54290-53433	MOBHGNKF_00207
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c54843-54592	MOBHGNKF_00208
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Cardiolipin synthase A	pLL35_3:c55539-54979	MOBHGNKF_00209
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c55942-55634	MOBHGNKF_00210
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c56589-55939	MOBHGNKF_00211
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c57289-56645	MOBHGNKF_00212
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c57935-57339	MOBHGNKF_00213
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Fertility inhibition protein	pLL35_3:c58695-58102	MOBHGNKF_00214
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c59492-58767	MOBHGNKF_00215
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Multifunctional conjugation protein TraI	pLL35_3:c64834-59573	MOBHGNKF_00216
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Coupling protein TraD	pLL35_3:c67146-64834	MOBHGNKF_00217
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c67964-67275	MOBHGNKF_00218
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Lipoprotein YlpA	pLL35_3:c68887-68156	MOBHGNKF_00219
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraS	pLL35_3:c69619-69071	MOBHGNKF_00220
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c72481-69632	MOBHGNKF_00221
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c73848-72481	MOBHGNKF_00222
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c74281-73838	MOBHGNKF_00223
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c74884-74327	MOBHGNKF_00224
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraQ	pLL35_3:c75095-74856	MOBHGNKF_00225
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c75858-75106	MOBHGNKF_00226
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c76205-75879	MOBHGNKF_00227
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c76466-76218	MOBHGNKF_00228
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c76698-76444	MOBHGNKF_00229
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Mating pair stabilization protein TraN	pLL35_3:c78685-76730	MOBHGNKF_00230
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c79382-78744	MOBHGNKF_00231
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c80384-79395	MOBHGNKF_00232
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c80782-80381	MOBHGNKF_00233
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c81452-80817	MOBHGNKF_00234
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c81841-81452	MOBHGNKF_00235
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraC	pLL35_3:c84480-81841	MOBHGNKF_00236
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c84944-84552	MOBHGNKF_00237
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c85733-85329	MOBHGNKF_00238
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c86111-85800	MOBHGNKF_00239
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c86330-86112	MOBHGNKF_00240
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraV	pLL35_3:c87237-86653	MOBHGNKF_00241
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c88733-87309	MOBHGNKF_00242
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c89473-88733	MOBHGNKF_00243
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c90026-89460	MOBHGNKF_00244
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c90351-90046	MOBHGNKF_00245
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Pilin	pLL35_3:c90733-90365	MOBHGNKF_00246
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Relaxosome protein TraY	pLL35_3:c91002-90802	MOBHGNKF_00247
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraJ	pLL35_3:c91789-91088	MOBHGNKF_00248
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Relaxosome protein TraM	pLL35_3:c92411-92019	MOBHGNKF_00249
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:92843-93328	MOBHGNKF_00250
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c93675-93361	MOBHGNKF_00251
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_3:c94544-93723	MOBHGNKF_00252
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Beta-lactamase TEM	pLL35_4:62-466	MOBHGNKF_00253
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Endoribonuclease PemK	pLL35_4:c1188-856	MOBHGNKF_00254
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Antitoxin PemI	pLL35_4:c1447-1190	MOBHGNKF_00255
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c2193-1540	MOBHGNKF_00256
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c3988-3131	MOBHGNKF_00257
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c4540-4280	MOBHGNKF_00258
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c5370-4780	MOBHGNKF_00259
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Hemolysin expression-modulating protein Hha	pLL35_4:c5617-5408	MOBHGNKF_00260
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Endonuclease YhcR	pLL35_4:c6124-5663	MOBHGNKF_00261
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Fertility inhibition protein	pLL35_4:c7270-6710	MOBHGNKF_00262
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Quorum-quenching protein AidA	pLL35_4:c8233-7373	MOBHGNKF_00263
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c9038-8292	MOBHGNKF_00264
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Multifunctional conjugation protein TraI	pLL35_4:c14328-9058	MOBHGNKF_00265
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Coupling protein TraD	pLL35_4:c16562-14328	MOBHGNKF_00266
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c17350-16613	MOBHGNKF_00267
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Lipoprotein YlpA	pLL35_4:c18284-17553	MOBHGNKF_00268
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c18812-18333	MOBHGNKF_00269
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c21656-18834	MOBHGNKF_00270
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c23026-21653	MOBHGNKF_00271
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c23405-23013	MOBHGNKF_00272
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c24208-23663	MOBHGNKF_00273
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraQ	pLL35_4:c24479-24195	MOBHGNKF_00274
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c24942-24598	MOBHGNKF_00275
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c25699-24956	MOBHGNKF_00276
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c25949-25692	MOBHGNKF_00277
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Mating pair stabilization protein TraN	pLL35_4:c27826-25976	MOBHGNKF_00278
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c28461-27823	MOBHGNKF_00279
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c28775-28470	MOBHGNKF_00280
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c29797-28805	MOBHGNKF_00281
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c30426-29794	MOBHGNKF_00282
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c30809-30423	MOBHGNKF_00283
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraC	pLL35_4:c33436-30806	MOBHGNKF_00284
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c33909-33562	MOBHGNKF_00285
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c34155-33937	MOBHGNKF_00286
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c34708-34235	MOBHGNKF_00287
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c35114-34701	MOBHGNKF_00288
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraR	pLL35_4:c35328-35107	MOBHGNKF_00289
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraV	pLL35_4:c35978-35463	MOBHGNKF_00290
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c36343-35975	MOBHGNKF_00291
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c36848-36282	MOBHGNKF_00292
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c38289-36838	MOBHGNKF_00293
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c39017-38289	MOBHGNKF_00294
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c39570-39004	MOBHGNKF_00295
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c39903-39592	MOBHGNKF_00296
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Pilin	pLL35_4:c40277-39918	MOBHGNKF_00297
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein TraJ	pLL35_4:c41345-40674	MOBHGNKF_00298
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Relaxosome protein TraM	pLL35_4:c41922-41539	MOBHGNKF_00299
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:42338-42847	MOBHGNKF_00300
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c43965-43144	MOBHGNKF_00301
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c44371-44075	MOBHGNKF_00302
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c45580-45338	MOBHGNKF_00303
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c45962-45639	MOBHGNKF_00304
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein FlmC	pLL35_4:c47026-46811	MOBHGNKF_00305
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c47662-47144	MOBHGNKF_00306
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c48381-47662	MOBHGNKF_00307
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Protein PsiB	pLL35_4:c48812-48378	MOBHGNKF_00308
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Nucleoid occlusion protein	pLL35_4:c50825-48867	MOBHGNKF_00309
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c51122-50889	MOBHGNKF_00310
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Plasmid-derived single-stranded DNA-binding protein	pLL35_4:c51705-51178	MOBHGNKF_00311
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c52638-52348	MOBHGNKF_00312
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c53201-52638	MOBHGNKF_00313
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c54609-53248	MOBHGNKF_00314
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c54891-54661	MOBHGNKF_00315
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c56123-55932	MOBHGNKF_00316
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c56542-56120	MOBHGNKF_00317
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Antirestriction protein KlcA	pLL35_4:c57014-56589	MOBHGNKF_00318
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c57427-57263	MOBHGNKF_00319
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c58197-57427	MOBHGNKF_00320
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c58676-58242	MOBHGNKF_00321
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c58911-58690	MOBHGNKF_00322
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	DNA adenine methyltransferase YhdJ	pLL35_4:c59595-58912	MOBHGNKF_00323
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c59983-59672	MOBHGNKF_00324
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c60906-59980	MOBHGNKF_00325
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c61734-61306	MOBHGNKF_00326
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Plasmid segregation protein ParM	pLL35_4:c62711-61731	MOBHGNKF_00327
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	IS1 family transposase IS1R	pLL35_4:c63359-62982	MOBHGNKF_00328
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:63431-63646	MOBHGNKF_00329
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	hypothetical protein	pLL35_4:c64696-63713	MOBHGNKF_00330
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Tn3 family transposase Tn2	pLL35_4:c67782-64777	MOBHGNKF_00331
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/pLL35/pLL35:CDS	Transposon Tn3 resolvase	pLL35_4:67946-68503	MOBHGNKF_00332
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::3 comment descriptors were found (all same)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+results/prokka_plasmid/pLL35/pLL35:pLL35_3:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+results/prokka_plasmid/pLL35/pLL35:pLL35_4:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::5 protein sequences are shorter than 50 aa.
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_4 (length 38)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_5 (length 45)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_27 (length 37)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_24 (length 47)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_53 (length 40)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::3 bioseqs are missing GenomeAssembly structured comments
+results/prokka_plasmid/pLL35/pLL35:pLL35_2 (length 122279)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3 (length 94616)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4 (length 69080)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::3 molecule types are not set as mRNA.
+results/prokka_plasmid/pLL35/pLL35:pLL35_2 (length 122279)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3 (length 94616)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4 (length 69080)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::3 technique are not set as TSA
+results/prokka_plasmid/pLL35/pLL35:pLL35_2 (length 122279)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3 (length 94616)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4 (length 69080)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::3 sequences do not include structured comments.
+results/prokka_plasmid/pLL35/pLL35:pLL35_2 (length 122279)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3 (length 94616)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4 (length 69080)
+
+DiscRep_ALL:MISSING_PROJECT::335 sequences do not include project.
+results/prokka_plasmid/pLL35/pLL35:pLL35_2 (length 122279)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_1 (length 323)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_2 (length 388)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_3 (length 251)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_4 (length 38)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_5 (length 45)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_6 (length 268)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_7 (length 101)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_8 (length 72)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_9 (length 331)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_10 (length 310)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_11 (length 362)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_12 (length 289)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_13 (length 521)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_14 (length 170)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_15 (length 377)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_16 (length 129)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_17 (length 145)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_18 (length 68)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_19 (length 873)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_20 (length 76)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_21 (length 91)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_22 (length 176)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_23 (length 89)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_24 (length 325)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_25 (length 246)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_26 (length 389)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_27 (length 37)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_28 (length 121)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_29 (length 656)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_30 (length 263)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_31 (length 172)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_32 (length 259)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_33 (length 340)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_34 (length 412)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_35 (length 125)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_36 (length 71)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_37 (length 52)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_38 (length 168)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_39 (length 253)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_40 (length 646)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_41 (length 175)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_42 (length 459)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_43 (length 427)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_44 (length 376)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_45 (length 231)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_46 (length 161)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_47 (length 161)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_48 (length 247)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_49 (length 92)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_50 (length 239)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_51 (length 189)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_52 (length 295)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_53 (length 108)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_54 (length 88)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_55 (length 391)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_56 (length 753)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_57 (length 258)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_58 (length 283)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_59 (length 188)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_60 (length 111)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_61 (length 115)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_62 (length 169)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_63 (length 86)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_64 (length 108)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_65 (length 265)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_66 (length 134)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_67 (length 115)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_68 (length 335)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_69 (length 340)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_70 (length 259)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_71 (length 117)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_72 (length 248)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_73 (length 285)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_74 (length 84)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_75 (length 63)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_76 (length 186)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_77 (length 248)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_78 (length 1756)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_79 (length 735)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_80 (length 259)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_81 (length 258)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_82 (length 163)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_83 (length 939)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_84 (length 457)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_85 (length 131)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_86 (length 181)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_87 (length 94)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_88 (length 167)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_89 (length 326)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_90 (length 247)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_91 (length 85)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_92 (length 616)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_93 (length 212)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_94 (length 101)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_95 (length 330)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_96 (length 210)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_97 (length 128)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_98 (length 875)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_99 (length 73)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_100 (length 171)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_101 (length 71)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_102 (length 125)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_103 (length 100)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_104 (length 188)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_105 (length 483)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_106 (length 242)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_107 (length 188)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_108 (length 103)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_109 (length 120)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_110 (length 75)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_111 (length 225)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_112 (length 125)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_113 (length 71)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_114 (length 82)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_115 (length 95)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_116 (length 70)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_117 (length 121)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_118 (length 173)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_119 (length 52)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_120 (length 239)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_121 (length 144)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_122 (length 652)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_123 (length 77)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_124 (length 179)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_125 (length 80)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_126 (length 187)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_127 (length 453)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_128 (length 76)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_129 (length 63)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_130 (length 140)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_131 (length 141)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_132 (length 258)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_133 (length 144)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_134 (length 73)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_135 (length 227)
+results/prokka_plasmid/pLL35/pLL35:pLL35_2_136 (length 308)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3 (length 94616)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_1 (length 187)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_2 (length 451)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_3 (length 76)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_4 (length 75)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_5 (length 106)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_6 (length 84)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_7 (length 63)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_8 (length 168)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_9 (length 142)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_10 (length 255)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_11 (length 139)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_12 (length 73)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_13 (length 233)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_14 (length 76)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_15 (length 223)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_16 (length 323)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_17 (length 143)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_18 (length 423)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_19 (length 291)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_20 (length 208)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_21 (length 100)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_22 (length 65)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_23 (length 264)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_24 (length 47)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_25 (length 338)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_26 (length 104)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_27 (length 131)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_28 (length 101)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_29 (length 72)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_30 (length 229)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_31 (length 229)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_32 (length 82)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_33 (length 190)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_34 (length 164)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_35 (length 122)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_36 (length 67)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_37 (length 67)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_38 (length 334)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_39 (length 988)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_40 (length 96)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_41 (length 133)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_42 (length 118)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_43 (length 181)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_44 (length 190)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_45 (length 463)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_46 (length 145)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_47 (length 218)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_48 (length 54)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_49 (length 178)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_50 (length 849)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_51 (length 90)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_52 (length 291)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_53 (length 40)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_54 (length 420)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_55 (length 72)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_56 (length 185)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_57 (length 201)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_58 (length 258)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_59 (length 111)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_60 (length 119)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_61 (length 83)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_62 (length 139)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_63 (length 125)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_64 (length 286)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_65 (length 180)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_66 (length 308)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_67 (length 234)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_68 (length 203)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_69 (length 93)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_70 (length 111)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_71 (length 285)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_72 (length 83)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_73 (length 186)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_74 (length 102)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_75 (length 216)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_76 (length 214)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_77 (length 198)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_78 (length 197)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_79 (length 241)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_80 (length 1753)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_81 (length 770)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_82 (length 229)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_83 (length 243)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_84 (length 182)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_85 (length 949)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_86 (length 455)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_87 (length 147)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_88 (length 185)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_89 (length 79)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_90 (length 250)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_91 (length 108)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_92 (length 82)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_93 (length 84)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_94 (length 651)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_95 (length 212)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_96 (length 329)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_97 (length 133)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_98 (length 211)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_99 (length 129)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_100 (length 879)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_101 (length 130)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_102 (length 134)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_103 (length 103)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_104 (length 72)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_105 (length 194)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_106 (length 474)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_107 (length 246)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_108 (length 188)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_109 (length 101)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_110 (length 122)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_111 (length 66)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_112 (length 233)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_113 (length 130)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_114 (length 161)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_115 (length 104)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3_116 (length 273)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4 (length 69080)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_1 (length 134)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_2 (length 110)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_3 (length 85)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_4 (length 217)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_5 (length 285)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_6 (length 86)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_7 (length 196)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_8 (length 69)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_9 (length 153)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_10 (length 186)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_11 (length 286)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_12 (length 248)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_13 (length 1756)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_14 (length 744)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_15 (length 245)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_16 (length 243)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_17 (length 159)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_18 (length 940)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_19 (length 457)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_20 (length 130)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_21 (length 181)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_22 (length 94)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_23 (length 114)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_24 (length 247)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_25 (length 85)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_26 (length 616)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_27 (length 212)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_28 (length 101)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_29 (length 330)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_30 (length 210)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_31 (length 128)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_32 (length 876)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_33 (length 115)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_34 (length 72)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_35 (length 157)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_36 (length 137)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_37 (length 73)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_38 (length 171)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_39 (length 122)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_40 (length 188)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_41 (length 483)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_42 (length 242)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_43 (length 188)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_44 (length 103)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_45 (length 119)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_46 (length 223)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_47 (length 127)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_48 (length 169)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_49 (length 273)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_50 (length 98)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_51 (length 80)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_52 (length 107)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_53 (length 71)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_54 (length 172)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_55 (length 239)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_56 (length 144)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_57 (length 652)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_58 (length 77)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_59 (length 175)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_60 (length 96)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_61 (length 187)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_62 (length 453)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_63 (length 76)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_64 (length 63)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_65 (length 140)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_66 (length 141)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_67 (length 54)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_68 (length 256)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_69 (length 144)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_70 (length 73)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_71 (length 227)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_72 (length 103)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_73 (length 308)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_74 (length 142)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_75 (length 326)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_76 (length 125)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_77 (length 71)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_78 (length 327)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_79 (length 1001)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4_80 (length 185)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::3 Molinfos are missing field technique
+results/prokka_plasmid/pLL35/pLL35:pLL35_2 (length 122279)
+results/prokka_plasmid/pLL35/pLL35:pLL35_3 (length 94616)
+results/prokka_plasmid/pLL35/pLL35:pLL35_4 (length 69080)
+

@@ -1,0 +1,70 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+GKGINBJK_00001	CDS	915			COG0803	putative periplasmic iron-binding protein
+GKGINBJK_00002	CDS	828	mntB_1		COG1121	Manganese transport system ATP-binding protein MntB
+GKGINBJK_00003	CDS	858	mntB_2			Manganese transport system membrane protein MntB
+GKGINBJK_00004	CDS	858	mntB_3			Manganese transport system membrane protein MntB
+GKGINBJK_00005	CDS	435	eno	4.2.1.11	COG0148	Enolase
+GKGINBJK_00006	CDS	216				hypothetical protein
+GKGINBJK_00007	CDS	381	crcB		COG0239	Putative fluoride ion transporter CrcB
+GKGINBJK_00008	CDS	1194				hypothetical protein
+GKGINBJK_00009	CDS	1725	iucA	6.3.2.38		N(2)-citryl-N(6)-acetyl-N(6)-hydroxylysine synthase
+GKGINBJK_00010	CDS	948	iucB	2.3.1.102		N(6)-hydroxylysine O-acetyltransferase
+GKGINBJK_00011	CDS	1743	iucC	6.3.2.39	COG4264	Aerobactin synthase
+GKGINBJK_00012	CDS	1278	iucD	1.14.13.59	COG3486	L-lysine N6-monooxygenase
+GKGINBJK_00013	CDS	2202	iutA			Ferric aerobactin receptor
+GKGINBJK_00014	CDS	276			COG1662	IS1 family transposase IS1D
+GKGINBJK_00015	CDS	378			COG1662	IS1 family transposase IS1R
+GKGINBJK_00016	CDS	1023				hypothetical protein
+GKGINBJK_00017	CDS	1566				hypothetical protein
+GKGINBJK_00018	CDS	417	vapC_1	3.1.-.-	COG1487	tRNA(fMet)-specific endonuclease VapC
+GKGINBJK_00019	CDS	231				hypothetical protein
+GKGINBJK_00020	CDS	3825				hypothetical protein
+GKGINBJK_00021	CDS	417	vapC_2	3.1.-.-	COG1487	tRNA(fMet)-specific endonuclease VapC
+GKGINBJK_00022	CDS	231				hypothetical protein
+GKGINBJK_00023	CDS	501				hypothetical protein
+GKGINBJK_00024	CDS	774				hypothetical protein
+GKGINBJK_00025	CDS	1134				hypothetical protein
+GKGINBJK_00026	CDS	513				hypothetical protein
+GKGINBJK_00027	CDS	219	ccdA			Antitoxin CcdA
+GKGINBJK_00028	CDS	306	ccdB			Toxin CcdB
+GKGINBJK_00029	CDS	807	xerC_1			Tyrosine recombinase XerC
+GKGINBJK_00030	CDS	756	repE_1			Replication initiation protein
+GKGINBJK_00031	CDS	1167				hypothetical protein
+GKGINBJK_00032	CDS	972	sopB			Protein SopB
+GKGINBJK_00033	CDS	927				hypothetical protein
+GKGINBJK_00034	CDS	459				hypothetical protein
+GKGINBJK_00035	CDS	1743				hypothetical protein
+GKGINBJK_00036	CDS	333	finO			Fertility inhibition protein
+GKGINBJK_00037	CDS	654				hypothetical protein
+GKGINBJK_00038	CDS	258	pemI			Antitoxin PemI
+GKGINBJK_00039	CDS	333	pemK	3.1.-.-		Endoribonuclease PemK
+GKGINBJK_00040	CDS	252	umuC		COG0389	Protein UmuC
+GKGINBJK_00041	CDS	357				hypothetical protein
+GKGINBJK_00042	CDS	126				hypothetical protein
+GKGINBJK_00043	CDS	978	repB			RepFIB replication protein A
+GKGINBJK_00044	CDS	120				hypothetical protein
+GKGINBJK_00045	CDS	741	xerC_2			Tyrosine recombinase XerC
+GKGINBJK_00046	CDS	258				hypothetical protein
+GKGINBJK_00047	CDS	183				hypothetical protein
+GKGINBJK_00048	CDS	1170				hypothetical protein
+GKGINBJK_00049	CDS	294				hypothetical protein
+GKGINBJK_00050	CDS	276				hypothetical protein
+GKGINBJK_00051	CDS	279				hypothetical protein
+GKGINBJK_00052	CDS	753	rhmR		COG1414	putative HTH-type transcriptional regulator RhmR
+GKGINBJK_00053	CDS	924	kdgT			2-keto-3-deoxygluconate permease
+GKGINBJK_00054	CDS	381	yabJ	3.5.99.10	COG0251	2-iminobutanoate/2-iminopropanoate deaminase
+GKGINBJK_00055	CDS	891	yjhH	4.1.2.28	COG0329	putative 2-dehydro-3-deoxy-D-pentonate aldolase YjhH
+GKGINBJK_00056	CDS	228	ahr	1.1.1.2	COG1064	Aldehyde reductase Ahr
+GKGINBJK_00057	CDS	867	ugpA		COG1175	sn-glycerol-3-phosphate transport system permease protein UgpA
+GKGINBJK_00058	CDS	888	ngcG		COG0395	Diacetylchitobiose uptake system permease protein NgcG
+GKGINBJK_00059	CDS	825	cpdA	3.1.4.53		3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+GKGINBJK_00060	CDS	1074	ugpC	7.6.2.10	COG3839	sn-glycerol-3-phosphate import ATP-binding protein UgpC
+GKGINBJK_00061	CDS	1311	ugpB		COG1653	sn-glycerol-3-phosphate-binding periplasmic protein UgpB
+GKGINBJK_00062	CDS	294			COG3385	IS4 family transposase ISEc13
+GKGINBJK_00063	CDS	174				hypothetical protein
+GKGINBJK_00064	CDS	447				IS3 family transposase IS629
+GKGINBJK_00065	CDS	459				IS3 family transposase IS629
+GKGINBJK_00066	CDS	861				hypothetical protein
+GKGINBJK_00067	CDS	1803				hypothetical protein
+GKGINBJK_00068	CDS	708	repE_2			Replication initiation protein
+GKGINBJK_00069	CDS	255				hypothetical protein

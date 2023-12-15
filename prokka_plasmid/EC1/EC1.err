@@ -1,0 +1,302 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:41 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 41 present
+DISC_COUNT_NUCLEOTIDES:6 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:41 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:6 comment descriptors were found (all same)
+MISSING_GENOMEASSEMBLY_COMMENTS:6 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:6 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:6 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:6 sequences do not include structured comments.
+MISSING_PROJECT:47 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::41 proteins have invalid IDs.
+results/prokka_plasmid/EC1/EC1:138_1 (length 158)
+results/prokka_plasmid/EC1/EC1:59_1 (length 144)
+results/prokka_plasmid/EC1/EC1:59_2 (length 73)
+results/prokka_plasmid/EC1/EC1:59_3 (length 227)
+results/prokka_plasmid/EC1/EC1:59_4 (length 308)
+results/prokka_plasmid/EC1/EC1:59_5 (length 90)
+results/prokka_plasmid/EC1/EC1:59_6 (length 323)
+results/prokka_plasmid/EC1/EC1:59_7 (length 388)
+results/prokka_plasmid/EC1/EC1:59_8 (length 251)
+results/prokka_plasmid/EC1/EC1:59_9 (length 268)
+results/prokka_plasmid/EC1/EC1:59_10 (length 101)
+results/prokka_plasmid/EC1/EC1:59_11 (length 72)
+results/prokka_plasmid/EC1/EC1:59_12 (length 55)
+results/prokka_plasmid/EC1/EC1:63_1 (length 106)
+results/prokka_plasmid/EC1/EC1:63_2 (length 325)
+results/prokka_plasmid/EC1/EC1:63_3 (length 246)
+results/prokka_plasmid/EC1/EC1:63_4 (length 389)
+results/prokka_plasmid/EC1/EC1:63_5 (length 90)
+results/prokka_plasmid/EC1/EC1:63_6 (length 121)
+results/prokka_plasmid/EC1/EC1:63_7 (length 656)
+results/prokka_plasmid/EC1/EC1:63_8 (length 263)
+results/prokka_plasmid/EC1/EC1:71_1 (length 311)
+results/prokka_plasmid/EC1/EC1:71_2 (length 148)
+results/prokka_plasmid/EC1/EC1:71_3 (length 552)
+results/prokka_plasmid/EC1/EC1:71_4 (length 113)
+results/prokka_plasmid/EC1/EC1:71_5 (length 177)
+results/prokka_plasmid/EC1/EC1:71_6 (length 308)
+results/prokka_plasmid/EC1/EC1:71_7 (length 132)
+results/prokka_plasmid/EC1/EC1:75_1 (length 84)
+results/prokka_plasmid/EC1/EC1:75_2 (length 196)
+results/prokka_plasmid/EC1/EC1:75_3 (length 69)
+results/prokka_plasmid/EC1/EC1:75_4 (length 153)
+results/prokka_plasmid/EC1/EC1:75_5 (length 70)
+results/prokka_plasmid/EC1/EC1:75_6 (length 186)
+results/prokka_plasmid/EC1/EC1:75_7 (length 286)
+results/prokka_plasmid/EC1/EC1:75_8 (length 248)
+results/prokka_plasmid/EC1/EC1:75_9 (length 230)
+results/prokka_plasmid/EC1/EC1:96_1 (length 405)
+results/prokka_plasmid/EC1/EC1:96_2 (length 230)
+results/prokka_plasmid/EC1/EC1:96_3 (length 84)
+results/prokka_plasmid/EC1/EC1:96_4 (length 78)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::6 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::6 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 41 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::6 nucleotide Bioseqs are present
+results/prokka_plasmid/EC1/EC1:138 (length 1552)
+results/prokka_plasmid/EC1/EC1:59 (length 11865)
+results/prokka_plasmid/EC1/EC1:63 (length 10418)
+results/prokka_plasmid/EC1/EC1:71 (length 7463)
+results/prokka_plasmid/EC1/EC1:75 (length 6196)
+results/prokka_plasmid/EC1/EC1:96 (length 4072)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::41 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	138:c628-152	POPGGIPM_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	59:c624-190	POPGGIPM_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	59:c859-638	POPGGIPM_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	DNA adenine methyltransferase YhdJ	59:c1543-860	POPGGIPM_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	59:c2854-1928	POPGGIPM_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	59:c3140-2868	POPGGIPM_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Protein SopB	59:c4539-3568	POPGGIPM_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	59:c5705-4539	POPGGIPM_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Replication initiation protein	59:c7048-6293	POPGGIPM_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Tyrosine recombinase XerC	59:c8576-7770	POPGGIPM_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Toxin CcdB	59:c8882-8577	POPGGIPM_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Antitoxin CcdA	59:c9102-8884	POPGGIPM_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	59:10292-10459	POPGGIPM_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	63:c398-78	POPGGIPM_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	RepFIB replication protein A	63:1385-2362	POPGGIPM_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Tyrosine recombinase XerC	63:c3345-2605	POPGGIPM_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	63:4021-5190	POPGGIPM_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Major pilu subunit operon regulatory protein PapB	63:c6309-6037	POPGGIPM_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	63:c7270-6905	POPGGIPM_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Hemin receptor	63:7552-9522	POPGGIPM_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	63:9529-10320	POPGGIPM_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	71:c1103-168	POPGGIPM_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	71:1476-1922	POPGGIPM_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Coenzyme A disulfide reductase	71:c4073-2415	POPGGIPM_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Biofilm growth-associated repressor	71:4240-4581	POPGGIPM_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	71:c5933-5400	POPGGIPM_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	71:c6862-5936	POPGGIPM_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	71:7039-7437	POPGGIPM_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	75:c919-665	POPGGIPM_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	75:c1749-1159	POPGGIPM_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Hemolysin expression-modulating protein Hha	75:c1996-1787	POPGGIPM_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Endonuclease YhcR	75:c2503-2042	POPGGIPM_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	75:c2960-2748	POPGGIPM_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Fertility inhibition protein	75:c3649-3089	POPGGIPM_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Quorum-quenching protein AidA	75:c4612-3752	POPGGIPM_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	75:c5417-4671	POPGGIPM_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Multifunctional conjugation protein TraI	75:c6129-5437	POPGGIPM_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	96:22-1239	POPGGIPM_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	Replication initiation protein	96:c2187-1495	POPGGIPM_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	96:c2973-2719	POPGGIPM_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka_plasmid/EC1/EC1:CDS	hypothetical protein	96:c3631-3395	POPGGIPM_00041
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::6 comment descriptors were found (all same)
+results/prokka_plasmid/EC1/EC1:138:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+results/prokka_plasmid/EC1/EC1:59:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+results/prokka_plasmid/EC1/EC1:63:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+results/prokka_plasmid/EC1/EC1:71:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+results/prokka_plasmid/EC1/EC1:75:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+results/prokka_plasmid/EC1/EC1:96:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::6 bioseqs are missing GenomeAssembly structured comments
+results/prokka_plasmid/EC1/EC1:138 (length 1552)
+results/prokka_plasmid/EC1/EC1:59 (length 11865)
+results/prokka_plasmid/EC1/EC1:63 (length 10418)
+results/prokka_plasmid/EC1/EC1:71 (length 7463)
+results/prokka_plasmid/EC1/EC1:75 (length 6196)
+results/prokka_plasmid/EC1/EC1:96 (length 4072)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::6 molecule types are not set as mRNA.
+results/prokka_plasmid/EC1/EC1:138 (length 1552)
+results/prokka_plasmid/EC1/EC1:59 (length 11865)
+results/prokka_plasmid/EC1/EC1:63 (length 10418)
+results/prokka_plasmid/EC1/EC1:71 (length 7463)
+results/prokka_plasmid/EC1/EC1:75 (length 6196)
+results/prokka_plasmid/EC1/EC1:96 (length 4072)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::6 technique are not set as TSA
+results/prokka_plasmid/EC1/EC1:138 (length 1552)
+results/prokka_plasmid/EC1/EC1:59 (length 11865)
+results/prokka_plasmid/EC1/EC1:63 (length 10418)
+results/prokka_plasmid/EC1/EC1:71 (length 7463)
+results/prokka_plasmid/EC1/EC1:75 (length 6196)
+results/prokka_plasmid/EC1/EC1:96 (length 4072)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::6 sequences do not include structured comments.
+results/prokka_plasmid/EC1/EC1:138 (length 1552)
+results/prokka_plasmid/EC1/EC1:59 (length 11865)
+results/prokka_plasmid/EC1/EC1:63 (length 10418)
+results/prokka_plasmid/EC1/EC1:71 (length 7463)
+results/prokka_plasmid/EC1/EC1:75 (length 6196)
+results/prokka_plasmid/EC1/EC1:96 (length 4072)
+
+DiscRep_ALL:MISSING_PROJECT::47 sequences do not include project.
+results/prokka_plasmid/EC1/EC1:138 (length 1552)
+results/prokka_plasmid/EC1/EC1:138_1 (length 158)
+results/prokka_plasmid/EC1/EC1:59 (length 11865)
+results/prokka_plasmid/EC1/EC1:59_1 (length 144)
+results/prokka_plasmid/EC1/EC1:59_2 (length 73)
+results/prokka_plasmid/EC1/EC1:59_3 (length 227)
+results/prokka_plasmid/EC1/EC1:59_4 (length 308)
+results/prokka_plasmid/EC1/EC1:59_5 (length 90)
+results/prokka_plasmid/EC1/EC1:59_6 (length 323)
+results/prokka_plasmid/EC1/EC1:59_7 (length 388)
+results/prokka_plasmid/EC1/EC1:59_8 (length 251)
+results/prokka_plasmid/EC1/EC1:59_9 (length 268)
+results/prokka_plasmid/EC1/EC1:59_10 (length 101)
+results/prokka_plasmid/EC1/EC1:59_11 (length 72)
+results/prokka_plasmid/EC1/EC1:59_12 (length 55)
+results/prokka_plasmid/EC1/EC1:63 (length 10418)
+results/prokka_plasmid/EC1/EC1:63_1 (length 106)
+results/prokka_plasmid/EC1/EC1:63_2 (length 325)
+results/prokka_plasmid/EC1/EC1:63_3 (length 246)
+results/prokka_plasmid/EC1/EC1:63_4 (length 389)
+results/prokka_plasmid/EC1/EC1:63_5 (length 90)
+results/prokka_plasmid/EC1/EC1:63_6 (length 121)
+results/prokka_plasmid/EC1/EC1:63_7 (length 656)
+results/prokka_plasmid/EC1/EC1:63_8 (length 263)
+results/prokka_plasmid/EC1/EC1:71 (length 7463)
+results/prokka_plasmid/EC1/EC1:71_1 (length 311)
+results/prokka_plasmid/EC1/EC1:71_2 (length 148)
+results/prokka_plasmid/EC1/EC1:71_3 (length 552)
+results/prokka_plasmid/EC1/EC1:71_4 (length 113)
+results/prokka_plasmid/EC1/EC1:71_5 (length 177)
+results/prokka_plasmid/EC1/EC1:71_6 (length 308)
+results/prokka_plasmid/EC1/EC1:71_7 (length 132)
+results/prokka_plasmid/EC1/EC1:75 (length 6196)
+results/prokka_plasmid/EC1/EC1:75_1 (length 84)
+results/prokka_plasmid/EC1/EC1:75_2 (length 196)
+results/prokka_plasmid/EC1/EC1:75_3 (length 69)
+results/prokka_plasmid/EC1/EC1:75_4 (length 153)
+results/prokka_plasmid/EC1/EC1:75_5 (length 70)
+results/prokka_plasmid/EC1/EC1:75_6 (length 186)
+results/prokka_plasmid/EC1/EC1:75_7 (length 286)
+results/prokka_plasmid/EC1/EC1:75_8 (length 248)
+results/prokka_plasmid/EC1/EC1:75_9 (length 230)
+results/prokka_plasmid/EC1/EC1:96 (length 4072)
+results/prokka_plasmid/EC1/EC1:96_1 (length 405)
+results/prokka_plasmid/EC1/EC1:96_2 (length 230)
+results/prokka_plasmid/EC1/EC1:96_3 (length 84)
+results/prokka_plasmid/EC1/EC1:96_4 (length 78)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::6 Molinfos are missing field technique
+results/prokka_plasmid/EC1/EC1:59 (length 11865)
+results/prokka_plasmid/EC1/EC1:63 (length 10418)
+results/prokka_plasmid/EC1/EC1:71 (length 7463)
+results/prokka_plasmid/EC1/EC1:75 (length 6196)
+results/prokka_plasmid/EC1/EC1:96 (length 4072)
+results/prokka_plasmid/EC1/EC1:138 (length 1552)
+

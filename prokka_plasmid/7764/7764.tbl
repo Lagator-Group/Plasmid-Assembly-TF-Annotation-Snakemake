@@ -1,0 +1,712 @@
+>Feature 14
+31	270	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00001
+			product	hypothetical protein
+568	197	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00002
+			product	hypothetical protein
+862	2385	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00003
+			product	hypothetical protein
+2502	2948	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS629
+			locus_tag	KIHCAMGN_00004
+			product	IS3 family transposase IS629
+3520	2951	CDS
+			EC_number	3.4.21.-
+			gene	espC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9EZE7
+			locus_tag	KIHCAMGN_00005
+			product	Serine protease EspC
+3825	3550	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00006
+			product	hypothetical protein
+4194	3898	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00007
+			product	hypothetical protein
+4323	4601	CDS
+			db_xref	COG:COG3039
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISKpn26
+			locus_tag	KIHCAMGN_00008
+			product	IS5 family transposase ISKpn26
+4960	4640	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00009
+			product	hypothetical protein
+5822	5118	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS26
+			locus_tag	KIHCAMGN_00010
+			product	IS6 family transposase IS26
+6306	8459	CDS
+			gene	traD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P09130
+			locus_tag	KIHCAMGN_00011
+			product	Coupling protein TraD
+8866	8468	CDS
+			EC_number	3.1.-.-
+			db_xref	COG:COG1487
+			gene	vapC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O06662
+			locus_tag	KIHCAMGN_00012
+			product	tRNA(fMet)-specific endonuclease VapC
+9093	8866	CDS
+			db_xref	COG:COG4456
+			gene	vapB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O06663
+			locus_tag	KIHCAMGN_00013
+			product	Antitoxin VapB
+9175	14445	CDS
+			gene	traI
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P14565
+			locus_tag	KIHCAMGN_00014
+			product	Multifunctional conjugation protein TraI
+14465	15211	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00015
+			product	hypothetical protein
+15266	15826	CDS
+			gene	finO
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P29367
+			locus_tag	KIHCAMGN_00016
+			product	Fertility inhibition protein
+15964	16176	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00017
+			product	hypothetical protein
+16419	16880	CDS
+			EC_number	3.1.31.-
+			db_xref	COG:COG0737
+			gene	yhcR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P54602
+			locus_tag	KIHCAMGN_00018
+			product	Endonuclease YhcR
+17173	17514	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00019
+			product	hypothetical protein
+17492	17746	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00020
+			product	hypothetical protein
+17985	18245	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00021
+			product	hypothetical protein
+18538	19395	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00022
+			product	hypothetical protein
+20690	20424	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISSbo1
+			locus_tag	KIHCAMGN_00023
+			product	IS91 family transposase ISSbo1
+21430	21173	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00024
+			product	hypothetical protein
+22230	21460	CDS
+			db_xref	COG:COG2041
+			gene	yedY1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:G8QM63
+			locus_tag	KIHCAMGN_00025
+			product	Putative protein-methionine-sulfoxide reductase subunit YedZ1
+22840	22241	CDS
+			db_xref	COG:COG4117
+			gene	yedZ1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:G8QM62
+			locus_tag	KIHCAMGN_00026
+			product	Putative protein-methionine-sulfoxide reductase subunit YedZ1
+22982	23704	CDS
+			db_xref	COG:COG0745
+			gene	walR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9RDT5
+			locus_tag	KIHCAMGN_00027
+			product	Transcriptional regulatory protein WalR
+23701	25173	CDS
+			EC_number	2.7.-.-
+			gene	sasA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01837
+			locus_tag	KIHCAMGN_00028
+			product	Adaptive-response sensory-kinase SasA
+26253	25549	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS26
+			locus_tag	KIHCAMGN_00029
+			product	IS6 family transposase IS26
+26640	27401	CDS
+			EC_number	7.2.1.1
+			db_xref	COG:COG2869
+			gene	nqrC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0C6E0
+			locus_tag	KIHCAMGN_00030
+			product	Na(+)-translocating NADH-quinone reductase subunit C
+27748	29634	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00031
+			product	hypothetical protein
+29675	30202	CDS
+			db_xref	COG:COG3470
+			gene	tpd
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P19478
+			locus_tag	KIHCAMGN_00032
+			product	34 kDa membrane antigen
+30306	31685	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00033
+			product	hypothetical protein
+31688	32971	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00034
+			product	hypothetical protein
+32961	34091	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00035
+			product	hypothetical protein
+34096	34791	CDS
+			EC_number	3.6.3.-
+			db_xref	COG:COG1136
+			gene	lolD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O66646
+			locus_tag	KIHCAMGN_00036
+			product	Lipoprotein-releasing system ATP-binding protein LolD
+34778	35263	CDS
+			db_xref	COG:COG0526
+			gene	resA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q81SZ9
+			locus_tag	KIHCAMGN_00037
+			product	Thiol-disulfide oxidoreductase ResA
+35288	35773	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00038
+			product	hypothetical protein
+35895	36272	CDS
+			EC_number	3.1.3.10
+			gene	agp
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P19926
+			locus_tag	KIHCAMGN_00039
+			product	Glucose-1-phosphatase
+36284	36988	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS26
+			locus_tag	KIHCAMGN_00040
+			product	IS6 family transposase IS26
+36994	37359	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00041
+			product	hypothetical protein
+38858	38745	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00042
+			product	hypothetical protein
+40243	39074	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00043
+			product	hypothetical protein
+40919	41659	CDS
+			gene	xerC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	KIHCAMGN_00044
+			product	Tyrosine recombinase XerC
+42921	41944	CDS
+			gene	repB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q57154
+			locus_tag	KIHCAMGN_00045
+			product	RepFIB replication protein A
+43626	43330	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00046
+			product	hypothetical protein
+43667	44023	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00047
+			product	hypothetical protein
+44281	44670	CDS
+			db_xref	COG:COG0389
+			gene	umuC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04152
+			locus_tag	KIHCAMGN_00048
+			product	Protein UmuC
+45227	44850	CDS
+			db_xref	COG:COG1662
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS1A
+			locus_tag	KIHCAMGN_00049
+			product	IS1 family transposase IS1A
+45903	46817	CDS
+			db_xref	COG:COG0803
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q57449
+			locus_tag	KIHCAMGN_00050
+			product	putative periplasmic iron-binding protein
+46817	47644	CDS
+			db_xref	COG:COG1121
+			gene	mntB_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O34338
+			locus_tag	KIHCAMGN_00051
+			product	Manganese transport system ATP-binding protein MntB
+47641	48498	CDS
+			gene	mntB_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q55282
+			locus_tag	KIHCAMGN_00052
+			product	Manganese transport system membrane protein MntB
+48495	49352	CDS
+			gene	mntB_3
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q55282
+			locus_tag	KIHCAMGN_00053
+			product	Manganese transport system membrane protein MntB
+50196	49945	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00054
+			product	hypothetical protein
+50844	50629	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00055
+			product	hypothetical protein
+50916	51293	CDS
+			db_xref	COG:COG1662
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS1A
+			locus_tag	KIHCAMGN_00056
+			product	IS1 family transposase IS1A
+51593	52759	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00057
+			product	hypothetical protein
+52759	53730	CDS
+			gene	sopB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P62558
+			locus_tag	KIHCAMGN_00058
+			product	Protein SopB
+54628	54966	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00059
+			product	hypothetical protein
+55035	55370	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00060
+			product	hypothetical protein
+55615	56118	CDS
+			db_xref	COG:COG1662
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS1R
+			locus_tag	KIHCAMGN_00061
+			product	IS1 family transposase IS1R
+56896	56129	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISEc32
+			locus_tag	KIHCAMGN_00062
+			product	IS110 family transposase ISEc32
+57298	57723	CDS
+			gene	klcA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P52603
+			locus_tag	KIHCAMGN_00063
+			product	Antirestriction protein KlcA
+57813	58184	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00064
+			product	hypothetical protein
+58184	58366	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00065
+			product	hypothetical protein
+59360	59590	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00066
+			product	hypothetical protein
+59642	61003	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00067
+			product	hypothetical protein
+61049	61612	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00068
+			product	hypothetical protein
+61612	61854	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00069
+			product	hypothetical protein
+62432	62196	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00070
+			product	hypothetical protein
+62497	63024	CDS
+			gene	ssb
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P28044
+			locus_tag	KIHCAMGN_00071
+			product	Plasmid-derived single-stranded DNA-binding protein
+63080	63313	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P75677
+			locus_tag	KIHCAMGN_00072
+			note	UPF0401 protein YkfF
+			product	hypothetical protein
+63372	65330	CDS
+			gene	noc
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02015
+			locus_tag	KIHCAMGN_00073
+			product	Nucleoid occlusion protein
+65385	65819	CDS
+			gene	psiB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P10031
+			locus_tag	KIHCAMGN_00074
+			product	Protein PsiB
+65816	66535	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00075
+			product	hypothetical protein
+66535	66672	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00076
+			product	hypothetical protein
+66785	67306	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS103
+			locus_tag	KIHCAMGN_00077
+			product	IS3 family transposase IS103
+67549	68154	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS150
+			locus_tag	KIHCAMGN_00078
+			product	IS3 family transposase IS150
+68261	68419	CDS
+			gene	flmA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P62670
+			locus_tag	KIHCAMGN_00079
+			product	Stable plasmid inheritance protein
+71212	68834	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:TnAs1
+			locus_tag	KIHCAMGN_00080
+			product	Tn3 family transposase TnAs1
+72220	71360	CDS
+			EC_number	3.5.2.6
+			gene	bla
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P62593
+			locus_tag	KIHCAMGN_00081
+			product	Beta-lactamase TEM
+72462	73166	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS26
+			locus_tag	KIHCAMGN_00082
+			product	IS6 family transposase IS26
+73489	73983	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00083
+			product	hypothetical protein
+73980	74159	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00084
+			product	hypothetical protein
+74928	74089	CDS
+			EC_number	2.5.1.15
+			db_xref	COG:COG0294
+			gene	folP
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AC13
+			locus_tag	KIHCAMGN_00085
+			product	Dihydropteroate synthase
+75269	74922	CDS
+			db_xref	COG:COG2076
+			gene	emrE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P23895
+			locus_tag	KIHCAMGN_00086
+			product	Multidrug transporter EmrE
+75926	75453	CDS
+			EC_number	1.5.1.3
+			gene	dhfrI
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P00382
+			locus_tag	KIHCAMGN_00087
+			product	Dihydrofolate reductase type 1
+76082	77095	CDS
+			gene	xerC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	KIHCAMGN_00088
+			product	Tyrosine recombinase XerC
+78035	77331	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS26
+			locus_tag	KIHCAMGN_00089
+			product	IS6 family transposase IS26
+78672	78226	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS629
+			locus_tag	KIHCAMGN_00090
+			product	IS3 family transposase IS629
+80312	78789	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00091
+			product	hypothetical protein
+80606	80977	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00092
+			product	hypothetical protein
+81383	80904	CDS
+			db_xref	COG:COG2801
+			gene	insK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P19769
+			locus_tag	KIHCAMGN_00093
+			product	Putative transposase InsK for insertion sequence element IS150
+81709	81383	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS629
+			locus_tag	KIHCAMGN_00094
+			product	IS3 family transposase IS629
+82012	81761	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00095
+			product	hypothetical protein
+82060	82374	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00096
+			product	hypothetical protein
+82495	83247	CDS
+			db_xref	COG:COG3121
+			gene	caf1M
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P26926
+			locus_tag	KIHCAMGN_00097
+			product	Chaperone protein caf1M
+83274	85826	CDS
+			db_xref	COG:COG3188
+			gene	caf1A
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P26949
+			locus_tag	KIHCAMGN_00098
+			product	F1 capsule-anchoring protein
+85842	86264	CDS
+			gene	afaD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q47038
+			locus_tag	KIHCAMGN_00099
+			product	Protein AfaD
+86372	86857	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00100
+			product	hypothetical protein
+88060	87155	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS2
+			locus_tag	KIHCAMGN_00101
+			product	IS3 family transposase IS2
+88383	88018	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00102
+			product	hypothetical protein
+88595	89011	CDS
+			db_xref	COG:COG3204
+			gene	yjiK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8FA95
+			locus_tag	KIHCAMGN_00103
+			product	putative protein YjiK
+89686	89216	CDS
+			gene	virF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A2T1
+			locus_tag	KIHCAMGN_00104
+			product	Virulence regulon transcriptional activator VirF
+89790	90056	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00105
+			product	hypothetical protein
+90268	90438	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00106
+			product	hypothetical protein
+90438	91475	CDS
+			db_xref	COG:COG0609
+			gene	hmuU
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q56992
+			locus_tag	KIHCAMGN_00107
+			product	Hemin transport system permease protein HmuU
+91475	92236	CDS
+			db_xref	COG:COG1120
+			gene	fecE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P15031
+			locus_tag	KIHCAMGN_00108
+			product	Fe(3+) dicitrate transport ATP-binding protein FecE
+92248	93480	CDS
+			gene	mdtH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P69367
+			locus_tag	KIHCAMGN_00109
+			product	Multidrug resistance protein MdtH
+94066	94170	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00110
+			product	hypothetical protein
+94490	94191	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00111
+			product	hypothetical protein
+94743	94480	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00112
+			product	hypothetical protein
+95110	94850	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00113
+			product	hypothetical protein
+95802	95320	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00114
+			product	hypothetical protein
+96767	95919	CDS
+			EC_number	3.1.-.-
+			gene	dinG
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02206
+			locus_tag	KIHCAMGN_00115
+			product	3'-5' exonuclease DinG
+98609	97071	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISEc22
+			locus_tag	KIHCAMGN_00116
+			product	IS66 family transposase ISEc22
+99005	98658	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00117
+			product	hypothetical protein
+99406	99002	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00118
+			product	hypothetical protein
+99522	99821	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS3
+			locus_tag	KIHCAMGN_00119
+			product	IS3 family transposase IS3
+99818	100465	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS3
+			locus_tag	KIHCAMGN_00120
+			product	IS3 family transposase IS3
+102308	100785	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00121
+			product	hypothetical protein
+102602	102973	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00122
+			product	hypothetical protein
+103181	102900	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00123
+			product	hypothetical protein
+103402	104901	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00124
+			product	hypothetical protein
+104898	105653	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISEc10
+			locus_tag	KIHCAMGN_00125
+			product	IS21 family transposase ISEc10
+106121	105795	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS629
+			locus_tag	KIHCAMGN_00126
+			product	IS3 family transposase IS629
+106186	106452	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISSbo1
+			locus_tag	KIHCAMGN_00127
+			product	IS91 family transposase ISSbo1
+108150	106975	CDS
+			db_xref	COG:COG3391
+			gene	yncE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P76116
+			locus_tag	KIHCAMGN_00128
+			product	putative protein YncE
+110480	108219	CDS
+			db_xref	COG:COG1629
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7DDB6
+			locus_tag	KIHCAMGN_00129
+			product	putative TonB-dependent receptor
+111425	110649	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00130
+			product	hypothetical protein
+112308	111433	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00131
+			product	hypothetical protein
+113164	112640	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00132
+			product	hypothetical protein
+113195	113449	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00133
+			product	hypothetical protein
+114551	114760	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00134
+			product	hypothetical protein
+115114	114896	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00135
+			product	hypothetical protein
+115243	115590	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00136
+			product	hypothetical protein
+116119	115610	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00137
+			product	hypothetical protein
+116376	116116	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KIHCAMGN_00138
+			product	hypothetical protein
+116529	116804	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:IS629
+			locus_tag	KIHCAMGN_00139
+			product	IS3 family transposase IS629

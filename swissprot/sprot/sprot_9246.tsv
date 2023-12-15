@@ -1,0 +1,58 @@
+Locus Tag	Entry	Protein names	Gene Names
+GKGINBJK_00001	Q57449	Putative metal-binding protein HI_0362	HI_0362
+GKGINBJK_00002	Q56953	Chelated iron transport system membrane protein YfeB	yfeB YPO2440 y1896 YP_2228
+GKGINBJK_00003	Q56954	Chelated iron transport system membrane protein YfeC	yfeC YPO2441 y1895 YP_2229
+GKGINBJK_00004	Q56955	Chelated iron transport system membrane protein YfeD	yfeD YPO2442 y1894 YP_2230
+GKGINBJK_00005	Q87WD5	Enolase 2 (EC 4.2.1.11) (2-phospho-D-glycerate hydro-lyase 2) (2-phosphoglycerate dehydratase 2)	eno2 eno-2 PSPTO_4616
+GKGINBJK_00007	A0A0H2XLA2	Fluoride-specific ion channel FluC	fluC crcB APECO1_O1CoBM174
+GKGINBJK_00009	Q47316	N(2)-citryl-N(6)-acetyl-N(6)-hydroxylysine synthase (EC 6.3.2.38) (Aerobactin synthase IucA)	iucA
+GKGINBJK_00010	Q47317	N(6)-hydroxylysine O-acetyltransferase (EC 2.3.1.102) (N(6)-hydroxylysine acetylase)	iucB
+GKGINBJK_00011	Q47318	Aerobactin synthase (EC 6.3.2.39)	iucC
+GKGINBJK_00012	P11295	L-lysine N6-monooxygenase (EC 1.14.13.59) (Lysine 6-N-hydroxylase) (Lysine N6-hydroxylase) (Lysine-N-oxygenase)	iucD aerA
+GKGINBJK_00013	Q6U607	Ferric aerobactin receptor (Iron-regulated outer membrane proteins) (IROMPs)	iutA LV107
+GKGINBJK_00014	P0CF10	Insertion element IS1 4 protein InsA (IS1d)	insA4 b4516 JW0971
+GKGINBJK_00015	P19766	Insertion element IS1 protein InsB	insB
+GKGINBJK_00017	J8H9C1	Endonuclease GajA (EC 3.1.-.-) (Gabija protein GajA) (Nicking endonuclease GajA)	gajA IIE_04982
+GKGINBJK_00018	Q8ZM86	tRNA(fMet)-specific endonuclease VapC (EC 3.1.-.-) (RNase VapC) (Toxin VapC)	vapC STM3033
+GKGINBJK_00019	Q05459	Virulence-associated protein VagC	vagC
+GKGINBJK_00020	O34784	Uncharacterized membrane protein YobI	yobI BSU18970
+GKGINBJK_00021	Q8ZM86	tRNA(fMet)-specific endonuclease VapC (EC 3.1.-.-) (RNase VapC) (Toxin VapC)	vapC STM3033
+GKGINBJK_00022	Q05459	Virulence-associated protein VagC	vagC
+GKGINBJK_00027	P62552	Antitoxin CcdA (LynA) (Protein H) (Protein LetA)	ccdA H letA ECOK12F042
+GKGINBJK_00028	P62554	Toxin CcdB (Cytotoxic protein CcdB) (LynB) (Protein G) (Protein LetD)	ccdB G letB letD ECOK12F043
+GKGINBJK_00029	P06615	Resolvase (Protein D)	resD D ECOK12F044
+GKGINBJK_00030	P03856	Replication initiation protein (Protein E) (Protein rep) (Protein F4)	repE E rep ECOK12F045
+GKGINBJK_00031	P62556	Protein SopA (Plasmid partition protein A)	sopA A ECOK12F046
+GKGINBJK_00032	P62558	Protein SopB (Plasmid partition protein B)	sopB B ECOK12F047
+GKGINBJK_00033	Q9S4X5	Uncharacterized protein YubA	yubA yfcB ECOK12F049
+GKGINBJK_00034	Q9S4X2	Putative methylase YubD (EC 2.1.1.-) (Type II methyltransferase M.EcoCR63FORFAP) (M.EcoCR63FORFAP)	yubD yfeA ECOK12F052
+GKGINBJK_00035	P33790	Protein TraG [Cleaved into: Protein TraG*]	traG ECOK12F099
+GKGINBJK_00036	O82922	Fertility inhibition protein (Conjugal transfer repressor)	finO L7001 ECO57PM64
+GKGINBJK_00037	P13974	Uncharacterized 24.3 kDa protein (URF 1)	
+GKGINBJK_00038	P13975	Antitoxin PemI	pemI
+GKGINBJK_00039	P13976	Endoribonuclease PemK (EC 3.1.-.-) (Kid toxin protein) (mRNA interferase PemK)	pemK
+GKGINBJK_00040	P18642	Protein ImpB	impB
+GKGINBJK_00041	P15025	Transposase for insertion sequence element IS21	istA
+GKGINBJK_00043	P0A253	RepFIB replication protein A	repA repI
+GKGINBJK_00045	P56979	Probable site-specific recombinase	intM int ECOK12F032
+GKGINBJK_00047	Q9PBR9	Antitoxin ParD	parD XF_2071
+GKGINBJK_00049	P11907	Uncharacterized 11.1 kDa protein (ORF 1)	
+GKGINBJK_00050	Q9AA09	Toxin RelE1	relE1 CC_0802
+GKGINBJK_00051	P55533	Uncharacterized protein y4kO	NGR_a02810 y4kO
+GKGINBJK_00052	P77732	Uncharacterized HTH-type transcriptional regulator RhmR	rhmR yfaX b2248 JW2242
+GKGINBJK_00053	P0A714	2-keto-3-deoxygluconate permease (KDG permease)	kdgT SF3986 S3762
+GKGINBJK_00054	P40431	RutC family protein in vnfA 5'region (ORF1)	
+GKGINBJK_00055	P39359	Probable 2-dehydro-3-deoxy-D-pentonate aldolase YjhH (EC 4.1.2.28)	yjhH b4298 JW5775
+GKGINBJK_00056	P27250	Aldehyde reductase Ahr (EC 1.1.1.2) (Zinc-dependent alcohol dehydrogenase Ahr)	ahr yjgB b4269 JW5761
+GKGINBJK_00057	O32155	Probable ABC transporter permease protein YurN	yurN BSU32590
+GKGINBJK_00058	Q9KEE9	Arabinooligosaccharides transport system permease protein AraQ	araQ BH0903
+GKGINBJK_00059	Q6XBH1	Glycerophosphodiester phosphodiesterase GpdQ (GDPD) (Glycerophosphoryl diester phosphodiesterase) (EC 3.1.4.46) (Glycerophosphodiesterase) (Glycerophosphorylethanolamine phosphodiesterase) (GPE phosphodiesterase)	gpdQ ph
+GKGINBJK_00060	A1JIE0	sn-glycerol-3-phosphate import ATP-binding protein UgpC (EC 7.6.2.10)	ugpC YE0244
+GKGINBJK_00061	Q66FU7	sn-glycerol-3-phosphate-binding periplasmic protein UgpB	ugpB YPTB0238
+GKGINBJK_00062	Q46731	Transposase for transposon Tn5 (EC 3.1.-.-) (Tnp)	tnpA tnp
+GKGINBJK_00063	Q00037	Transposase for transposon gamma-delta (Transposon Tn1000 transposase)	tnpA ECOK12F010
+GKGINBJK_00064	P16942	Transposase for insertion sequence element IS629	
+GKGINBJK_00065	P16942	Transposase for insertion sequence element IS629	
+GKGINBJK_00066	P0A045	Transposase for insertion sequence-like element IS431mec	tnp MW0027
+GKGINBJK_00067	P07112	Mobilization protein A (DNA strand transferase) [Includes: DNA relaxase (EC 5.6.2.1) (DNA nickase); DNA primase (EC 2.7.7.101)]	mobA repB
+GKGINBJK_00068	P17492	Replication protein	

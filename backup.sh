@@ -1,0 +1,1 @@
+cp -ruv * '/mnt/c/Users/jtdej/OneDrive/Documents/Work/UoManchester/Lab Journal/Plasmid TF/Github Backup'

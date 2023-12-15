@@ -1,0 +1,31 @@
+Locus Tag	Entry	Protein names	Gene Names
+POPGGIPM_00002	Q9S4X0	Uncharacterized protein YubF	yubF yffA ECOK12F054
+POPGGIPM_00003	Q9S4X1	Uncharacterized protein YubE	yubE yfeB ECOK12F053
+POPGGIPM_00004	Q9S4X2	Putative methylase YubD (EC 2.1.1.-) (Type II methyltransferase M.EcoCR63FORFAP) (M.EcoCR63FORFAP)	yubD yfeA ECOK12F052
+POPGGIPM_00005	Q9S4X5	Uncharacterized protein YubA	yubA yfcB ECOK12F049
+POPGGIPM_00006	Q5QJJ0	Uncharacterized protein YuaZ	yuaZ
+POPGGIPM_00007	P62558	Protein SopB (Plasmid partition protein B)	sopB B ECOK12F047
+POPGGIPM_00008	P62556	Protein SopA (Plasmid partition protein A)	sopA A ECOK12F046
+POPGGIPM_00009	P03856	Replication initiation protein (Protein E) (Protein rep) (Protein F4)	repE E rep ECOK12F045
+POPGGIPM_00010	P06615	Resolvase (Protein D)	resD D ECOK12F044
+POPGGIPM_00011	P62554	Toxin CcdB (Cytotoxic protein CcdB) (LynB) (Protein G) (Protein LetD)	ccdB G letB letD ECOK12F043
+POPGGIPM_00012	P62552	Antitoxin CcdA (LynA) (Protein H) (Protein LetA)	ccdA H letA ECOK12F042
+POPGGIPM_00014	Q9JMS1	Uncharacterized protein YuaT	yuaT ydhA ECOK12F034
+POPGGIPM_00015	Q57154	RepFIB replication protein A	repB repA ECOK12F033
+POPGGIPM_00016	P56979	Probable site-specific recombinase	intM int ECOK12F032
+POPGGIPM_00018	Q47133	F1845 adhesin operon regulatory protein	daaA
+POPGGIPM_00019	P59444	Transposase InsC for insertion element IS2	insC1 SF0245; insC2 SF0879; insC3 SF0933; insC4 SF0960; insC5 SF1054; insC6 SF1165; insC7 SF1343; insC8 SF1463; insC9 SF1587; insC10 SF2011; insC11 SF2615; insC12 SF2694; insC13 SF2873; insC14 SF2984; insC15 SF3431; insC16 SF3512; insC17 SF3805; insC18 SF3873; insC19 SF3988; insC20 SF4097; insC21 SF4185
+POPGGIPM_00020	Q56989	Hemin receptor	hmuR YPO0283 y0543 YP_0438
+POPGGIPM_00021	P44196	Uncharacterized protein HI_1427	HI_1427
+POPGGIPM_00024	Q4L4Y7	Coenzyme A disulfide reductase (CoA-disulfide reductase) (CoADR) (EC 1.8.1.14)	cdr SH1979
+POPGGIPM_00025	Q9PFB1	Biofilm growth-associated repressor	bigR XF_0767
+POPGGIPM_00027	P14492	43 kDa relaxation protein	
+POPGGIPM_00029	P03847	Replication regulatory protein repA2 (Protein CopB)	repA2 copB
+POPGGIPM_00031	Q7CR17	Hemolysin expression-modulating protein Hha	hha STM0473
+POPGGIPM_00032	Q99342	Uncharacterized endonuclease (EC 3.1.-.-) (ORFA)	
+POPGGIPM_00034	P29367	Fertility inhibition protein (Conjugal transfer repressor)	finO
+POPGGIPM_00035	Q99390	Uncharacterized 31.7 kDa protein in traX-finO intergenic region (ORFC)	
+POPGGIPM_00036	P22710	Protein TraX	traX
+POPGGIPM_00037	P22706	Multifunctional conjugation protein TraI [Includes: DNA relaxase TraI (EC 5.6.2.1) (DNA nickase TraI) (Transesterase TraI); DNA helicase I (EC 3.6.4.12)]	traI
+POPGGIPM_00039	P17492	Replication protein	
+POPGGIPM_00041	Q44349	Conjugal transfer protein TraA	traA Atu6127 AGR_pTi_237

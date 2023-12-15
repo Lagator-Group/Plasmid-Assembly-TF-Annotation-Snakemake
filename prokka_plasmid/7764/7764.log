@@ -1,0 +1,136 @@
+[11:07:33] This is prokka 1.14.6
+[11:07:33] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[11:07:33] Homepage is https://github.com/tseemann/prokka
+[11:07:33] Local time is Wed Nov 29 11:07:33 2023
+[11:07:33] You are c59670jd
+[11:07:33] Operating system is linux
+[11:07:33] You have BioPerl 1.7.8
+[11:07:33] System has 28 cores.
+[11:07:33] Will use maximum of 8 cores.
+[11:07:33] Annotating as >>> Bacteria <<<
+[11:07:33] Generating locus_tag from 'data/7764.fasta' contents.
+[11:07:33] Setting --locustag KIHCAMGN from MD5 421ca6074f53c63009729940dcfb3e63
+[11:07:33] Re-using existing --outdir results/prokka_plasmid/7764
+[11:07:33] Using filename prefix: 7764.XXX
+[11:07:33] Setting HMMER_NCPU=1
+[11:07:33] Writing log to: results/prokka_plasmid/7764/7764.log
+[11:07:33] Command: /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/prokka --outdir results/prokka_plasmid/7764 --prefix 7764 data/7764.fasta --force
+[11:07:33] Appending to PATH: /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin
+[11:07:33] Looking for 'aragorn' - found /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/aragorn
+[11:07:33] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[11:07:33] Looking for 'barrnap' - found /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/barrnap
+[11:07:34] Determined barrnap version is 000009 from 'barrnap 0.9'
+[11:07:34] Looking for 'blastp' - found /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/blastp
+[11:07:34] Determined blastp version is 002014 from 'blastp: 2.14.0+'
+[11:07:34] Looking for 'cmpress' - found /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/cmpress
+[11:07:34] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[11:07:34] Looking for 'cmscan' - found /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/cmscan
+[11:07:34] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[11:07:34] Looking for 'egrep' - found /bin/egrep
+[11:07:34] Looking for 'find' - found /bin/find
+[11:07:34] Looking for 'grep' - found /bin/grep
+[11:07:34] Looking for 'hmmpress' - found /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/hmmpress
+[11:07:34] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[11:07:34] Looking for 'hmmscan' - found /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/hmmscan
+[11:07:34] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[11:07:34] Looking for 'java' - found /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/java
+[11:07:34] Looking for 'makeblastdb' - found /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/makeblastdb
+[11:07:34] Determined makeblastdb version is 002014 from 'makeblastdb: 2.14.0+'
+[11:07:34] Looking for 'minced' - found /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/minced
+[11:07:34] Determined minced version is 004002 from 'minced 0.4.2'
+[11:07:34] Looking for 'parallel' - found /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/parallel
+[11:07:34] Determined parallel version is 20230722 from 'GNU parallel 20230722'
+[11:07:34] Looking for 'prodigal' - found /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/prodigal
+[11:07:34] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[11:07:34] Looking for 'prokka-genbank_to_fasta_db' - found /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/prokka-genbank_to_fasta_db
+[11:07:34] Looking for 'sed' - found /bin/sed
+[11:07:34] Looking for 'tbl2asn' - found /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/bin/tbl2asn
+[11:07:34] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[11:07:34] Using genetic code table 11.
+[11:07:34] Loading and checking input file: data/7764.fasta
+[11:07:34] Wrote 1 contigs totalling 117013 bp.
+[11:07:34] Predicting tRNAs and tmRNAs
+[11:07:34] Running: aragorn -l -gc11  -w results\/prokka_plasmid\/7764\/7764\.fna
+[11:07:35] Found 0 tRNAs
+[11:07:35] Predicting Ribosomal RNAs
+[11:07:35] Running Barrnap with 8 threads
+[11:07:35] Found 0 rRNAs
+[11:07:35] Skipping ncRNA search, enable with --rfam if desired.
+[11:07:35] Total of 0 tRNA + rRNA features
+[11:07:35] Searching for CRISPR repeats
+[11:07:35] Found 0 CRISPRs
+[11:07:35] Predicting coding sequences
+[11:07:35] Contigs total 117013 bp, so using single mode
+[11:07:35] Running: prodigal -i results\/prokka_plasmid\/7764\/7764\.fna -c -m -g 11 -p single -f sco -q
+[11:07:35] Found 139 CDS
+[11:07:35] Connecting features back to sequences
+[11:07:35] Not using genus-specific database. Try --usegenus to enable it.
+[11:07:35] Annotating CDS, please be patient.
+[11:07:35] Will use 8 CPUs for similarity searching.
+[11:07:36] There are still 139 unannotated CDS left (started with 139)
+[11:07:36] Will use blast to search against /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/db/kingdom/Bacteria/IS with 8 CPUs
+[11:07:36] Running: cat results\/prokka_plasmid\/7764\/7764\.IS\.tmp\.23629\.faa | parallel --gnu --plain -j 8 --block 1978 --recstart '>' --pipe blastp -query - -db /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > results\/prokka_plasmid\/7764\/7764\.IS\.tmp\.23629\.blast 2> /dev/null
+[11:07:37] Deleting unwanted file: results/prokka_plasmid/7764/7764.IS.tmp.23629.faa
+[11:07:37] Deleting unwanted file: results/prokka_plasmid/7764/7764.IS.tmp.23629.blast
+[11:07:37] There are still 114 unannotated CDS left (started with 139)
+[11:07:37] Will use blast to search against /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/db/kingdom/Bacteria/AMR with 8 CPUs
+[11:07:37] Running: cat results\/prokka_plasmid\/7764\/7764\.AMR\.tmp\.23629\.faa | parallel --gnu --plain -j 8 --block 1640 --recstart '>' --pipe blastp -query - -db /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/db/kingdom/Bacteria/AMR -evalue 1e-300 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > results\/prokka_plasmid\/7764\/7764\.AMR\.tmp\.23629\.blast 2> /dev/null
+[11:07:38] Deleting unwanted file: results/prokka_plasmid/7764/7764.AMR.tmp.23629.faa
+[11:07:38] Deleting unwanted file: results/prokka_plasmid/7764/7764.AMR.tmp.23629.blast
+[11:07:38] There are still 114 unannotated CDS left (started with 139)
+[11:07:38] Will use blast to search against /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/db/kingdom/Bacteria/sprot with 8 CPUs
+[11:07:38] Running: cat results\/prokka_plasmid\/7764\/7764\.sprot\.tmp\.23629\.faa | parallel --gnu --plain -j 8 --block 1640 --recstart '>' --pipe blastp -query - -db /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > results\/prokka_plasmid\/7764\/7764\.sprot\.tmp\.23629\.blast 2> /dev/null
+[11:07:40] Modify product: Uncharacterized periplasmic iron-binding protein HI_0362 => putative periplasmic iron-binding protein
+[11:07:40] Modify product: UPF0401 protein YkfF => hypothetical protein
+[11:07:40] Modify product: Uncharacterized protein YncE => putative protein YncE
+[11:07:40] Modify product: Probable TonB-dependent receptor NMB1497 => putative TonB-dependent receptor
+[11:07:40] Modify product: Uncharacterized protein YjiK => putative protein YjiK
+[11:07:40] Cleaned 5 /product names
+[11:07:40] Deleting unwanted file: results/prokka_plasmid/7764/7764.sprot.tmp.23629.faa
+[11:07:40] Deleting unwanted file: results/prokka_plasmid/7764/7764.sprot.tmp.23629.blast
+[11:07:40] There are still 72 unannotated CDS left (started with 139)
+[11:07:40] Will use hmmer3 to search against /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/db/hmm/HAMAP.hmm with 8 CPUs
+[11:07:40] Running: cat results\/prokka_plasmid\/7764\/7764\.HAMAP\.hmm\.tmp\.23629\.faa | parallel --gnu --plain -j 8 --block 873 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /net/scratch2/c59670jd/TF_sprot/.snakemake/conda/4415c5ec042696b77aba69cb78fd342f_/db/hmm/HAMAP.hmm /dev/stdin > results\/prokka_plasmid\/7764\/7764\.HAMAP\.hmm\.tmp\.23629\.hmmer3 2> /dev/null
+[11:07:41] Deleting unwanted file: results/prokka_plasmid/7764/7764.HAMAP.hmm.tmp.23629.faa
+[11:07:41] Deleting unwanted file: results/prokka_plasmid/7764/7764.HAMAP.hmm.tmp.23629.hmmer3
+[11:07:41] Labelling remaining 67 proteins as 'hypothetical protein'
+[11:07:41] Possible /pseudo 'Putative protein-methionine-sulfoxide reductase subunit YedZ1' at 14 position 22241
+[11:07:41] Possible /pseudo 'Manganese transport system membrane protein MntB' at 14 position 48495
+[11:07:41] Possible /pseudo 'IS3 family transposase IS3' at 14 position 99818
+[11:07:41] Found 41 unique /gene codes.
+[11:07:41] Fixed 2 duplicate /gene - xerC_1 xerC_2
+[11:07:41] Fixed 3 duplicate /gene - mntB_1 mntB_2 mntB_3
+[11:07:41] Fixed 2 colliding /gene names.
+[11:07:41] Adding /locus_tag identifiers
+[11:07:41] Assigned 139 locus_tags to CDS and RNA features.
+[11:07:41] Writing outputs to results/prokka_plasmid/7764/
+[11:07:41] Generating annotation statistics file
+[11:07:41] Generating Genbank and Sequin files
+[11:07:41] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z results\/prokka_plasmid\/7764\/7764\.err -i results\/prokka_plasmid\/7764\/7764\.fsa 2> /dev/null
+[11:07:42] Deleting unwanted file: results/prokka_plasmid/7764/errorsummary.val
+[11:07:42] Deleting unwanted file: results/prokka_plasmid/7764/7764.dr
+[11:07:42] Deleting unwanted file: results/prokka_plasmid/7764/7764.fixedproducts
+[11:07:42] Deleting unwanted file: results/prokka_plasmid/7764/7764.ecn
+[11:07:42] Deleting unwanted file: results/prokka_plasmid/7764/7764.val
+[11:07:42] Repairing broken .GBK output that tbl2asn produces...
+[11:07:42] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < results\/prokka_plasmid\/7764\/7764\.gbf > results\/prokka_plasmid\/7764\/7764\.gbk
+[11:07:42] Deleting unwanted file: results/prokka_plasmid/7764/7764.gbf
+[11:07:42] Output files:
+[11:07:42] results/prokka_plasmid/7764/7764.fna
+[11:07:42] results/prokka_plasmid/7764/7764.sqn
+[11:07:42] results/prokka_plasmid/7764/7764.fsa
+[11:07:42] results/prokka_plasmid/7764/7764.gff
+[11:07:42] results/prokka_plasmid/7764/7764.gbk
+[11:07:42] results/prokka_plasmid/7764/7764.err
+[11:07:42] results/prokka_plasmid/7764/7764.faa
+[11:07:42] results/prokka_plasmid/7764/7764.tbl
+[11:07:42] results/prokka_plasmid/7764/7764.ffn
+[11:07:42] results/prokka_plasmid/7764/7764.log
+[11:07:42] results/prokka_plasmid/7764/7764.tsv
+[11:07:42] results/prokka_plasmid/7764/7764.txt
+[11:07:42] Annotation finished successfully.
+[11:07:42] Walltime used: 0.15 minutes
+[11:07:42] If you use this result please cite the Prokka paper:
+[11:07:42] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[11:07:42] Type 'prokka --citation' for more details.
+[11:07:42] Share and enjoy!

@@ -1,0 +1,88 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+EBMMMKHN_00001	CDS	1056	repA			Replication initiation protein
+EBMMMKHN_00002	CDS	2088				hypothetical protein
+EBMMMKHN_00003	CDS	951				hypothetical protein
+EBMMMKHN_00004	CDS	1308				hypothetical protein
+EBMMMKHN_00005	CDS	396				hypothetical protein
+EBMMMKHN_00006	CDS	351				hypothetical protein
+EBMMMKHN_00007	CDS	471				hypothetical protein
+EBMMMKHN_00008	CDS	1131			COG3385	IS4 family transposase IS10A
+EBMMMKHN_00009	CDS	378			COG1662	IS1 family transposase IS1R
+EBMMMKHN_00010	CDS	276			COG1662	IS1 family transposase IS1D
+EBMMMKHN_00011	CDS	798	bla	3.5.2.6		Beta-lactamase OXA-10
+EBMMMKHN_00012	CDS	912	dmlR			HTH-type transcriptional regulator DmlR
+EBMMMKHN_00013	CDS	1209			COG3385	IS4 family transposase IS10A
+EBMMMKHN_00014	CDS	228				hypothetical protein
+EBMMMKHN_00015	CDS	258	pemI			Antitoxin PemI
+EBMMMKHN_00016	CDS	333	pemK	3.1.-.-		Endoribonuclease PemK
+EBMMMKHN_00017	CDS	1485				hypothetical protein
+EBMMMKHN_00018	CDS	435	umuD	3.4.21.-	COG1974	Protein UmuD
+EBMMMKHN_00019	CDS	1305	umuC		COG0389	Protein UmuC
+EBMMMKHN_00020	CDS	210				hypothetical protein
+EBMMMKHN_00021	CDS	219				hypothetical protein
+EBMMMKHN_00022	CDS	684				hypothetical protein
+EBMMMKHN_00023	CDS	273				hypothetical protein
+EBMMMKHN_00024	CDS	1188				hypothetical protein
+EBMMMKHN_00025	CDS	345				hypothetical protein
+EBMMMKHN_00026	CDS	159				hypothetical protein
+EBMMMKHN_00027	CDS	585				hypothetical protein
+EBMMMKHN_00028	CDS	546				hypothetical protein
+EBMMMKHN_00029	CDS	462				hypothetical protein
+EBMMMKHN_00030	CDS	249				hypothetical protein
+EBMMMKHN_00031	CDS	588				hypothetical protein
+EBMMMKHN_00032	CDS	486				hypothetical protein
+EBMMMKHN_00033	CDS	249				hypothetical protein
+EBMMMKHN_00034	CDS	741	xerC			Tyrosine recombinase XerC
+EBMMMKHN_00035	CDS	975	parM			Plasmid segregation protein ParM
+EBMMMKHN_00036	CDS	444	stbB			Protein StbB
+EBMMMKHN_00037	CDS	564				hypothetical protein
+EBMMMKHN_00038	CDS	507				hypothetical protein
+EBMMMKHN_00039	CDS	480				hypothetical protein
+EBMMMKHN_00040	CDS	411				hypothetical protein
+EBMMMKHN_00041	CDS	264				hypothetical protein
+EBMMMKHN_00042	CDS	363				hypothetical protein
+EBMMMKHN_00043	CDS	450				hypothetical protein
+EBMMMKHN_00044	CDS	267				hypothetical protein
+EBMMMKHN_00045	CDS	324				hypothetical protein
+EBMMMKHN_00046	CDS	378			COG1662	IS1 family transposase IS1R
+EBMMMKHN_00047	CDS	276			COG1662	IS1 family transposase IS1D
+EBMMMKHN_00048	CDS	972				hypothetical protein
+EBMMMKHN_00049	CDS	180				hypothetical protein
+EBMMMKHN_00050	CDS	861				hypothetical protein
+EBMMMKHN_00051	CDS	339				hypothetical protein
+EBMMMKHN_00052	CDS	231	ymoA			Modulating protein YmoA
+EBMMMKHN_00053	CDS	114				hypothetical protein
+EBMMMKHN_00054	CDS	216				hypothetical protein
+EBMMMKHN_00055	CDS	411				hypothetical protein
+EBMMMKHN_00056	CDS	306				hypothetical protein
+EBMMMKHN_00057	CDS	441	klcA			Antirestriction protein KlcA
+EBMMMKHN_00058	CDS	285				hypothetical protein
+EBMMMKHN_00059	CDS	222				hypothetical protein
+EBMMMKHN_00060	CDS	435				Single-stranded DNA-binding protein
+EBMMMKHN_00061	CDS	312				hypothetical protein
+EBMMMKHN_00062	CDS	537				hypothetical protein
+EBMMMKHN_00063	CDS	141				hypothetical protein
+EBMMMKHN_00064	CDS	366				hypothetical protein
+EBMMMKHN_00065	CDS	318				hypothetical protein
+EBMMMKHN_00066	CDS	1980	traI			Protein TraI
+EBMMMKHN_00067	CDS	501				hypothetical protein
+EBMMMKHN_00068	CDS	780				hypothetical protein
+EBMMMKHN_00069	CDS	1164				hypothetical protein
+EBMMMKHN_00070	CDS	261				hypothetical protein
+EBMMMKHN_00071	CDS	3438				hypothetical protein
+EBMMMKHN_00072	CDS	513				hypothetical protein
+EBMMMKHN_00073	CDS	198				hypothetical protein
+EBMMMKHN_00074	CDS	411				hypothetical protein
+EBMMMKHN_00075	CDS	714				hypothetical protein
+EBMMMKHN_00076	CDS	1152				hypothetical protein
+EBMMMKHN_00077	CDS	1350				hypothetical protein
+EBMMMKHN_00078	CDS	705				hypothetical protein
+EBMMMKHN_00079	CDS	531				hypothetical protein
+EBMMMKHN_00080	CDS	390				hypothetical protein
+EBMMMKHN_00081	CDS	495				hypothetical protein
+EBMMMKHN_00082	CDS	3051				hypothetical protein
+EBMMMKHN_00083	CDS	1209				hypothetical protein
+EBMMMKHN_00084	CDS	597				hypothetical protein
+EBMMMKHN_00085	CDS	2196				hypothetical protein
+EBMMMKHN_00086	CDS	654				hypothetical protein
+EBMMMKHN_00087	CDS	231				hypothetical protein

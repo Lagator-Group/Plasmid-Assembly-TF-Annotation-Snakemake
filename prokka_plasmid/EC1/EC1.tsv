@@ -1,0 +1,42 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+POPGGIPM_00001	CDS	477				hypothetical protein
+POPGGIPM_00002	CDS	435				hypothetical protein
+POPGGIPM_00003	CDS	222				hypothetical protein
+POPGGIPM_00004	CDS	684	yhdJ	2.1.1.72	COG0863	DNA adenine methyltransferase YhdJ
+POPGGIPM_00005	CDS	927				hypothetical protein
+POPGGIPM_00006	CDS	273				hypothetical protein
+POPGGIPM_00007	CDS	972	sopB			Protein SopB
+POPGGIPM_00008	CDS	1167				hypothetical protein
+POPGGIPM_00009	CDS	756	repE_1			Replication initiation protein
+POPGGIPM_00010	CDS	807	xerC_1			Tyrosine recombinase XerC
+POPGGIPM_00011	CDS	306	ccdB			Toxin CcdB
+POPGGIPM_00012	CDS	219	ccdA			Antitoxin CcdA
+POPGGIPM_00013	CDS	168				hypothetical protein
+POPGGIPM_00014	CDS	321				hypothetical protein
+POPGGIPM_00015	CDS	978	repB			RepFIB replication protein A
+POPGGIPM_00016	CDS	741	xerC_2			Tyrosine recombinase XerC
+POPGGIPM_00017	CDS	1170				hypothetical protein
+POPGGIPM_00018	CDS	273	papB			Major pilu subunit operon regulatory protein PapB
+POPGGIPM_00019	CDS	366				hypothetical protein
+POPGGIPM_00020	CDS	1971	hemR		COG1629	Hemin receptor
+POPGGIPM_00021	CDS	792			COG5266	putative protein
+POPGGIPM_00022	CDS	936				hypothetical protein
+POPGGIPM_00023	CDS	447				hypothetical protein
+POPGGIPM_00024	CDS	1659	cdr	1.8.1.14		Coenzyme A disulfide reductase
+POPGGIPM_00025	CDS	342	bigR		COG0640	Biofilm growth-associated repressor
+POPGGIPM_00026	CDS	534				hypothetical protein
+POPGGIPM_00027	CDS	927				hypothetical protein
+POPGGIPM_00028	CDS	399				hypothetical protein
+POPGGIPM_00029	CDS	255				hypothetical protein
+POPGGIPM_00030	CDS	591				hypothetical protein
+POPGGIPM_00031	CDS	210	hha			Hemolysin expression-modulating protein Hha
+POPGGIPM_00032	CDS	462	yhcR	3.1.31.-	COG0737	Endonuclease YhcR
+POPGGIPM_00033	CDS	213				hypothetical protein
+POPGGIPM_00034	CDS	561	finO			Fertility inhibition protein
+POPGGIPM_00035	CDS	861	aidA			Quorum-quenching protein AidA
+POPGGIPM_00036	CDS	747				hypothetical protein
+POPGGIPM_00037	CDS	693	traI			Multifunctional conjugation protein TraI
+POPGGIPM_00038	CDS	1218				hypothetical protein
+POPGGIPM_00039	CDS	693	repE_2			Replication initiation protein
+POPGGIPM_00040	CDS	255				hypothetical protein
+POPGGIPM_00041	CDS	237				hypothetical protein

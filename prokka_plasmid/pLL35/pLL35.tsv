@@ -1,0 +1,333 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+MOBHGNKF_00001	CDS	972	sopB			Protein SopB
+MOBHGNKF_00002	CDS	1167				hypothetical protein
+MOBHGNKF_00003	CDS	756	repE			Replication initiation protein
+MOBHGNKF_00004	CDS	117				hypothetical protein
+MOBHGNKF_00005	CDS	138				hypothetical protein
+MOBHGNKF_00006	CDS	807	xerC_1			Tyrosine recombinase XerC
+MOBHGNKF_00007	CDS	306	ccdB_1			Toxin CcdB
+MOBHGNKF_00008	CDS	219	ccdA_1			Antitoxin CcdA
+MOBHGNKF_00009	CDS	996				hypothetical protein
+MOBHGNKF_00010	CDS	933				hypothetical protein
+MOBHGNKF_00011	CDS	1089	pifC			Transcriptional repressor PifC
+MOBHGNKF_00012	CDS	870				hypothetical protein
+MOBHGNKF_00013	CDS	1566				hypothetical protein
+MOBHGNKF_00014	CDS	513				hypothetical protein
+MOBHGNKF_00015	CDS	1134				hypothetical protein
+MOBHGNKF_00016	CDS	390				hypothetical protein
+MOBHGNKF_00017	CDS	438				hypothetical protein
+MOBHGNKF_00018	CDS	207				hypothetical protein
+MOBHGNKF_00019	CDS	2622				hypothetical protein
+MOBHGNKF_00020	CDS	231				hypothetical protein
+MOBHGNKF_00021	CDS	276				hypothetical protein
+MOBHGNKF_00022	CDS	531				hypothetical protein
+MOBHGNKF_00023	CDS	270				hypothetical protein
+MOBHGNKF_00024	CDS	978	repB			RepFIB replication protein A
+MOBHGNKF_00025	CDS	741	xerC_2			Tyrosine recombinase XerC
+MOBHGNKF_00026	CDS	1170				hypothetical protein
+MOBHGNKF_00027	CDS	114				hypothetical protein
+MOBHGNKF_00028	CDS	366				hypothetical protein
+MOBHGNKF_00029	CDS	1971	hemR		COG1629	Hemin receptor
+MOBHGNKF_00030	CDS	792			COG5266	putative protein
+MOBHGNKF_00031	CDS	519				IS66 family transposase ISEc22
+MOBHGNKF_00032	CDS	780				IS21 family transposase IS100kyp
+MOBHGNKF_00033	CDS	1023				hypothetical protein
+MOBHGNKF_00034	CDS	1239				IS21 family transposase ISPpu7
+MOBHGNKF_00035	CDS	378			COG1662	IS1 family transposase IS1X2
+MOBHGNKF_00036	CDS	216				hypothetical protein
+MOBHGNKF_00037	CDS	159				hypothetical protein
+MOBHGNKF_00038	CDS	507	resA_1			Thiol-disulfide oxidoreductase ResA
+MOBHGNKF_00039	CDS	762	nqrC	7.2.1.1	COG2869	Na(+)-translocating NADH-quinone reductase subunit C
+MOBHGNKF_00040	CDS	1941				hypothetical protein
+MOBHGNKF_00041	CDS	528	tpd		COG3470	34 kDa membrane antigen
+MOBHGNKF_00042	CDS	1380				hypothetical protein
+MOBHGNKF_00043	CDS	1284				hypothetical protein
+MOBHGNKF_00044	CDS	1131				hypothetical protein
+MOBHGNKF_00045	CDS	696	lolD	3.6.3.-	COG1136	Lipoprotein-releasing system ATP-binding protein LolD
+MOBHGNKF_00046	CDS	486	resA_2		COG0526	Thiol-disulfide oxidoreductase ResA
+MOBHGNKF_00047	CDS	486				hypothetical protein
+MOBHGNKF_00048	CDS	744	agp	3.1.3.10		Glucose-1-phosphatase
+MOBHGNKF_00049	CDS	279			COG3039	IS5 family transposase ISKpn26
+MOBHGNKF_00050	CDS	720				hypothetical protein
+MOBHGNKF_00051	CDS	570	espC	3.4.21.-		Serine protease EspC
+MOBHGNKF_00052	CDS	888				IS3 family transposase IS629
+MOBHGNKF_00053	CDS	327				IS3 family transposase IS629
+MOBHGNKF_00054	CDS	267				IS91 family transposase ISSbo1
+MOBHGNKF_00055	CDS	1176	yncE		COG3391	putative protein YncE
+MOBHGNKF_00056	CDS	2262			COG1629	putative TonB-dependent receptor
+MOBHGNKF_00057	CDS	777				hypothetical protein
+MOBHGNKF_00058	CDS	852				hypothetical protein
+MOBHGNKF_00059	CDS	567				hypothetical protein
+MOBHGNKF_00060	CDS	336				hypothetical protein
+MOBHGNKF_00061	CDS	348				hypothetical protein
+MOBHGNKF_00062	CDS	510				hypothetical protein
+MOBHGNKF_00063	CDS	261				hypothetical protein
+MOBHGNKF_00064	CDS	327				IS3 family transposase IS629
+MOBHGNKF_00065	CDS	798				IS3 family transposase IS629
+MOBHGNKF_00066	CDS	405				hypothetical protein
+MOBHGNKF_00067	CDS	348				hypothetical protein
+MOBHGNKF_00068	CDS	1008				IS66 family transposase ISEc22
+MOBHGNKF_00069	CDS	1023				hypothetical protein
+MOBHGNKF_00070	CDS	780				IS21 family transposase IS100kyp
+MOBHGNKF_00071	CDS	354				IS21 family transposase IS1162
+MOBHGNKF_00072	CDS	747				IS21 family transposase ISEc12
+MOBHGNKF_00073	CDS	858				hypothetical protein
+MOBHGNKF_00074	CDS	255				hypothetical protein
+MOBHGNKF_00075	CDS	192				hypothetical protein
+MOBHGNKF_00076	CDS	561	finO_1			Fertility inhibition protein
+MOBHGNKF_00077	CDS	747				hypothetical protein
+MOBHGNKF_00078	CDS	5271	traI_1			Multifunctional conjugation protein TraI
+MOBHGNKF_00079	CDS	2208	traD_1			Coupling protein TraD
+MOBHGNKF_00080	CDS	780				hypothetical protein
+MOBHGNKF_00081	CDS	777	ylpA_1			Lipoprotein YlpA
+MOBHGNKF_00082	CDS	492				hypothetical protein
+MOBHGNKF_00083	CDS	2820				hypothetical protein
+MOBHGNKF_00084	CDS	1374				hypothetical protein
+MOBHGNKF_00085	CDS	396				hypothetical protein
+MOBHGNKF_00086	CDS	546				hypothetical protein
+MOBHGNKF_00087	CDS	285	traQ_1			Protein TraQ
+MOBHGNKF_00088	CDS	504				hypothetical protein
+MOBHGNKF_00089	CDS	981			COG3039	IS5 family transposase ISKpn26
+MOBHGNKF_00090	CDS	744				hypothetical protein
+MOBHGNKF_00091	CDS	258				hypothetical protein
+MOBHGNKF_00092	CDS	1851	traN_1			Mating pair stabilization protein TraN
+MOBHGNKF_00093	CDS	639				hypothetical protein
+MOBHGNKF_00094	CDS	306				hypothetical protein
+MOBHGNKF_00095	CDS	993				hypothetical protein
+MOBHGNKF_00096	CDS	633				hypothetical protein
+MOBHGNKF_00097	CDS	387				hypothetical protein
+MOBHGNKF_00098	CDS	2628	traC_1			Protein TraC
+MOBHGNKF_00099	CDS	222	traR_1			Protein TraR
+MOBHGNKF_00100	CDS	516	traV_1			Protein TraV
+MOBHGNKF_00101	CDS	216				hypothetical protein
+MOBHGNKF_00102	CDS	378			COG1662	IS1 family transposase IS1X2
+MOBHGNKF_00103	CDS	303				hypothetical protein
+MOBHGNKF_00104	CDS	567				hypothetical protein
+MOBHGNKF_00105	CDS	1452				hypothetical protein
+MOBHGNKF_00106	CDS	729				hypothetical protein
+MOBHGNKF_00107	CDS	567				hypothetical protein
+MOBHGNKF_00108	CDS	312				hypothetical protein
+MOBHGNKF_00109	CDS	363	traA_1			Pilin
+MOBHGNKF_00110	CDS	228	traY_1			Relaxosome protein TraY
+MOBHGNKF_00111	CDS	678	traJ_1			Protein TraJ
+MOBHGNKF_00112	CDS	378			COG1662	IS1 family transposase IS1X2
+MOBHGNKF_00113	CDS	216				hypothetical protein
+MOBHGNKF_00114	CDS	249				hypothetical protein
+MOBHGNKF_00115	CDS	288				hypothetical protein
+MOBHGNKF_00116	CDS	213	flmC_1			Protein FlmC
+MOBHGNKF_00117	CDS	366				IS3 family transposase IS150
+MOBHGNKF_00118	CDS	522				IS3 family transposase IS103
+MOBHGNKF_00119	CDS	159				hypothetical protein
+MOBHGNKF_00120	CDS	720				hypothetical protein
+MOBHGNKF_00121	CDS	435	psiB_1			Protein PsiB
+MOBHGNKF_00122	CDS	1959	noc_1			Nucleoid occlusion protein
+MOBHGNKF_00123	CDS	234				hypothetical protein
+MOBHGNKF_00124	CDS	540	ssb_1			Plasmid-derived single-stranded DNA-binding protein
+MOBHGNKF_00125	CDS	243				hypothetical protein
+MOBHGNKF_00126	CDS	564				hypothetical protein
+MOBHGNKF_00127	CDS	1362				hypothetical protein
+MOBHGNKF_00128	CDS	231				hypothetical protein
+MOBHGNKF_00129	CDS	192				hypothetical protein
+MOBHGNKF_00130	CDS	423				hypothetical protein
+MOBHGNKF_00131	CDS	426	klcA_1			Antirestriction protein KlcA
+MOBHGNKF_00132	CDS	777				hypothetical protein
+MOBHGNKF_00133	CDS	435				hypothetical protein
+MOBHGNKF_00134	CDS	222				hypothetical protein
+MOBHGNKF_00135	CDS	684	yhdJ_1	2.1.1.72	COG0863	DNA adenine methyltransferase YhdJ
+MOBHGNKF_00136	CDS	927				hypothetical protein
+MOBHGNKF_00137	CDS	564				hypothetical protein
+MOBHGNKF_00138	CDS	1356				hypothetical protein
+MOBHGNKF_00139	CDS	231				hypothetical protein
+MOBHGNKF_00140	CDS	228				hypothetical protein
+MOBHGNKF_00141	CDS	321				hypothetical protein
+MOBHGNKF_00142	CDS	255				hypothetical protein
+MOBHGNKF_00143	CDS	192				hypothetical protein
+MOBHGNKF_00144	CDS	507				hypothetical protein
+MOBHGNKF_00145	CDS	429	klcA_2			Antirestriction protein KlcA
+MOBHGNKF_00146	CDS	768				hypothetical protein
+MOBHGNKF_00147	CDS	420				hypothetical protein
+MOBHGNKF_00148	CDS	222				hypothetical protein
+MOBHGNKF_00149	CDS	702	yhdJ_2	2.1.1.72	COG0863	DNA adenine methyltransferase YhdJ
+MOBHGNKF_00150	CDS	231				hypothetical protein
+MOBHGNKF_00151	CDS	672				hypothetical protein
+MOBHGNKF_00152	CDS	972	parM_1			Plasmid segregation protein ParM
+MOBHGNKF_00153	CDS	432	umuD	3.4.21.-	COG1974	Protein UmuD
+MOBHGNKF_00154	CDS	1272	umuC		COG0389	Protein UmuC
+MOBHGNKF_00155	CDS	876	repA			Replication protein RepA
+MOBHGNKF_00156	CDS	627				hypothetical protein
+MOBHGNKF_00157	CDS	303				hypothetical protein
+MOBHGNKF_00158	CDS	198				hypothetical protein
+MOBHGNKF_00159	CDS	795	xerC_3			Tyrosine recombinase XerC
+MOBHGNKF_00160	CDS	144				hypothetical protein
+MOBHGNKF_00161	CDS	1017				hypothetical protein
+MOBHGNKF_00162	CDS	315				hypothetical protein
+MOBHGNKF_00163	CDS	396				hypothetical protein
+MOBHGNKF_00164	CDS	306	ccdB_2			Toxin CcdB
+MOBHGNKF_00165	CDS	219	ccdA_2			Antitoxin CcdA
+MOBHGNKF_00166	CDS	690				hypothetical protein
+MOBHGNKF_00167	CDS	690				hypothetical protein
+MOBHGNKF_00168	CDS	249				hypothetical protein
+MOBHGNKF_00169	CDS	573				hypothetical protein
+MOBHGNKF_00170	CDS	495				hypothetical protein
+MOBHGNKF_00171	CDS	369				hypothetical protein
+MOBHGNKF_00172	CDS	204	ymoA			Modulating protein YmoA
+MOBHGNKF_00173	CDS	204				hypothetical protein
+MOBHGNKF_00174	CDS	1005				IS110 family transposase IS4321R
+MOBHGNKF_00175	CDS	2967				Tn3 family transposase ISPa38
+MOBHGNKF_00176	CDS	291				hypothetical protein
+MOBHGNKF_00177	CDS	402				hypothetical protein
+MOBHGNKF_00178	CDS	357				hypothetical protein
+MOBHGNKF_00179	CDS	546				hypothetical protein
+MOBHGNKF_00180	CDS	573	hin_1		COG1961	DNA-invertase hin
+MOBHGNKF_00181	CDS	1392				ISKra4 family transposase ISKpn19
+MOBHGNKF_00182	CDS	438	hin_2		COG1961	DNA-invertase hin
+MOBHGNKF_00183	CDS	657			COG1357	Pentapeptide repeat protein
+MOBHGNKF_00184	CDS	165				hypothetical protein
+MOBHGNKF_00185	CDS	537				IS3 family transposase ISEc36
+MOBHGNKF_00186	CDS	2550				Tn3 family transposase Tn2
+MOBHGNKF_00187	CDS	273				hypothetical protein
+MOBHGNKF_00188	CDS	876	bla_1	3.5.2.6		Beta-lactamase CTX-M-1
+MOBHGNKF_00189	CDS	123				hypothetical protein
+MOBHGNKF_00190	CDS	1263				IS1380 family transposase ISEcp1
+MOBHGNKF_00191	CDS	219				Tn3 family transposase Tn2
+MOBHGNKF_00192	CDS	558	tnpR_1			Transposon Tn3 resolvase
+MOBHGNKF_00193	CDS	606	aacA4	2.3.1.82		Aminoglycoside N(6')-acetyltransferase type 1
+MOBHGNKF_00194	CDS	777	ant1	2.7.7.47		Streptomycin 3''-adenylyltransferase
+MOBHGNKF_00195	CDS	336	bla_2	3.5.2.6		Beta-lactamase OXA-18
+MOBHGNKF_00196	CDS	360	bla_3	3.5.2.6		Beta-lactamase OXA-18
+MOBHGNKF_00197	CDS	252	tnpR_2			Transposon Tn3 resolvase
+MOBHGNKF_00198	CDS	420		3.5.2.6		Beta-lactamase TEM-12
+MOBHGNKF_00199	CDS	378			COG1662	IS1 family transposase ISKpn14
+MOBHGNKF_00200	CDS	861	yokD	2.3.1.-	COG2746	SPbeta prophage-derived aminoglycoside N(3')-acetyltransferase-like protein YokD
+MOBHGNKF_00201	CDS	543	tmrB			Tunicamycin resistance protein
+MOBHGNKF_00202	CDS	927				hypothetical protein
+MOBHGNKF_00203	CDS	705				IS6 family transposase IS26
+MOBHGNKF_00204	CDS	612				hypothetical protein
+MOBHGNKF_00205	CDS	282				hypothetical protein
+MOBHGNKF_00206	CDS	336				hypothetical protein
+MOBHGNKF_00207	CDS	858				hypothetical protein
+MOBHGNKF_00208	CDS	252				hypothetical protein
+MOBHGNKF_00209	CDS	561	clsA	2.7.8.-		Cardiolipin synthase A
+MOBHGNKF_00210	CDS	309				hypothetical protein
+MOBHGNKF_00211	CDS	651				hypothetical protein
+MOBHGNKF_00212	CDS	645				hypothetical protein
+MOBHGNKF_00213	CDS	597				hypothetical protein
+MOBHGNKF_00214	CDS	594	finO_2			Fertility inhibition protein
+MOBHGNKF_00215	CDS	726				hypothetical protein
+MOBHGNKF_00216	CDS	5262	traI_2			Multifunctional conjugation protein TraI
+MOBHGNKF_00217	CDS	2313	traD_2			Coupling protein TraD
+MOBHGNKF_00218	CDS	690				hypothetical protein
+MOBHGNKF_00219	CDS	732	ylpA_2			Lipoprotein YlpA
+MOBHGNKF_00220	CDS	549	traS			Protein TraS
+MOBHGNKF_00221	CDS	2850				hypothetical protein
+MOBHGNKF_00222	CDS	1368				hypothetical protein
+MOBHGNKF_00223	CDS	444				hypothetical protein
+MOBHGNKF_00224	CDS	558				hypothetical protein
+MOBHGNKF_00225	CDS	240	traQ_2			Protein TraQ
+MOBHGNKF_00226	CDS	753				hypothetical protein
+MOBHGNKF_00227	CDS	327				hypothetical protein
+MOBHGNKF_00228	CDS	249				hypothetical protein
+MOBHGNKF_00229	CDS	255				hypothetical protein
+MOBHGNKF_00230	CDS	1956	traN_2			Mating pair stabilization protein TraN
+MOBHGNKF_00231	CDS	639				hypothetical protein
+MOBHGNKF_00232	CDS	990				hypothetical protein
+MOBHGNKF_00233	CDS	402				hypothetical protein
+MOBHGNKF_00234	CDS	636				hypothetical protein
+MOBHGNKF_00235	CDS	390				hypothetical protein
+MOBHGNKF_00236	CDS	2640	traC_2			Protein TraC
+MOBHGNKF_00237	CDS	393				hypothetical protein
+MOBHGNKF_00238	CDS	405				hypothetical protein
+MOBHGNKF_00239	CDS	312				hypothetical protein
+MOBHGNKF_00240	CDS	219				hypothetical protein
+MOBHGNKF_00241	CDS	585	traV_2			Protein TraV
+MOBHGNKF_00242	CDS	1425				hypothetical protein
+MOBHGNKF_00243	CDS	741				hypothetical protein
+MOBHGNKF_00244	CDS	567				hypothetical protein
+MOBHGNKF_00245	CDS	306				hypothetical protein
+MOBHGNKF_00246	CDS	369	traA_2			Pilin
+MOBHGNKF_00247	CDS	201	traY_2			Relaxosome protein TraY
+MOBHGNKF_00248	CDS	702	traJ_2			Protein TraJ
+MOBHGNKF_00249	CDS	393	traM_1			Relaxosome protein TraM
+MOBHGNKF_00250	CDS	486				hypothetical protein
+MOBHGNKF_00251	CDS	315				hypothetical protein
+MOBHGNKF_00252	CDS	822				hypothetical protein
+MOBHGNKF_00253	CDS	405	bla_4	3.5.2.6		Beta-lactamase TEM
+MOBHGNKF_00254	CDS	333	pemK	3.1.-.-		Endoribonuclease PemK
+MOBHGNKF_00255	CDS	258	pemI			Antitoxin PemI
+MOBHGNKF_00256	CDS	654				hypothetical protein
+MOBHGNKF_00257	CDS	858				hypothetical protein
+MOBHGNKF_00258	CDS	261				hypothetical protein
+MOBHGNKF_00259	CDS	591				hypothetical protein
+MOBHGNKF_00260	CDS	210	hha			Hemolysin expression-modulating protein Hha
+MOBHGNKF_00261	CDS	462	yhcR	3.1.31.-	COG0737	Endonuclease YhcR
+MOBHGNKF_00262	CDS	561	finO_3			Fertility inhibition protein
+MOBHGNKF_00263	CDS	861	aidA			Quorum-quenching protein AidA
+MOBHGNKF_00264	CDS	747				hypothetical protein
+MOBHGNKF_00265	CDS	5271	traI_3			Multifunctional conjugation protein TraI
+MOBHGNKF_00266	CDS	2235	traD_3			Coupling protein TraD
+MOBHGNKF_00267	CDS	738				hypothetical protein
+MOBHGNKF_00268	CDS	732	ylpA_3			Lipoprotein YlpA
+MOBHGNKF_00269	CDS	480				hypothetical protein
+MOBHGNKF_00270	CDS	2823				hypothetical protein
+MOBHGNKF_00271	CDS	1374				hypothetical protein
+MOBHGNKF_00272	CDS	393				hypothetical protein
+MOBHGNKF_00273	CDS	546				hypothetical protein
+MOBHGNKF_00274	CDS	285	traQ_3			Protein TraQ
+MOBHGNKF_00275	CDS	345				hypothetical protein
+MOBHGNKF_00276	CDS	744				hypothetical protein
+MOBHGNKF_00277	CDS	258				hypothetical protein
+MOBHGNKF_00278	CDS	1851	traN_3			Mating pair stabilization protein TraN
+MOBHGNKF_00279	CDS	639				hypothetical protein
+MOBHGNKF_00280	CDS	306				hypothetical protein
+MOBHGNKF_00281	CDS	993				hypothetical protein
+MOBHGNKF_00282	CDS	633				hypothetical protein
+MOBHGNKF_00283	CDS	387				hypothetical protein
+MOBHGNKF_00284	CDS	2631	traC_3			Protein TraC
+MOBHGNKF_00285	CDS	348				hypothetical protein
+MOBHGNKF_00286	CDS	219				hypothetical protein
+MOBHGNKF_00287	CDS	474				hypothetical protein
+MOBHGNKF_00288	CDS	414				hypothetical protein
+MOBHGNKF_00289	CDS	222	traR_2			Protein TraR
+MOBHGNKF_00290	CDS	516	traV_3			Protein TraV
+MOBHGNKF_00291	CDS	369				hypothetical protein
+MOBHGNKF_00292	CDS	567				hypothetical protein
+MOBHGNKF_00293	CDS	1452				hypothetical protein
+MOBHGNKF_00294	CDS	729				hypothetical protein
+MOBHGNKF_00295	CDS	567				hypothetical protein
+MOBHGNKF_00296	CDS	312				hypothetical protein
+MOBHGNKF_00297	CDS	360	traA_3			Pilin
+MOBHGNKF_00298	CDS	672	traJ_3			Protein TraJ
+MOBHGNKF_00299	CDS	384	traM_2			Relaxosome protein TraM
+MOBHGNKF_00300	CDS	510				hypothetical protein
+MOBHGNKF_00301	CDS	822				hypothetical protein
+MOBHGNKF_00302	CDS	297				hypothetical protein
+MOBHGNKF_00303	CDS	243				hypothetical protein
+MOBHGNKF_00304	CDS	324				hypothetical protein
+MOBHGNKF_00305	CDS	216	flmC_2			Protein FlmC
+MOBHGNKF_00306	CDS	519				hypothetical protein
+MOBHGNKF_00307	CDS	720				hypothetical protein
+MOBHGNKF_00308	CDS	435	psiB_2			Protein PsiB
+MOBHGNKF_00309	CDS	1959	noc_2			Nucleoid occlusion protein
+MOBHGNKF_00310	CDS	234				hypothetical protein
+MOBHGNKF_00311	CDS	528	ssb_2			Plasmid-derived single-stranded DNA-binding protein
+MOBHGNKF_00312	CDS	291				hypothetical protein
+MOBHGNKF_00313	CDS	564				hypothetical protein
+MOBHGNKF_00314	CDS	1362				hypothetical protein
+MOBHGNKF_00315	CDS	231				hypothetical protein
+MOBHGNKF_00316	CDS	192				hypothetical protein
+MOBHGNKF_00317	CDS	423				hypothetical protein
+MOBHGNKF_00318	CDS	426	klcA_3			Antirestriction protein KlcA
+MOBHGNKF_00319	CDS	165				hypothetical protein
+MOBHGNKF_00320	CDS	771				hypothetical protein
+MOBHGNKF_00321	CDS	435				hypothetical protein
+MOBHGNKF_00322	CDS	222				hypothetical protein
+MOBHGNKF_00323	CDS	684	yhdJ_3	2.1.1.72	COG0863	DNA adenine methyltransferase YhdJ
+MOBHGNKF_00324	CDS	312				hypothetical protein
+MOBHGNKF_00325	CDS	927				hypothetical protein
+MOBHGNKF_00326	CDS	429				hypothetical protein
+MOBHGNKF_00327	CDS	981	parM_2			Plasmid segregation protein ParM
+MOBHGNKF_00328	CDS	378			COG1662	IS1 family transposase IS1R
+MOBHGNKF_00329	CDS	216				hypothetical protein
+MOBHGNKF_00330	CDS	984				hypothetical protein
+MOBHGNKF_00331	CDS	3006				Tn3 family transposase Tn2
+MOBHGNKF_00332	CDS	558	tnpR_3			Transposon Tn3 resolvase

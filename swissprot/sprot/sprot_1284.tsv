@@ -1,0 +1,119 @@
+Locus Tag	Entry	Protein names	Gene Names
+HPNEBIAD_00001	Q05459	Virulence-associated protein VagC	vagC
+HPNEBIAD_00002	Q8ZM86	tRNA(fMet)-specific endonuclease VapC (EC 3.1.-.-) (RNase VapC) (Toxin VapC)	vapC STM3033
+HPNEBIAD_00003	J8H9C1	Endonuclease GajA (EC 3.1.-.-) (Gabija protein GajA) (Nicking endonuclease GajA)	gajA IIE_04982
+HPNEBIAD_00005	P59843	Insertion element IS1 protein InsB	insB HD_1970
+HPNEBIAD_00007	Q9PBR9	Antitoxin ParD	parD XF_2071
+HPNEBIAD_00009	P11907	Uncharacterized 11.1 kDa protein (ORF 1)	
+HPNEBIAD_00010	Q9AA09	Toxin RelE1	relE1 CC_0802
+HPNEBIAD_00011	P55533	Uncharacterized protein y4kO	NGR_a02810 y4kO
+HPNEBIAD_00012	P77732	Uncharacterized HTH-type transcriptional regulator RhmR	rhmR yfaX b2248 JW2242
+HPNEBIAD_00013	A7ZUC3	2-keto-3-deoxygluconate permease (KDG permease)	kdgT EcE24377A_4443
+HPNEBIAD_00014	P40431	RutC family protein in vnfA 5'region (ORF1)	
+HPNEBIAD_00015	P39359	Probable 2-dehydro-3-deoxy-D-pentonate aldolase YjhH (EC 4.1.2.28)	yjhH b4298 JW5775
+HPNEBIAD_00016	P0DUG0	Alkaline phosphatase-like protein BrxZ (BREX protein PglZ)	pglZ brxZ EcHS_A0340
+HPNEBIAD_00017	P27250	Aldehyde reductase Ahr (EC 1.1.1.2) (Zinc-dependent alcohol dehydrogenase Ahr)	ahr yjgB b4269 JW5761
+HPNEBIAD_00018	O32155	Probable ABC transporter permease protein YurN	yurN BSU32590
+HPNEBIAD_00019	Q9KEE9	Arabinooligosaccharides transport system permease protein AraQ	araQ BH0903
+HPNEBIAD_00020	Q6XBH1	Glycerophosphodiester phosphodiesterase GpdQ (GDPD) (Glycerophosphoryl diester phosphodiesterase) (EC 3.1.4.46) (Glycerophosphodiesterase) (Glycerophosphorylethanolamine phosphodiesterase) (GPE phosphodiesterase)	gpdQ ph
+HPNEBIAD_00021	A1JIE0	sn-glycerol-3-phosphate import ATP-binding protein UgpC (EC 7.6.2.10)	ugpC YE0244
+HPNEBIAD_00022	Q66FU7	sn-glycerol-3-phosphate-binding periplasmic protein UgpB	ugpB YPTB0238
+HPNEBIAD_00023	Q46731	Transposase for transposon Tn5 (EC 3.1.-.-) (Tnp)	tnpA tnp
+HPNEBIAD_00024	Q00037	Transposase for transposon gamma-delta (Transposon Tn1000 transposase)	tnpA ECOK12F010
+HPNEBIAD_00025	P16942	Transposase for insertion sequence element IS629	
+HPNEBIAD_00026	P16942	Transposase for insertion sequence element IS629	
+HPNEBIAD_00027	P0A045	Transposase for insertion sequence-like element IS431mec	tnp MW0027
+HPNEBIAD_00028	O33921	Glucose-1-phosphatase (G1Pase) (EC 3.1.3.10)	agp STM1117
+HPNEBIAD_00029	Q7VM65	Serine--tRNA ligase (EC 6.1.1.11) (Seryl-tRNA synthetase) (SerRS) (Seryl-tRNA(Ser/Sec) synthetase)	serS HD_1133
+HPNEBIAD_00030	Q73B22	Thiol-disulfide oxidoreductase ResA	resA BCE_1598
+HPNEBIAD_00031	Q58903	Uncharacterized ABC transporter ATP-binding protein MJ1508	MJ1508
+HPNEBIAD_00032	Q3ATR5	Macrolide export ATP-binding/permease protein MacB (EC 7.6.2.-)	macB Cag_0337
+HPNEBIAD_00033	Q58902	Uncharacterized ABC transporter permease MJ1507	MJ1507
+HPNEBIAD_00035	Q8YBL4	UPF0423 protein BMEII0885	BMEII0885
+HPNEBIAD_00036	P39595	Iron permease EfeU (Fe(3+) ion permease EfeU) (Ferric iron permease EfeU) (Ferric iron uptake protein)	efeU ywbL BSU38280 ipa-27d
+HPNEBIAD_00037	P0C6E0	Na(+)-translocating NADH-quinone reductase subunit C (Na(+)-NQR subunit C) (Na(+)-translocating NQR subunit C) (EC 7.2.1.1) (NQR complex subunit C) (NQR-1 subunit C)	nqrC VC_2293
+HPNEBIAD_00038	P0A045	Transposase for insertion sequence-like element IS431mec	tnp MW0027
+HPNEBIAD_00039	P42242	Uncharacterized protein YcbJ	ycbJ BSU02520
+HPNEBIAD_00040	O32859	Multidrug efflux pump Tap (Tetracycline-aminoglycoside resistance protein)	tap
+HPNEBIAD_00041	O31560	Uncharacterized HTH-type transcriptional regulator YfiR	yfiR BSU08370
+HPNEBIAD_00042	P0A045	Transposase for insertion sequence-like element IS431mec	tnp MW0027
+HPNEBIAD_00043	I6X7F9	Transcriptional regulator Rv3488	Rv3488
+HPNEBIAD_00044	Q58128	Uncharacterized transporter MJ0718	MJ0718
+HPNEBIAD_00045	P0C003	Dihydropteroate synthase type-1 (EC 2.5.1.15) (Dihydropteroate pyrophosphorylase type I) (Dihydropteroate synthase type I) (DHPS)	sulI
+HPNEBIAD_00046	P0AA23	Putative ethidium bromide resistance protein (E1 protein)	ebr E1
+HPNEBIAD_00047	P0AG05	Aminoglycoside (3'') (9) adenylyltransferase (EC 2.7.7.47) (Aminoglycoside 3''-adenylyltransferase) (AAD(3'') (9) adenylyltransferase) (Streptomycin 3''-adenylyltransferase)	aadA
+HPNEBIAD_00048	P27422	Dihydrofolate reductase type 7 (EC 1.5.1.3) (Dihydrofolate reductase type VII)	dhfrVII
+HPNEBIAD_00049	P62592	Integrase/recombinase (E2 protein)	int HCM1.167
+HPNEBIAD_00050	P04162	Transposon Tn21 modulator protein	tnpM
+HPNEBIAD_00051	P04130	Transposon Tn21 resolvase	tnpR
+HPNEBIAD_00052	P0A045	Transposase for insertion sequence-like element IS431mec	tnp MW0027
+HPNEBIAD_00053	P28585	Beta-lactamase CTX-M-1 (EC 3.5.2.6) (Beta-lactamase MEN-1) (Cefotaximase 1)	bla men1
+HPNEBIAD_00055	P03008	Transposase for transposon Tn3	tnpA
+HPNEBIAD_00056	P0A045	Transposase for insertion sequence-like element IS431mec	tnp MW0027
+HPNEBIAD_00057	P50868	Chloramphenicol acetyltransferase (EC 2.3.1.28)	catB4
+HPNEBIAD_00058	P13661	Beta-lactamase OXA-1 (EC 3.5.2.6) (Penicillinase)	bla oxa1
+HPNEBIAD_00059	P19650	Aminoglycoside N(6')-acetyltransferase type 1 (EC 2.3.1.82) (AAC(6')-I) (Aminoglycoside resistance protein)	aacA4
+HPNEBIAD_00060	P0A045	Transposase for insertion sequence-like element IS431mec	tnp MW0027
+HPNEBIAD_00061	P51565	Transposase for transposon Tn1721	tnpA
+HPNEBIAD_00062	P03038	Tetracycline repressor protein class A from transposon 1721	tetR
+HPNEBIAD_00063	P02982	Tetracycline resistance protein, class A (TetA(A))	tetA
+HPNEBIAD_00064	P42194	Protein PecM	pecM Dda3937_00975
+HPNEBIAD_00065	P51565	Transposase for transposon Tn1721	tnpA
+HPNEBIAD_00066	P07945	Resolvase	res
+HPNEBIAD_00067	P13694	Transposase for transposon Tn3926	tnpA
+HPNEBIAD_00068	P13976	Endoribonuclease PemK (EC 3.1.-.-) (Kid toxin protein) (mRNA interferase PemK)	pemK
+HPNEBIAD_00069	P13975	Antitoxin PemI	pemI
+HPNEBIAD_00070	P13974	Uncharacterized 24.3 kDa protein (URF 1)	
+HPNEBIAD_00071	P03066	Replication initiation protein	repA repA1
+HPNEBIAD_00072	P03847	Replication regulatory protein repA2 (Protein CopB)	repA2 copB
+HPNEBIAD_00074	Q7CR17	Hemolysin expression-modulating protein Hha	hha STM0473
+HPNEBIAD_00075	Q99342	Uncharacterized endonuclease (EC 3.1.-.-) (ORFA)	
+HPNEBIAD_00076	P0CF10	Insertion element IS1 4 protein InsA (IS1d)	insA4 b4516 JW0971
+HPNEBIAD_00077	P22708	Coupling protein TraD (DNA transport protein TraD)	traD
+HPNEBIAD_00079	P13979	TraT complement resistance protein	traT ECOK12F101
+HPNEBIAD_00081	P33790	Protein TraG [Cleaved into: Protein TraG*]	traG ECOK12F099
+HPNEBIAD_00082	P15069	Protein TraH	traH ECOK12F098
+HPNEBIAD_00083	P0A045	Transposase for insertion sequence-like element IS431mec	tnp MW0027
+HPNEBIAD_00087	P0C243	Uncharacterized protein YubJ	yubJ yfhA ECOK12F058
+HPNEBIAD_00088	Q9S4W7	Putative antirestriction protein YubI	yubI yfgB ECOK12F057
+HPNEBIAD_00089	O82899	Uncharacterized protein YubG	L7076 ECO57PM40
+HPNEBIAD_00090	Q9S4X0	Uncharacterized protein YubF	yubF yffA ECOK12F054
+HPNEBIAD_00091	Q9S4X1	Uncharacterized protein YubE	yubE yfeB ECOK12F053
+HPNEBIAD_00092	Q9S4X2	Putative methylase YubD (EC 2.1.1.-) (Type II methyltransferase M.EcoCR63FORFAP) (M.EcoCR63FORFAP)	yubD yfeA ECOK12F052
+HPNEBIAD_00093	Q9S4X5	Uncharacterized protein YubA	yubA yfcB ECOK12F049
+HPNEBIAD_00094	P62558	Protein SopB (Plasmid partition protein B)	sopB B ECOK12F047
+HPNEBIAD_00095	P62556	Protein SopA (Plasmid partition protein A)	sopA A ECOK12F046
+HPNEBIAD_00096	P03856	Replication initiation protein (Protein E) (Protein rep) (Protein F4)	repE E rep ECOK12F045
+HPNEBIAD_00097	P06615	Resolvase (Protein D)	resD D ECOK12F044
+HPNEBIAD_00098	P62554	Toxin CcdB (Cytotoxic protein CcdB) (LynB) (Protein G) (Protein LetD)	ccdB G letB letD ECOK12F043
+HPNEBIAD_00099	P62552	Antitoxin CcdA (LynA) (Protein H) (Protein LetA)	ccdA H letA ECOK12F042
+HPNEBIAD_00102	P55502	Uncharacterized protein y4jB	NGR_a03140 y4jB
+HPNEBIAD_00103	P50359	Uncharacterized protein y4hO	NGR_a03350 y4hO
+HPNEBIAD_00104	P50360	Uncharacterized protein y4hP	NGR_a03340 y4hP
+HPNEBIAD_00107	Q05459	Virulence-associated protein VagC	vagC
+HPNEBIAD_00108	Q8ZM86	tRNA(fMet)-specific endonuclease VapC (EC 3.1.-.-) (RNase VapC) (Toxin VapC)	vapC STM3033
+HPNEBIAD_00110	O59824	ATP-dependent zinc metalloprotease YME1 homolog (EC 3.4.24.-)	SPCC965.04c
+HPNEBIAD_00111	Q99342	Uncharacterized endonuclease (EC 3.1.-.-) (ORFA)	
+HPNEBIAD_00115	P18594	Protein VirD4	virD4 Atu6184 AGR_pTi_23
+HPNEBIAD_00116	Q8FXK7	Type IV secretion system protein VirB11	virB11 BRA0059 BS1330_II0059
+HPNEBIAD_00117	P0C531	Type IV secretion system protein virB10	virB10 BruAb2_0060
+HPNEBIAD_00118	Q8YDZ1	Type IV secretion system protein virB9	virB9 BMEII0033
+HPNEBIAD_00119	Q7CEG3	Type IV secretion system protein virB8	virB8 BRA0062 BS1330_II0062
+HPNEBIAD_00121	Q1RH22	Uncharacterized lipoprotein RBE_1261	RBE_1261
+HPNEBIAD_00123	Q9RPY1	Type IV secretion system protein virB4	virB4 BRA0066 BS1330_II0066
+HPNEBIAD_00124	Q7CEG0	Type IV secretion system protein virB2	virB2 BRA0068 BS1330_II0068
+HPNEBIAD_00125	Q8YDZ5	Type IV secretion system protein virB1	virB1 BMEII0025
+HPNEBIAD_00129	P14491	Protein rlx	rlx
+HPNEBIAD_00135	P29009	Uncharacterized protein YdfB	ydfB b1572 JW1564
+HPNEBIAD_00136	Q46864	Antitoxin MqsA	mqsA ygiT b3021 JW2989
+HPNEBIAD_00137	Q9JMS6	Uncharacterized protein YuaN	yuaN ycbA ECOK12F025
+HPNEBIAD_00139	Q6XL73	Chaperone protein dnaJ 39 (AtDjC39) (AtJ39) (Protein ARG1-LIKE 2) (AtARL2)	ATJ39 ARL2 C39 At1g59980 T2K10.3
+HPNEBIAD_00140	P44191	Uncharacterized protein HI_1420	HI_1420
+HPNEBIAD_00141	P44190	Uncharacterized protein HI_1419	HI_1419
+HPNEBIAD_00143	P17492	Replication protein	
+HPNEBIAD_00149	Q74EU2	Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE (EC 2.1.1.163) (EC 2.1.1.201) (2-methoxy-6-polyprenyl-1,4-benzoquinol methylase) (Demethylmenaquinone methyltransferase)	ubiE GSU0867
+HPNEBIAD_00151	Q01960	Flagellar biosynthesis protein FlhF (Flagella-associated GTP-binding protein)	flhF BSU16400
+HPNEBIAD_00152	P18021	Resolvase (Protein D)	resD D
+HPNEBIAD_00154	P0DOA5	DNA-binding protein H-NS	hns
+HPNEBIAD_00155	P0A3X0	Modulating protein YmoA (Histone-like protein)	ymoA hha YPO3138 y1046 YP_0793
+HPNEBIAD_00156	Q9KQF5	DNA topoisomerase 3 (EC 5.6.2.1) (DNA topoisomerase III)	topB VC_2043
