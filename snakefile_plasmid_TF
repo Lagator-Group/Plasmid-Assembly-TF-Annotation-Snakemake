@@ -7,7 +7,6 @@ rule all:
         expand('swissprot/TF/{sample}.tsv',sample=config['samples']),
         expand('deeptfactor/{sample}/prediction_results.txt',sample=config['samples'])
 
-
 rule plasmid_amr:
     input:
         'plasmid_contigs/{sample}.fasta'
