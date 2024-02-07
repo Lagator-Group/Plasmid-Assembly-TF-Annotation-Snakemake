@@ -1,0 +1,10 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+fasta/1284.fasta	11	32421	33342	+	mph(A)	1-921/921	========/======	1/1	100.00	99.67	ncbi	NG_047986.1	Mph(A) family macrolide 2'-phosphotransferase	MACROLIDE
+fasta/1284.fasta	11	38637	39476	-	sul1	1-840/840	===============	0/0	100.00	100.00	ncbi	NG_048082.1	sulfonamide-resistant dihydropteroate synthase Sul1	SULFONAMIDE
+fasta/1284.fasta	11	40023	40811	-	aadA5	1-789/789	===============	0/0	100.00	100.00	ncbi	NG_047357.1	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA5	STREPTOMYCIN
+fasta/1284.fasta	11	40942	41415	-	dfrA17	1-474/474	===============	0/0	100.00	99.79	ncbi	NG_047710.1	trimethoprim-resistant dihydrofolate reductase DfrA17	TRIMETHOPRIM
+fasta/1284.fasta	11	44325	45200	+	blaCTX-M-15	1-876/876	===============	0/0	100.00	100.00	ncbi	NG_048935.1	class A extended-spectrum beta-lactamase CTX-M-15	CEPHALOSPORIN
+fasta/1284.fasta	11	49237	50067	-	blaOXA-1	1-831/831	===============	0/0	100.00	100.00	ncbi	NG_049392.1	oxacillin-hydrolyzing class D beta-lactamase OXA-1	CEPHALOSPORIN
+fasta/1284.fasta	11	50198	50752	-	aac(6')-Ib-D181Y	1-555/555	===============	0/0	100.00	99.82	ncbi	NG_067946.1	AAC(6')-Ib family aminoglycoside 6'-N-acetyltransferase	AMIKACIN;KANAMYCIN;TOBRAMYCIN
+fasta/1284.fasta	11	54252	55451	+	tet(A)	1-1200/1200	===============	0/0	100.00	100.00	ncbi	NG_048154.1	tetracycline efflux MFS transporter Tet(A)	TETRACYCLINE
+fasta/1284.fasta	7	203804	204937	-	blaEC-5	1-1134/1134	===============	0/0	100.00	99.47	ncbi	NG_049085.1	cephalosporin-hydrolyzing class C beta-lactamase EC-5	CEPHALOSPORIN

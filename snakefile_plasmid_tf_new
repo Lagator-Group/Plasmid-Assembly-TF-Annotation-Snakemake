@@ -1,0 +1,31 @@
+configfile: 'config.yml'
+
+rule all:
+    input:
+        expand('abricate_amr/{sample}.tab',sample=config['samples']),
+        expand('prokka/{sample}/{sample}.tsv',sample=config['samples'])
+    
+rule plasmid_amr:
+    input:
+        'fasta/{sample}.fasta'
+    output:
+        'abricate_amr/{sample}.tab'
+    conda:
+        'abricate'
+    threads: 4
+    shell:
+        'abricate {input} > {output}'
+
+rule prokka:
+    input:
+        'fasta/{sample}.fasta'
+    output:
+        folder=directory('prokka/{sample}'),
+        tsv='prokka/{sample}/{sample}.tsv',
+        ffn='prokka/{sample}/{sample}.ffn',
+        faa='prokka/{sample}/{sample}.faa'
+    conda:
+        'prokka'
+    threads: 8
+    shell:
+        'prokka --outdir {output.folder} --prefix {wildcards.sample} {input} --force'
