@@ -2,21 +2,19 @@ configfile: 'config.yml'
 
 rule all:
     input:
-        expand('results/annotation/abricate_{sample}.tab',sample=config['samples']),
-        expand('results/annotation/prokka_{sample}.tsv',sample=config['samples']),
-        expand('results/annotation/sprot_{sample}.tsv',sample=config['samples'])
+        expand('abricate_amr/{sample}.tab',sample=config['samples']),
+        expand('sprot_TF/{sample}.tsv',sample=config['samples'])
 
-rule shovill: 
+rule shovill:
     input:
-        short_1='data/{sample}_1.fastq',
-        short_2='data/{sample}_2.fastq'
+        short_1='fastq/{sample}_1.fastq',
+        short_2='fastq/{sample}_2.fastq'
     output:
-        folder=directory('results/'+ASSEMBLER+'/{sample}'),
-        fasta='results/'+ASSEMBLER+'/{sample}/'+ASSEMBLER+'.fasta'
+        folder=directory('fasta_wgs'),
+        fasta='fasta_wgs/{sample}.fasta'
     conda:
-        'env/shovill.yml'
-    threads: 
-        config['threads']
+        'shovill'
+    threads: 8
     params:
         assembler=ASSEMBLER
     shell:
@@ -24,51 +22,50 @@ rule shovill:
 
 rule abricate_plasmid:
     input:
-        'results/unicycler/{sample}/assembly.fasta'
+        'fasta_wgs/{sample}.fasta'
     output:
-        'results/abricate_plasmid/{sample}.tab'
+        'abricate_plasmid/{sample}.tab'
     conda:
-        'env/abricate.yml'
+        'abricate'
     threads: 4
     shell:
         'abricate -db plasmidfinder {input} > {output}'
 
-rule contig_plasmid:
+rule fasta_plasmid:
     input:
-        'results/abricate_plasmid/{sample}.tab'
+        'abricate_plasmid/{sample}.tab'
     output:
-        'results/contigs_plasmid/{sample}.fasta'
+        'fasta_plasmid/{sample}.fasta'
     threads: 2
     script:
-        'scripts/contig_plasmid.py'
+        'bin/scripts/contig_plasmid.py'
 
 rule plasmid_amr:
     input:
-        'results/contigs_plasmid/{sample}.fasta'
+        'fasta_plasmid/{sample}.fasta'
     output:
-        'results/annotation/abricate_{sample}.tab'
+        'abricate_amr/{sample}.tab'
     conda:
-        'env/abricate.yml'
+        'abricate'
     threads: 4
     shell:
         'abricate {input} > {output}'
 
 rule prokka:
     input:
-        'results/contigs_plasmid/{sample}.fasta'
+        'fasta_plasmid/{sample}.fasta'
     output:
-        folder=directory('results/prokka_plasmid/{sample}'),
-        tsv='results/prokka_plasmid/{sample}/{sample}.tsv',
-        ffn='results/prokka_plasmid/{sample}/{sample}.ffn',
-        dest='results/annotation/prokka_{sample}.tsv'
+        folder=directory('prokka/{sample}'),
+        tsv='prokka/{sample}/{sample}.tsv',
+        ffn='prokka/{sample}/{sample}.ffn',
+        faa='prokka/{sample}/{sample}.faa'
     conda:
-        'env/prokka.yml'
+        'prokka'
     threads: 8
     shell:
-        'prokka --outdir {output.folder} --prefix {wildcards.sample} {input} --force && '
-        'cp {output.tsv} {output.dest}'
-    
-rule wget_uniprot:
+        'prokka --outdir {output.folder} --prefix {wildcards.sample} {input} --force'
+
+rule wget_sprot:
     input:
 
     output:
@@ -80,7 +77,7 @@ rule wget_uniprot:
         'wget {params} -P bin/swissprot && '
         'gunzip {output}.gz'
 
-rule makeblastdb:
+rule makeblastdb_sprot:
     input:
         uniprot_fasta='bin/swissprot/uniprot_sprot.fasta'
     output:
@@ -88,7 +85,7 @@ rule makeblastdb:
         pin='bin/swissprot/swissprot.pin',
         psq='bin/swissprot/swissprot.psq'
     conda:
-        'env/blast.yml'
+        'blast'
     params:
         db='bin/swissprot/swissprot'
     threads: 4        
@@ -97,38 +94,48 @@ rule makeblastdb:
 
 rule swissprot_blastx:
     input:
-        ffn='results/prokka_plasmid/{sample}/{sample}.ffn',
+        ffn='prokka/{sample}/{sample}.ffn',
         phr='bin/swissprot/swissprot.phr',
         pin='bin/swissprot/swissprot.pin',
         psq='bin/swissprot/swissprot.psq'
     output:
-        temp('results/annotation/swissprot_{sample}_temp.tsv')   
+        'blastx/{sample}.tsv'
     conda:
-        'env/blast.yml'
+        'blast'
     params:
         db='bin/swissprot/swissprot',
         outfmt='6',
         evalue='0.1',
-        max_hsps='1'
-    threads: 4
+        max_hsps='1',
+        max_seqs='10'
+    threads: 8
     shell:
         'blastx -query {input.ffn} -db {params.db}'
-        ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -num_threads {threads}'
+        ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -max_target_seqs {params.max_seqs} -num_threads {threads}'
 
-rule uniprot_query:
+rule sprot_query:
     input:
-        'results/annotation/swissprot_{sample}_temp.tsv'
+        'blastx/{sample}.tsv'
     output:
-        temp('results/annotation/swissprot_{sample}.tsv')
+        'sprot/{sample}.tsv'
     threads: 2
     script:
-        'scripts/uniprot_query.py'
+        'bin/scripts/sprot_query.py'
 
-rule keep_best:
+rule sprot_keep_best:
     input:
-        'results/annotation/swissprot_{sample}.tsv'
+        'sprot/{sample}.tsv'
     output:
-        'results/annotation/sprot_{sample}.tsv'
+        'sprot_best/{sample}.tsv'
     threads: 2
     script:
-        'scripts/sprot_keep_best.py'
+        'bin/scripts/uniprot_keep_best.py'
+
+rule find_TF:
+    input:
+        'sprot_best/{sample}.tsv'
+    output:
+        'sprot_TF/{sample}.tsv'
+    threads: 2
+    script:
+        'bin/scripts/find_TF.py'
