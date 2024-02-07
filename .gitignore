@@ -6,3 +6,5 @@ abricate_amr/
 abricate_plasmid/
 prokka/
 blastx/
+sprot/
+sprot_best/

@@ -3,7 +3,7 @@ configfile: 'config.yml'
 rule all:
     input:
         expand('abricate_amr/{sample}.tab',sample=config['samples']),
-        expand('sprot/{sample}.tsv',sample=config['samples'])
+        expand('sprot_best/{sample}.tsv',sample=config['samples'])
     
 rule abricate_plasmid:
     input:
@@ -106,3 +106,12 @@ rule sprot_query:
     threads: 2
     script:
         'bin/scripts/sprot_query.py'
+
+rule sprot_keep_best:
+    input:
+        'sprot/{sample}.tsv'
+    output:
+        'sprot_best/{sample}.tsv'
+    threads: 2
+    script:
+        'bin/scripts/uniprot_keep_best.py'
