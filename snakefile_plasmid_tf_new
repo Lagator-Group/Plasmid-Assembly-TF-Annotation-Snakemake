@@ -3,7 +3,7 @@ configfile: 'config.yml'
 rule all:
     input:
         expand('abricate_amr/{sample}.tab',sample=config['samples']),
-        expand('blastx/{sample}.tsv',sample=config['samples'])
+        expand('sprot/{sample}.tsv',sample=config['samples'])
     
 rule abricate_plasmid:
     input:
@@ -98,3 +98,11 @@ rule swissprot_blastx:
         'blastx -query {input.ffn} -db {params.db}'
         ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -max_target_seqs {params.max_seqs} -num_threads {threads}'
 
+rule sprot_query:
+    input:
+        'blastx/{sample}.tsv'
+    output:
+        'sprot/{sample}.tsv'
+    threads: 2
+    script:
+        'bin/scripts/sprot_query.py'
