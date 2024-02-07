@@ -3,11 +3,31 @@ configfile: 'config.yml'
 rule all:
     input:
         expand('abricate_amr/{sample}.tab',sample=config['samples']),
-        expand('prokka/{sample}/{sample}.tsv',sample=config['samples'])
+        expand('blastx/{sample}.tsv',sample=config['samples'])
     
+rule abricate_plasmid:
+    input:
+        'fasta_wgs/{sample}.fasta'
+    output:
+        'abricate_plasmid/{sample}.tab'
+    conda:
+        'abricate'
+    threads: 4
+    shell:
+        'abricate -db plasmidfinder {input} > {output}'
+
+rule fasta_plasmid:
+    input:
+        'abricate_plasmid/{sample}.tab'
+    output:
+        'fasta_plasmid/{sample}.fasta'
+    threads: 2
+    script:
+        'bin/scripts/contig_plasmid.py'
+
 rule plasmid_amr:
     input:
-        'fasta/{sample}.fasta'
+        'fasta_plasmid/{sample}.fasta'
     output:
         'abricate_amr/{sample}.tab'
     conda:
@@ -18,7 +38,7 @@ rule plasmid_amr:
 
 rule prokka:
     input:
-        'fasta/{sample}.fasta'
+        'fasta_plasmid/{sample}.fasta'
     output:
         folder=directory('prokka/{sample}'),
         tsv='prokka/{sample}/{sample}.tsv',
@@ -50,10 +70,31 @@ rule makeblastdb_sprot:
         pin='bin/swissprot/swissprot.pin',
         psq='bin/swissprot/swissprot.psq'
     conda:
-        'env/blast.yml'
+        'blast'
     params:
         db='bin/swissprot/swissprot'
     threads: 4        
     shell:
         'makeblastdb -dbtype prot -in {input.uniprot_fasta} -out {params.db}'
+
+rule swissprot_blastx:
+    input:
+        ffn='prokka/{sample}/{sample}.ffn',
+        phr='bin/swissprot/swissprot.phr',
+        pin='bin/swissprot/swissprot.pin',
+        psq='bin/swissprot/swissprot.psq'
+    output:
+        'blastx/{sample}.tsv'
+    conda:
+        'blast'
+    params:
+        db='bin/swissprot/swissprot',
+        outfmt='6',
+        evalue='0.1',
+        max_hsps='1',
+        max_seqs='10'
+    threads: 8
+    shell:
+        'blastx -query {input.ffn} -db {params.db}'
+        ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -max_target_seqs {params.max_seqs} -num_threads {threads}'
 
