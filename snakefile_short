@@ -16,7 +16,7 @@ rule shovill:
         'shovill'
     threads: 8
     params:
-        assembler=ASSEMBLER
+        assembler=config['assembler']
     shell:
         'shovill --outdir {output.folder} --R1 {input.short_1} --R2 {input.short_2} --assembler {params.assembler} --force'
 

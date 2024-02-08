@@ -1,5 +1,6 @@
 .snakemake/
 bin/swissprot/
+fastq/
 fasta_wgs/
 fasta_plasmid/
 abricate_amr/
