@@ -5,21 +5,6 @@ rule all:
         expand('abricate_amr/{sample}.tab',sample=config['samples']),
         expand('sprot_TF/{sample}.tsv',sample=config['samples'])
 
-rule shovill:
-    input:
-        short_1='fastq/{sample}_1.fastq',
-        short_2='fastq/{sample}_2.fastq'
-    output:
-        folder=directory('fasta_wgs'),
-        fasta='fasta_wgs/{sample}.fasta'
-    conda:
-        'shovill'
-    threads: 8
-    params:
-        assembler=config['assembler']
-    shell:
-        'shovill --outdir {output.folder} --R1 {input.short_1} --R2 {input.short_2} --assembler {params.assembler} --force'
-
 rule abricate_plasmid:
     input:
         'fasta_wgs/{sample}.fasta'
