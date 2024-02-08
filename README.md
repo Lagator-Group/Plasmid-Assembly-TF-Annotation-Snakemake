@@ -1,38 +1,23 @@
 ### Current plans for improvement
-1. To include DNA-binding protein prediction using deeptfactor. Necessary scripts, environments and instructions currently found in ```scripts/deeptfactor```.
+1. To include DNA-binding protein prediction using deeptfactor. Necessary scripts, environments and instructions currently found in `bin/scripts/deeptfactor`.
 
 # Sequence Assembly and Annotation
-
 Uses Snakemake pipeline for sequence alignment and annotation. Needs Snakemake environment to be [installed](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html).
 
 ## Complete Pipeline Instructions
 ### Assembly: Hybrid, Short or Long
-First run will take the longest as it will need to install the various environments. All subsequent runs SHOULD be faster as the environments will already have been installed, and will just need to be run.
+If your sequences are assembled, skip to next section. If you need to install conda environments, they can all be found in `bin/env` directory. Install with `conda env create -f path/to/env.yml`.
+1. Create `fastq` directory.
+2. Copy **ONLY** relevant fastq to folder (e.g. only copy `_1.fastq` and `_2.fastq` if assembling short-read sequences).
+3. Run the appropriate assembly `.sh` with `bash -i {*}_assembly.sh`.
+4. Asssembled `.fasta` will be output to `fasta_wgs` directory.
 
-1. Create folder ```data``` and copy sequence files to it.
-2. Rename the sequence files to follow the following naming convention:
+### Transcription Factor annotation
+If extracting plasmid TFs from WGS `.fasta`, run:
 ```
-sample_1.fastq #forward read, only relevant for short read
-sample_2.fastq #reverse read, only relevant for short read
-sample.fastq #long read, only relevant for long read
-``` 
-3. Run ```scritps/get_samples.py``` to generate sample list.
-4. Copy sample list to ```config.yml```
-5. If necessary, adjust the values in ```config.yml```, particularly the threads available.
-6. To execute:
+snakemake -s snakefile_tf_from_wgs -c8 --use-conda 
 ```
-snakemake -s {desired_snakefile_pipeline} --cores {core_available i.e 8} --use-conda --conda-frontend conda
+If plasmid `.fasta` already isolated, place sequences in ```fasta_plasmid``` directory and run:
 ```
-7. Results will be generated and stored in ```results/```
-
-### Annotation Only
-Same as above, but place pre-assembled sequences in ```data/``` in ```.fasta``` format.
-
-### Pipeline Options (-s)
-- ```snakefile_hybrid```: Runs hybrid assembly using Unicycler. Not compatible with WSL.
-- ```snakefile_long```: Runs long assembly using Flye. Input format can be changed in ```config.yml```
-- ```snakefile_short```: Runs short assembly using Shovill + Skesa. If OS is Linux (i.e. not WSL), recommended to change assembler to ```spades``` in ```config.yml```. 
-- ```snakefile_plasmid_from_genome```: Extracts and annotates plasmid sequences from pre-assembled WGS.
-- ```snakefile_plasmid_annotation```: Annotates pre-assembled plasmid sequences.
-- ```snakefile_plasmid_tf```: Annotates pre-assembled plasmid sequences using the swissprot database and isolates transcription factor-related annotations to ```results/annotation/TF_{sample}.tsv```.
-- ```snakefile_plasmid_tf_trembl```: Annotates pre-assembled plasmid sequences using the trembl database (NOTE: database is 200GB big and will take a long time to download) and isolates transcription factor-related annotations to ```results/annotation/TF_{sample}.tsv```.
+snakemake -s snakefile_tf_from_plasmid -c8 --use-conda
+```
