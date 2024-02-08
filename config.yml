@@ -1,6 +1,0 @@
-assembler: skesa #can be skesa | velvet | megahit | spades, only relevant for short assembly
-read_type: --nano-raw #can be: --pacbio-raw | --pacbio-corr | --pacbio-hifi | --nano-raw | --nano-corr | --nano-hq, only relevant for long assembly
-
-threads: 8
-
-samples: ['1284']
