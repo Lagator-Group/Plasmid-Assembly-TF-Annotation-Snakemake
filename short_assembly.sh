@@ -7,6 +7,3 @@ for fastq in fastq/*_1.fastq ; do
     mkdir fasta_wgs
     mv shovill/$sample/contigs.fa fasta_wgs/$sample\.fasta
 done
-
-conda activate snakemake
-snakemake -s snakefile_tf_from_wgs -c8 --use-conda
