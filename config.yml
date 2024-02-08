@@ -3,4 +3,4 @@ read_type: --nano-raw #can be: --pacbio-raw | --pacbio-corr | --pacbio-hifi | --
 
 threads: 8
 
-samples: ['1284']
+samples: ['pLL35']
