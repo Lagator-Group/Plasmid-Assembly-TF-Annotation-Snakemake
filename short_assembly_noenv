@@ -1,0 +1,18 @@
+configfile: 'config.yml'
+
+rule all:
+    input:
+        expand('fasta_wgs/{sample}.fasta',sample=config['samples'])
+
+rule short_assembly:
+    input:
+        _1='fastq/{sample}_1.fastq',
+        _2='fastq/{sample}_2.fastq'
+    output:
+        shovill='shovill/{sample}/assembly.fasta',
+        fasta='fasta_wgs/{sample}.fasta'
+    conda:
+        'bin/env/shovill.yml'
+    shell:
+        'shovill --R1 {input._1} --R2 {input._2} --outdir {output.shovill} --force &&'
+        'cp {output.shovill} {output.fasta}'
