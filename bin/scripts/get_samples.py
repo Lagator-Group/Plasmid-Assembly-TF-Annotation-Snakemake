@@ -1,7 +1,18 @@
 import os
 
 file_list = []
-for file in os.listdir('data'):
+
+if os.path.exists('fasta_plasmid'):
+    seqdir = 'fasta_plasmid'
+elif os.path.exists('fasta_wgs'):
+    seqdir = 'fasta_wgs'
+elif os.path.exists('fastq'):
+    seqdir = 'fastq'
+else:
+    print('No samples found, please check your files')
+    quit()
+
+for file in os.listdir(seqdir):
     file_list.append(file)
 
 _fasta_list=[]
@@ -55,5 +66,5 @@ else:
     print('Something went wrong, please check your files')
     quit()
 
-with open('sample_list','w') as f:
+with open('sample_list.txt','w') as f:
     f.write(str(sample_list))
