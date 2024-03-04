@@ -1,0 +1,19 @@
+configfile: 'config.yml'
+
+rule all:
+    input:
+        expand('deepTFactor/{sample}',sample=config['samples'])
+
+rule deepTFactor:
+    input:
+        'prokka/{sample}/{sample}.faa'
+    output:
+        directory('deepTFactor/{sample}')
+    threads: config['threads']
+    conda:
+        'deeptfactor'
+    params:
+        engine= 'cpu',
+        ckpt= 'bin/scripts/deeptfactor/trained_model/DeepTFactor_ckpt.pt'
+    shell:
+        'python3 bin/scripts/deeptfactor/tf_running.py -i {input} -o {output} -g {params.engine} -ckpt {params.ckpt}'
