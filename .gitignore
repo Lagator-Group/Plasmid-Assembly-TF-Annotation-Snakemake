@@ -12,3 +12,6 @@ sprot_best/
 sprot_TF/
 shovill/
 unicycler/
+bin/scripts/deeptfactor/deeptfactor/
+deeptfactor/
+human_ecoli.tar.gz
