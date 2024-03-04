@@ -1,0 +1,19 @@
+configfile: 'config.yml'
+
+rule all:
+    input:
+        expand('deepTFactor/{sample}',sample=config['samples'])
+
+rule hybrid_assembly:
+    input:
+        _1='fastq/{sample}_1.fastq',
+        _2='fastq/{sample}_2.fastq',
+        l='fastq/{sample}.fastq'
+    output:
+        unicycler='unicycler/{sample}/assembly.fasta',
+        fasta='fasta_wgs/{sample}.fasta'
+    conda:
+        'bin/env/unicycler.yml'
+    shell:
+        'unicycler -1 {input._1} -2 {input._2} -l {input.l} -o {output.unicycler} &&'
+        'cp {output.unicycler} {output.fasta}'
