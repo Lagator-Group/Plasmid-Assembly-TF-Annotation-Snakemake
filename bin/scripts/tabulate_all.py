@@ -27,6 +27,7 @@ resistance_all = []
 gene_all = []
 resistance_count = []
 for plasmid in df['Plasmid']:
+    print(plasmid)
     resistance_list = []
     gene_list = []
     amr_df = pd.read_csv('abricate_amr/'+plasmid+'.tab',sep='\t')
@@ -52,6 +53,7 @@ tf_prot_all = []
 tf_gene_all = []
 tf_count = []
 for plasmid in df['Plasmid']:
+    print(plasmid)
     tf_prot_list = []
     tf_gene_list = []
     tf_df = pd.read_csv('sprot_TF/'+plasmid+'.tsv',sep='\t')
@@ -85,6 +87,7 @@ df['TF Count'] = tf_count
 deeptf_all = []
 deeptf_count = []
 for plasmid in df['Plasmid']:
+    print(plasmid)
     deeptf_list = []
     deeptf_df = pd.read_csv('deepTFactor/'+plasmid+'/prediction_result.txt',sep='\t')
     n=0
