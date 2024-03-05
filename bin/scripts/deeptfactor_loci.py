@@ -10,8 +10,7 @@ plasmid_df = pd.read_csv('plasmid_summary.csv',sep=',')
 
 deepTFactor_hits = snakemake.output[0]
 
-location = plasmid_df.loc[plasmid_df['Plasmid']==plasmid_name,'DeepTFactor Locus_ID']
-locid_list = str(location.iloc[0])
+locid_list = plasmid_df.loc[plasmid_df['Plasmid']==plasmid_name]['DeepTFactor Locus_ID'].iloc[0]
 locid_list = locid_list.split(',')
 
 for locid in locid_list:
