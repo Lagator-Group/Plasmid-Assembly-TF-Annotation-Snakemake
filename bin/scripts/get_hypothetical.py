@@ -11,6 +11,7 @@ n=0
 
 while n<_n: #will only run for number of rows in pd.df
     locus=str(df['locus_tag'][n]) #looks at reach row 'n' of pd.df
+    print(locus)
     product='>'+str(df['product'][n]) #looks at corresponding contig code
     
     if product == '>hypothetical protein':
@@ -27,6 +28,6 @@ with open(fnn, 'r') as f:
         start=data.find(locus)
         end=data.find('>', start+1)
         result=data[start:end]
-
+        print(result)
         with open(hypothetical_proteins,'a') as f:
             f.write('>'+result)
