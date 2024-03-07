@@ -14,6 +14,7 @@ _n=sprot_df.shape[0]
 
 while n<_n:
     for name in tf_names:
+        print(name)
         if name in sprot_df.iloc[n]['Protein names'] and sprot_df.iloc[n]['Protein names'] not in protein_list:
             locus_tag_list.append(sprot_df.iloc[n]['Locus Tag'])
             entry_list.append(sprot_df.iloc[n]['Entry'])
