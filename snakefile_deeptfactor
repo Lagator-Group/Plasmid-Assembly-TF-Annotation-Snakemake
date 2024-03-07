@@ -2,7 +2,7 @@ configfile: 'config.yml'
 
 rule all:
     input:
-        expand('deepTFactor/{sample}',sample=config['samples'])
+        expand('deepTFactor_sprot/{sample}.csv',sample=config['samples'])
 
 rule deepTFactor:
     input:
@@ -17,3 +17,33 @@ rule deepTFactor:
         ckpt= 'bin/scripts/deeptfactor/trained_model/DeepTFactor_ckpt.pt'
     shell:
         'python3 bin/scripts/deeptfactor/tf_running.py -i {input} -o {output} -g {params.engine} -ckpt {params.ckpt}'
+
+rule tabulate_all:
+    input:
+        expand('deepTFactor/{sample}',sample=config['samples'])
+    output:
+        'plasmid_summary.csv'
+    threads: 4
+    script:
+        'bin/scripts/tabulate_all.py'
+        
+rule locid_hits:
+    input:
+        'prokka/{sample}/{sample}.ffn',
+        'fasta_plasmid/{sample}.fasta',
+        'plasmid_summary.csv'
+    output:
+        'deepTFactor_hits/{sample}.fasta'
+    threads: 4
+    script:
+        'bin/scripts/deeptfactor_loci.py'
+
+rule deepTFactor_sprot:
+    input:
+        prediction='deepTFactor/{sample}/prediction_result.txt',
+        sprot_in='sprot_best/{sample}.tsv'
+    output:
+        sprot_out='deepTFactor_sprot/{sample}.csv'
+    threads: 4
+    script:
+        'bin/scripts/deeptfactor_sprot.py'
