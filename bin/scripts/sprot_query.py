@@ -10,6 +10,7 @@ with open(snakemake.input[0]) as f:
         end=line.find('|',start+3)
         ID=line[start:end]
         ID=ID.replace('sp|','')
+        print(ID)
 
         new_row={'Locus Tag':locus_tag,'Entry':ID}
         query_df=pd.concat([query_df,pd.DataFrame([new_row])])
