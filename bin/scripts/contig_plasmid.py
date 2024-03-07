@@ -13,7 +13,7 @@ def get_contig(tab):
     while n<_n: #will only run for number of rows in pd.df
         file=str(df['#FILE'][n]) #looks at reach row 'n' of pd.df
         contig='>'+str(df['SEQUENCE'][n]) #looks at corresponding contig code
-        
+        print(contig)
         if contig in contig_list: #if contig was already added to list, continues to next contig
             n=n+1
             continue
