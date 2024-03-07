@@ -5,7 +5,7 @@ prokka = snakemake.input[0]
 
 plasmid_file = snakemake.input[1]
 plasmid_name = plasmid_file.replace('.fasta','').replace('fasta_plasmid/','')
-
+print(plasmid_name)
 plasmid_df = pd.read_csv('plasmid_summary.csv',sep=',')
 
 deepTFactor_hits = snakemake.output[0]
@@ -16,6 +16,7 @@ locid_list = locid_list.split(',')
 for locid in locid_list:
     locid = locid.replace('[','').replace(']','').replace("'","").replace(' ','')
     locid = '>'+locid
+    print(locid)
     with open(prokka,'r') as f:
         data = f.read()
         start = data.find(locid)
