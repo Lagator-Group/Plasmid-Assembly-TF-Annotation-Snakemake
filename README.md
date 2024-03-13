@@ -13,6 +13,7 @@ Will only get samples from folders further in pipeline (i.e. `fasta_plasmid` > `
 python3 bin/scripts/get_samples.py
 ```
 Samples will be output to `sample_list.txt`. Copy sample list into config file.
+
 ### 2. Assembly: Hybrid, Short or Long
 If your sequences are assembled, skip to next section. If you need to install conda environments, they can all be found in `bin/env` directory. Install with `conda env create -f path/to/env.yml`.
 1. Create `fastq` directory.
