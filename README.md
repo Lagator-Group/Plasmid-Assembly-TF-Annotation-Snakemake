@@ -17,7 +17,7 @@ Samples will be output to `sample_list.txt`. Copy sample list into config file.
 If your sequences are assembled, skip to next section. If you need to install conda environments, they can all be found in `bin/env` directory. Install with `conda env create -f path/to/env.yml`.
 1. Create `fastq` directory.
 2. Copy **ONLY** relevant fastq to folder (e.g. only copy `_1.fastq` and `_2.fastq` if assembling short-read sequences).
-3. Run the appropriate assembly assembly script (e.g. `snakemake -s hybrid_assembly -c8 --use-conda`).
+3. Run the appropriate assembly assembly script (e.g. `snakemake -s hybrid_assembly -c8 --use-conda --conda-frontend conda`).
 4. Asssembled `.fasta` will be output to `fasta_wgs` directory.
 
 ### 3. Transcription Factor annotation
@@ -27,18 +27,14 @@ samples: ['sample_1','sample_2']
 ```
 If extracting plasmid TFs from WGS `.fasta`, ensure sequences are in `fasta_wgs` folder. If working with plasmid sequences, place `.fasta` in `fasta_plasmid` then run:
 ```
-snakemake -s snakefile_plasmid_tf -c8 --use-conda 
+snakemake -s snakefile_plasmid_tf -c8 --use-conda --conda-frontend-conda
 ```
 
 ### 4. DNA-binding motif prediction
 **Bug**: *This step does not currently work on the UoM CSF, but should work on local machines relatively quickly.*
 Ensure you have installed the `deeptfactor` conda env from `bin/env/deeptfactor.yml`.
 Script requires `fasta_plasmid` directory to be populated already as it gets the plasmid names from there.
-Run with `snakemake -s deeptfactor -c8 --use-conda`.
+Run with `snakemake -s snakefile_deeptfactor -c8 --use-conda`.
 Results will be output in `deeptfactor` directory.
 
-### 5. Results Summary
-```
-python3 bin/scripts/tabulate_all.py
-```
 A summary of the results will output to `plasmid_summary.csv`.
