@@ -23,7 +23,7 @@ rule tabulate_all:
         expand('deepTFactor/{sample}',sample=config['samples'])
     output:
         'plasmid_summary.csv'
-    threads: 4
+    threads: config['threads']
     script:
         'bin/scripts/tabulate_all.py'
         
@@ -34,7 +34,7 @@ rule locid_hits:
         'plasmid_summary.csv'
     output:
         'deepTFactor_hits/{sample}.fasta'
-    threads: 4
+    threads: 2
     script:
         'bin/scripts/deeptfactor_loci.py'
 
@@ -44,6 +44,6 @@ rule deepTFactor_sprot:
         sprot_in='sprot_best/{sample}.tsv'
     output:
         sprot_out='deepTFactor_sprot/{sample}.csv'
-    threads: 4
+    threads: 2
     script:
         'bin/scripts/deeptfactor_sprot.py'
