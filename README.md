@@ -34,7 +34,7 @@ snakemake -s snakefile_plasmid_tf -c8 --use-conda --conda-frontend-conda
 **Bug**: *This step does not currently work on the UoM CSF, but should work on local machines relatively quickly.*
 Ensure you have installed the `deeptfactor` conda env from `bin/env/deeptfactor.yml`.
 Script requires `fasta_plasmid` directory to be populated already as it gets the plasmid names from there.
-Run with `snakemake -s snakefile_deeptfactor -c8 --use-conda`.
+Run with `snakemake -s snakefile_deeptfactor -c8 --use-conda --conda-frontend conda`.
 Results will be output in `deeptfactor` directory.
 
 A summary of the results will output to `plasmid_summary.csv`.
