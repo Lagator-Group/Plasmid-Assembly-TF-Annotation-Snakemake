@@ -2,7 +2,7 @@
 Uses Snakemake pipeline for sequence alignment and annotation. Needs Snakemake environment to be [installed](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html).
 
 ## Description
-These scripts are designed to assemble NGS/ONT raw with [Shovill](https://github.com/tseemann/shovill), [Flye](https://github.com/fenderglass/Flye), or [Unicyler](https://github.com/rrwick/Unicycler) for short-read, long-read or hybrid assembly, respectively. Pipeline will then separate plasmid contigs from WGS `.fasta`, then annotate the plasmid sequence. Plasmid contigs and AMR markers are identified using [Abricate](https://github.com/tseemann/abricate). Annotation is done by identifying all CDS with [Prokka](https://github.com/tseemann/prokka) and using BLAST against the Swissprot database. Highest ranking hits are kept and cross-references with all known DNA- and RNA-binding Transcription Regulators in the Swissprot database. All CDS are also process with [DeepTFactor](https://bitbucket.org/kaistsystemsbiology/deeptfactor/src/master/). All data is then summarised in `plasmid_summary.csv`.
+These scripts are designed to assemble NGS/ONT raw with [Shovill](https://github.com/tseemann/shovill), [Flye](https://github.com/fenderglass/Flye), or [Unicyler](https://github.com/rrwick/Unicycler) for short-read, long-read or hybrid assembly, respectively. Pipeline will then separate plasmid contigs from WGS `.fasta`, then annotate the plasmid sequence. Plasmid contigs and AMR markers are identified using [Abricate](https://github.com/tseemann/abricate). Annotation is done by identifying all CDS with [Prokka](https://github.com/tseemann/prokka) and using BLAST against the Swissprot database. Highest ranking hits are kept and cross-references with all known DNA- and RNA-binding Transcription Regulators in the Swissprot database. All CDS are also processed with [DeepTFactor](https://bitbucket.org/kaistsystemsbiology/deeptfactor/src/master/). All data is then summarised in `plasmid_summary.csv`.
 
 ## Complete Pipeline Instructions
 
@@ -14,7 +14,7 @@ Adjust `config.yml` thread number to what your machine is capable of.
 
 Run to automatically overwrite `config.yml` with proper sample names.
 ```
-`python3 bin/scripts/get_samples.py`
+python3 bin/scripts/get_samples.py
 ```
 Will only get samples from folders further in pipeline (i.e. `fasta_plasmid` > `fasta_wgs` > `fastq`).
 
@@ -44,7 +44,7 @@ snakemake -s snakefile_plasmid_tf -c8 --use-conda --conda-frontend conda
 **Bug**: *This step does not currently work on the UoM CSF, but should work on local machines relatively quickly. Just make sure to download all the folders that have been generated as they are needed for this step.*
 Ensure you have installed the `deeptfactor` conda env from `bin/env/deeptfactor.yml`.
 ```
-`snakemake -s snakefile_deeptfactor -c8 --use-conda --conda-frontend conda`
+snakemake -s snakefile_deeptfactor -c8 --use-conda --conda-frontend conda
 ```
 Results will be output in `deeptfactor` directory.
 
