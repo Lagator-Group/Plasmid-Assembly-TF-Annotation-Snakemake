@@ -10,9 +10,12 @@ These scripts are designed to assemble NGS/ONT raw with [Shovill](https://github
 All snakefiles can be run without pre-installing the necessary conda environments. The versions that do not require environment pre-installation have suffix `noenv`. This means that the environments will be installed within the `.snakemake` folder, which can be deleted manually after completion. If you wish to install the environments yourself, do so then run the snakefiles without the `noenv` suffix.
 
 ### 1. Config (Optional)
-Adjust the thread number to what your machine is capable of.
+Adjust `config.yml` thread number to what your machine is capable of.
 
-Run `python3 bin/scripts/get_samples.py` to automatically overwrite `config.yml` with proper sample names.
+Run to automatically overwrite `config.yml` with proper sample names.
+```
+`python3 bin/scripts/get_samples.py`
+```
 Will only get samples from folders further in pipeline (i.e. `fasta_plasmid` > `fasta_wgs` > `fastq`).
 
 #### Folder Description
@@ -23,7 +26,12 @@ Will only get samples from folders further in pipeline (i.e. `fasta_plasmid` > `
 ### 2. Assembly: Hybrid, Short or Long
 If your sequences are assembled, skip to next section.
 1. Copy **ONLY** relevant fastq to folder (e.g. only copy `_1.fastq` and `_2.fastq` if assembling short-read sequences).
-2. Run the appropriate assembly assembly script (e.g. `snakemake -s hybrid_assembly -c8 --use-conda --conda-frontend conda`).
+2. Run the appropriate assembly assembly script 
+```
+snakemake -s hybrid_assembly -c8 --use-conda --conda-frontend conda
+snakemake -s short_assembly -c8 --use-conda --conda-frontend conda
+snakemake -s long_assembly -c8 --use-conda --conda-frontend conda
+```
 3. Asssembled `.fasta` will be output to `fasta_wgs` directory.
 
 ### 3. Transcription Factor annotation
@@ -35,7 +43,9 @@ snakemake -s snakefile_plasmid_tf -c8 --use-conda --conda-frontend conda
 ### 4. DNA-binding motif prediction
 **Bug**: *This step does not currently work on the UoM CSF, but should work on local machines relatively quickly. Just make sure to download all the folders that have been generated as they are needed for this step.*
 Ensure you have installed the `deeptfactor` conda env from `bin/env/deeptfactor.yml`.
-Run with `snakemake -s snakefile_deeptfactor -c8 --use-conda --conda-frontend conda`.
+```
+`snakemake -s snakefile_deeptfactor -c8 --use-conda --conda-frontend conda`
+```
 Results will be output in `deeptfactor` directory.
 
 A summary of the results will output to `plasmid_summary.csv`.
