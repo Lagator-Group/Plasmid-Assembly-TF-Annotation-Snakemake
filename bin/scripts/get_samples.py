@@ -66,5 +66,13 @@ else:
     print('Something went wrong, please check your files')
     quit()
 
-with open('sample_list.txt','w') as f:
-    f.write(str(sample_list))
+samples = 'samples: ' + str(sample_list)
+
+with open('config.yml','r') as f:
+    lines = f.readlines()
+    threads = lines[0]
+    f.close()
+
+with open('config.yml','w') as f:
+    f.write(threads+'\n'+samples)
+    f.close()
