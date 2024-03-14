@@ -38,7 +38,7 @@ snakemake -s sfile_long_assembly -c8 --use-conda --conda-frontend conda
 ### 3. Transcription Factor annotation
 If extracting plasmid TFs from WGS `.fasta`, ensure sequences are in `fasta_wgs` folder. If working with plasmid sequences, place `.fasta` in `fasta_plasmid` then run:
 ```
-snakemake -s snakefile_plasmid_tf -c8 --use-conda --conda-frontend conda
+snakemake -s sfile_plasmid_tf -c8 --use-conda --conda-frontend conda
 ```
 
 ### 4. DNA-binding motif prediction
