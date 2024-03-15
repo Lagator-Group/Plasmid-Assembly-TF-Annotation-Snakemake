@@ -10,6 +10,9 @@ All snakemake pipeline files (A.K.A. snakefiles) are prefixed with `sfile_`.
 ### Environments
 All snakefiles can be run without pre-installing the necessary conda environments. The versions that do not require environment pre-installation have suffix `_noenv`. This means that the environments will be installed within the `.snakemake` folder, which can be deleted manually after completion. If you wish to install the environments yourself, do so then run the snakefiles without the `_noenv` suffix.
 
+### Swissprot Database
+`sfile_plasmid_tf` will download and set-up the Swissprot database in `bin/swissprot` the first time it is launched. It will not automatically do so on subsequent runs. If you wish to update the database, you can delete `bin/swissprot` before running the pipeline and it will automatically download and install the latest version.
+
 ### 1. Config (Optional)
 Adjust `config.yml` thread number to what your machine is capable of.
 
