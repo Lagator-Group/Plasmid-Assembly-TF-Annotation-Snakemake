@@ -8,7 +8,8 @@ rule deepTFactor:
     input:
         'prokka/{sample}/{sample}.faa'
     output:
-        directory('deepTFactor/{sample}')
+        directory = directory('deepTFactor/{sample}'),
+        file = 'deepTFactor/{sample}/prediction_result.txt'
     threads: config['threads']
     conda:
         'deeptfactor'
@@ -16,7 +17,7 @@ rule deepTFactor:
         engine= 'cpu',
         ckpt= 'bin/scripts/deeptfactor/trained_model/DeepTFactor_ckpt.pt'
     shell:
-        'python3 bin/scripts/deeptfactor/tf_running.py -i {input} -o {output} -g {params.engine} -ckpt {params.ckpt}'
+        'python3 bin/scripts/deeptfactor/tf_running.py -i {input} -o {output.directory} -g {params.engine} -ckpt {params.ckpt}'
 
 rule tabulate_all:
     input:
