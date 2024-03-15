@@ -17,7 +17,7 @@ plasmid_length = []
 for plasmid in df['Plasmid']:
     with open('fasta_plasmid/'+plasmid+'.fasta') as f:
         data = f.readlines()
-        length = len(data[1])
+        length = len(data[1:])*70
     plasmid_length.append(length)
 
 df['Plasmid Length'] = plasmid_length
