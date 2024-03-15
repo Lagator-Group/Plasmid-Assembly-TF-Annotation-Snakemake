@@ -13,7 +13,7 @@ All snakefiles can be run without pre-installing the necessary conda environment
 ### Swissprot Database
 `sfile_plasmid_tf` will download and set-up the Swissprot database in `bin/swissprot` the first time it is launched. It will not automatically do so on subsequent runs. If you wish to update the database, you can delete `bin/swissprot` before running the pipeline and it will automatically download and install the latest version.
 
-### 1. Config (Optional)
+### 1. Config
 Adjust `config.yml` thread number to what your machine is capable of.
 
 Run to automatically overwrite `config.yml` with proper sample names.
