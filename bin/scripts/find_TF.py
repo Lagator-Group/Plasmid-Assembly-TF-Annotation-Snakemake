@@ -14,7 +14,7 @@ n=0
 
 for entry in sprot_df['Entry']:
     print(entry)
-    if entry in entries_sprot and entry not in entry_list:
+    if entry in entries_sprot and sprot_df['Locus Tag'][n] not in locus_tag_list:
         locus_tag_list.append(sprot_df['Locus Tag'][n])
         entry_list.append(sprot_df['Entry'][n])
         protein_list.append(sprot_df['Protein names'][n])
