@@ -2,7 +2,8 @@ configfile: 'config.yml'
 
 rule all:
     input:
-        expand('deepTFactor_sprot/{sample}.csv',sample=config['samples'])
+        expand('deepTFactor_sprot/{sample}.csv',sample=config['samples']),
+        'plasmid_summary.csv'
 
 rule deepTFactor:
     input:
