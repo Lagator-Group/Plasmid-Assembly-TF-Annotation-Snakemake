@@ -54,3 +54,24 @@ snakemake -s sfile_deeptfactor -c8 --use-conda --conda-frontend conda
 Results will be output in `deeptfactor` directory.
 
 A summary of the results will output to `plasmid_summary.csv`.
+
+### Known Issues
+**The environment for deepTFactor so run will not install properly on the UoM CSF.**
+
+Download all the updated/new directories and run `sfile_deeptfactor` locally.
+
+
+**`rule sprot_query` in `sfile_plasmid_tf` will crash on the CSF. This appears to be caused by a UoM networking issue.**
+
+Adjust `rule all` in `sfile_plasmid_tf` to the following:
+```
+rule all:
+    input:
+        expand('abricate_amr/{sample}.tab',sample=config['samples']),
+        expand('blastx/{sample}.tsv',sample=config['samples'])
+```
+This will run the offline (and resource-intensive) sections of the pipeline on the CSF. Download the `abricate`, `prokka` and `blastx` directories and run the pipeline again offline. It *should* be relatively quick. If you need to pause the pipeline at any stage, press `CTRL-C` to halt the pipeline. Then run the following when ready to resume:
+```
+snakemake -s sfile_plasmid_tf --unlock
+snakemake -s sfile_plasmid_tf -c8 --use-conda --rerun-incomplete
+```
