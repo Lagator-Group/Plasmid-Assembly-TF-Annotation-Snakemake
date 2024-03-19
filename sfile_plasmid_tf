@@ -116,11 +116,11 @@ rule sprot_keep_best:
     script:
         'bin/scripts/uniprot_keep_best.py'
 
-rule find_TF:
+rule find_nuceleo:
     input:
         'sprot_best/{sample}.tsv'
     output:
-        'sprot_TF/{sample}.tsv'
+        'sprot_nucleo/{sample}.tsv'
     threads: 2
     script:
         'bin/scripts/find_TF.py'
