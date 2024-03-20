@@ -13,7 +13,7 @@ entry_list = []
 n=0
 for locus in blastx_df['Locus Tag']:
     locus_list.append(locus)
-    entry = blastx_df['Entry'][n]
+    entry = str(blastx_df['Entry'][n])
     entry = entry.replace('sp|','')
     end = entry.find('|')
     entry = entry[:end]
