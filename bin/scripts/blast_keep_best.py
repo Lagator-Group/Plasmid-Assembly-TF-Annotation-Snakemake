@@ -23,7 +23,7 @@ try:
     best_df = pd.DataFrame({'Locus Tag':best_locus,'Entry':best_entry})
 
 except:
-    best_df = pd.DataFrame({'Locus Tag':['NA'],'Entry':['NA']})
+    best_df = pd.DataFrame({'Locus Tag':['No BLAST results'],'Entry':['No BLAST results']})
 
 with open(snakemake.output[0],'w',newline='') as f:
     best_df.to_csv(f,index=False,sep='\t')

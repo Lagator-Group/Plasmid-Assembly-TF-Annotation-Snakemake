@@ -8,8 +8,8 @@ plasmid = snakemake.input[0]
 
 blastx_df = pd.read_csv(snakemake.input[0],delimiter='\t')
 
-if blastx_df['Locus Tag'][0] == 'NA':
-    query_df = pd.DataFrame({'Locus Tag':['NA'],'Entry':['NA'],'Protein names':['NA'],'Gene Names':['NA']})
+if blastx_df['Locus Tag'][0] == 'No BLAST results':
+    query_df = pd.DataFrame({'Locus Tag':['No BLAST results'],'Entry':['No BLAST results'],'Protein names':['No BLAST results'],'Gene Names':['No BLAST results']})
 
 else:
     locus_list = []
