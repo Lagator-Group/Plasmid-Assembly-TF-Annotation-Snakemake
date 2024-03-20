@@ -35,7 +35,7 @@ for i in query_df['Entry']:
             df = pd.concat([df,pd.read_csv(url, sep='\t',usecols=['Entry','Protein names','Gene Names'])])
             print(f'{i} done')
         except:
-            print(f'error with query {i}, trying again in 60 seconds')
+            print(f'error with query {i} on {plasmid}, trying again in 60 seconds')
             time.sleep(60)
             error += 1
 
