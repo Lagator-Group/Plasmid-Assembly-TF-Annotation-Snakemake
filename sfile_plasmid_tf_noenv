@@ -98,27 +98,27 @@ rule swissprot_blastx:
         'blastx -query {input.ffn} -db {params.db}'
         ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -max_target_seqs {params.max_seqs} -num_threads {threads}'
 
-rule sprot_query:
+rule blast_keep_best:
     input:
         'blastx/{sample}.tsv'
+    output:
+        'blastx_best/{sample}.tsv'
+    threads: 2
+    script:
+        'bin/scripts/blast_keep_best.py'
+
+rule sprot_query:
+    input:
+        'blastx_best/{sample}.tsv'
     output:
         'sprot/{sample}.tsv'
     threads: 2
     script:
         'bin/scripts/sprot_query.py'
 
-rule sprot_keep_best:
-    input:
-        'sprot/{sample}.tsv'
-    output:
-        'sprot_best/{sample}.tsv'
-    threads: 2
-    script:
-        'bin/scripts/uniprot_keep_best.py'
-
 rule find_TF:
     input:
-        'sprot_best/{sample}.tsv'
+        'sprot/{sample}.tsv'
     output:
         'sprot_TF/{sample}.tsv'
     threads: 2

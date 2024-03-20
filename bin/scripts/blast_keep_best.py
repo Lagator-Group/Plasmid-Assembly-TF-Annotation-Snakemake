@@ -2,7 +2,12 @@
 import pandas as pd
 
 # Read the .tsv file into a DataFrame
-blastx_df = pd.read_csv(snakemake.input[0],header=None,delimiter='\t')
+try:
+    blastx_df = pd.read_csv(snakemake.input[0],header=None,delimiter='\t')
+except:
+    with open(snakemake.output[0],'w',newline='') as f:
+        best_df = pd.DataFrame({'Locus Tag':['NA'],'Entry':['NA']})
+        best_df.to_csv(f,index=False,sep='\t')
 
 locus_list = blastx_df[0].to_list()
 entry_list = blastx_df[1].to_list()

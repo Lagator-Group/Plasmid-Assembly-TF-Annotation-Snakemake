@@ -6,26 +6,28 @@ query_df
 
 plasmid = snakemake.input[0]
 
-with open(snakemake.input[0]) as f:
-    for line in f:
-        locus_tag=line[:14]
-        start=line.find('sp|')
-        end=line.find('|',start+3)
-        ID=line[start:end]
-        ID=ID.replace('sp|','')
+blastx_df = pd.read_csv(snakemake.input[0],delimiter='\t')
 
-        new_row={'Locus Tag':locus_tag,'Entry':ID}
-        query_df=pd.concat([query_df,pd.DataFrame([new_row])])
+locus_list = []
+entry_list = []
+n=0
+for locus in blastx_df['Locus Tag']:
+    locus_list.append(locus)
+    entry = blastx_df['Entry'][n]
+    entry = entry.replace('sp|','')
+    end = entry.find('|')
+    entry = entry[:end]
+    entry_list.append(entry)
+    n+=1
 
-query_df.reset_index(drop=True,inplace=True)
-
+query_df = pd.DataFrame({'Locus Tag':locus_list,'Entry':entry_list})
 df=pd.DataFrame(columns=['Entry','Protein names','Gene Names'])
 
 error_max = 10
 for i in query_df['Entry']:
     error = 0
     if error == error_max:
-        print(f'Not able to process entry {i} on plasmid {plasmid} after {error} tries')
+        print(f'Not able to process entry {i} on {plasmid} after {error} tries')
         quit()
     else:
         try:
