@@ -53,7 +53,6 @@ Ensure you have installed the `deeptfactor` conda env from `bin/env/deeptfactor.
 ```
 snakemake -s sfile_deeptfactor -c8 --use-conda --conda-frontend conda
 ```
-Results will be output in `deeptfactor` directory.
 
 A summary of the results will output to `plasmid_summary.csv`.
 
