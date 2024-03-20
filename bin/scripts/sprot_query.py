@@ -4,6 +4,8 @@ import time
 query_df=pd.DataFrame(columns=['Locus Tag','Entry'])
 query_df
 
+plasmid = snakemake.input[0]
+
 with open(snakemake.input[0]) as f:
     for line in f:
         locus_tag=line[:14]
@@ -19,17 +21,21 @@ query_df.reset_index(drop=True,inplace=True)
 
 df=pd.DataFrame(columns=['Entry','Protein names','Gene Names'])
 
-error = 0
 error_max = 10
-while error <= error_max:
-    try:
-        for i in query_df['Entry']:
-            print(i)
+for i in query_df['Entry']:
+    error = 0
+    if error == error_max:
+        print(f'Not able to process entry {i} on plasmid {plasmid} after {error} tries')
+        quit()
+    else:
+        try:
             url = 'https://rest.uniprot.org/uniprotkb/'+i+'.tsv'
             df = pd.concat([df,pd.read_csv(url, sep='\t',usecols=['Entry','Protein names','Gene Names'])])
-    except:
-        time.sleep(60)
-        error += 1
+            print(f'{i} done')
+        except:
+            print(f'error with query {i}, trying again in 60 seconds')
+            time.sleep(60)
+            error += 1
 
 query_df=query_df.merge(df,on='Entry',how='left')
 
