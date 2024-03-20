@@ -24,7 +24,9 @@ Will only get samples from folders further in pipeline (i.e. `fasta_plasmid` > `
 
 #### Folder Description
 `fastq`: Put raw NGS/ONT reads here.
+
 `fasta_wgs`: Put assembled WGS here.
+
 `fasta_plasmid`: Put assembled PLASMID sequences here.
 
 ### 2. Assembly: Hybrid, Short or Long
