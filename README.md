@@ -71,7 +71,7 @@ rule all:
         expand('abricate_amr/{sample}.tab',sample=config['samples']),
         expand('blastx/{sample}.tsv',sample=config['samples'])
 ```
-This will run the offline (and resource-intensive) sections of the pipeline on the CSF. Download the `abricate`, `prokka` and `blastx` directories and run the pipeline again offline. It *should* be relatively quick. If you need to pause the pipeline at any stage, press `CTRL-C` to halt the pipeline. Then run the following when ready to resume:
+This will run the offline (and resource-intensive) sections of the pipeline on the CSF. Download the `abricate`, `prokka` and `blastx` directories and run the pipeline again offline. It *should* be relatively quick. If you need to pause the pipeline at any stage, press `CTRL-Z` to halt the pipeline. Then run the following when ready to resume:
 ```
 snakemake -s sfile_plasmid_tf --unlock
 snakemake -s sfile_plasmid_tf -c8 --use-conda --rerun-incomplete
