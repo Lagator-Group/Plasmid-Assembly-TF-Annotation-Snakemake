@@ -41,7 +41,7 @@ rule locid_hits:
 rule deepTFactor_sprot:
     input:
         prediction='deepTFactor/{sample}/prediction_result.txt',
-        sprot_in='sprot_best/{sample}.tsv'
+        sprot_in='sprot/{sample}.tsv'
     output:
         sprot_out='deepTFactor_sprot/{sample}.csv'
     threads: 2
