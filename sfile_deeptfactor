@@ -5,9 +5,18 @@ rule all:
         expand('deepTFactor_sprot/{sample}.csv',sample=config['samples']),
         'plasmid_summary.csv'
 
-rule deepTFactor:
+rule remove_stop:
     input:
         'prokka/{sample}/{sample}.faa'
+    output:
+        'prokka_no_stop/{sample}.faa'
+    threads: 2
+    script:
+        'bin/scripts/remove_stop.py'
+
+rule deepTFactor:
+    input:
+        'prokka_no_stop/{sample}.faa'
     output:
         directory = directory('deepTFactor/{sample}'),
         file = 'deepTFactor/{sample}/prediction_result.txt'

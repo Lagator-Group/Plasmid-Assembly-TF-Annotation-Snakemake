@@ -56,6 +56,8 @@ snakemake -s sfile_deeptfactor -c8 --use-conda --conda-frontend conda
 
 A summary of the results will output to `plasmid_summary.csv`.
 
+**NOTE**: deepTFactor cannot handle stop codons (*) in the `prokka.faa` CDS. Script will automatically make a copy without those. When surveying results, just quickly check that your finding does not have a stop codon by looking at the original `prokka` folder.
+
 ### Known Issues
 **The environment for deepTFactor so run will not install properly on the UoM CSF.**
 
