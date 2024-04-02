@@ -1,3 +1,5 @@
+# Cross-references all sprot hits with known DNA- and RNA-binding Transcription Regulators
+
 import pandas as pd
 
 # Read the .tsv file into a DataFrame

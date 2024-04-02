@@ -1,3 +1,16 @@
+# tabulate_all.py
+# Summarise all plasmid assemblies and annotation results in a single CSV
+# Assumes that all files are in the right format
+# Assemblies and annotations are in subdirectories:
+#   fasta_plasmid/
+#   fasta_wgs/
+#   blastx/
+#   abricate/
+#   prokka/
+#   deepTFactor/
+# Output is plasmid_summary.csv
+
+
 import pandas as pd
 import os
 

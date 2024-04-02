@@ -1,3 +1,5 @@
+# 
+
 import pandas as pd
 
 # list to store locus tags of hypothetical proteins
@@ -63,5 +65,6 @@ with open(fnn, 'r') as f:
         with open(hypothetical_proteins, 'a') as f:
             f.write('>' + result)
             print('Wrote extracted sequence to output file')
+
 
 

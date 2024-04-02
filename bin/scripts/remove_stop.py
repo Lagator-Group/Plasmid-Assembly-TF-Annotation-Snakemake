@@ -1,3 +1,10 @@
+# remove_stop.py
+# Remove stop characters '*' from FASTA file
+# Input: FASTA file
+# Output: FASTA file without stop characters
+
+
+
 file_in = snakemake.input[0]
 file_out = snakemake.output[0]
 

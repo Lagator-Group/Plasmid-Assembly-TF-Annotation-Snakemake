@@ -1,3 +1,8 @@
+# Summarise DeepTFactor hits by locus ID and write as a CSV
+# extracts prokka sequence for deepTFactor hits
+# and outputs to deepTFactor_hits
+
+
 import pandas as pd
 import os
 

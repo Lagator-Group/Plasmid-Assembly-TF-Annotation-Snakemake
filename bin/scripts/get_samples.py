@@ -1,3 +1,8 @@
+# get sample names from sequence directory
+# - find all files in either fasta_plasmid or fasta_wgs
+# - extract sample names from fasta file names
+# - write sample names to a CSV
+
 import os
 
 # find the sequence directory

@@ -1,4 +1,5 @@
-#! python3
+# Extract contigs with plasmid markers from a tab-separated file with columns #FILE and SEQUENCE
+# and write to a new fasta file with name and sequence.
 
 import os
 import pandas as pd

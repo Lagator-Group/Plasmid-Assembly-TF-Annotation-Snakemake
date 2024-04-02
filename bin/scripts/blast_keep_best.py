@@ -1,3 +1,9 @@
+# Script to extract the best hit from a BLASTx output file
+# for each locus tag in the file
+# Output is a tab-delimited file with two columns:
+#    Locus Tag and Entry
+# If no blast hits are found for a locus tag,
+# output is a single-row DataFrame with a message
 
 import pandas as pd
 

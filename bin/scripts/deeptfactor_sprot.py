@@ -1,3 +1,5 @@
+# Gets sprot data for predicted locus tags
+
 import pandas as pd
 
 # Read in prediction file from deeptFactor

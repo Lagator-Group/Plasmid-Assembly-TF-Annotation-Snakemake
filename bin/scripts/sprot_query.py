@@ -1,3 +1,12 @@
+# sprot_query.py
+# queries UniProt for SwissProt data
+# output is a tab-delimited file with three columns:
+#    Locus Tag, Entry, and Gene Name
+# if no hits are found, output is a single-row DataFrame with a message
+#
+# input: tab-delimited BLAST results file
+# output: tab-delimited file
+
 import pandas as pd
 import time
 
