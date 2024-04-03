@@ -4,9 +4,18 @@ rule all:
     input:
         expand('deepTFactor/{sample}',sample=config['samples'])
 
-rule deepTFactor:
+rule remove_stop:
     input:
         'prokka/{sample}/{sample}.faa'
+    output:
+        'prokka_no_stop/{sample}.faa'
+    threads: 2
+    script:
+        'bin/scripts/remove_stop.py'
+
+rule deepTFactor:
+    input:
+        'prokka_no_stop/{sample}.faa'
     output:
         directory('deepTFactor/{sample}')
     threads: config['threads']
@@ -41,7 +50,7 @@ rule locid_hits:
 rule deepTFactor_sprot:
     input:
         prediction='deepTFactor/{sample}/prediction_result.txt',
-        sprot_in='sprot_best/{sample}.tsv'
+        sprot_in='sprot/{sample}.tsv'
     output:
         sprot_out='deepTFactor_sprot/{sample}.csv'
     threads: 2
