@@ -46,6 +46,9 @@ If extracting plasmid TFs from WGS `.fasta`, ensure sequences are in `fasta_wgs`
 snakemake -s sfile_plasmid_tf -c8 --use-conda --conda-frontend conda
 ```
 
+#### Alternate identification
+If you wish to identify different category of genes, make a list of all known entries from Uniprot and replace the entry names in `bin/scripts/sprot_entries.py` accordingly.
+
 ### 4. DNA-binding motif prediction
 **Bug**: *This step does not currently work on the UoM CSF, but should work on local machines relatively quickly. Just make sure to download all the folders that have been generated as they are needed for this step.*
 
