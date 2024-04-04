@@ -6,7 +6,7 @@ import sprot_entries
 # Read the .tsv file into a DataFrame
 sprot_df = pd.read_csv(snakemake.input[0], delimiter='\t')
 
-entries = sprot_entries.transcription_regulators
+entries = sprot_entries.sprot_entries
 
 # checks if entry is in above list of known DNA- or RNA-binding Transcription Regulators
 
