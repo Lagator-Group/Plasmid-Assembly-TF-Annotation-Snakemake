@@ -2,7 +2,7 @@ configfile: 'config.yml'
 
 rule all:
     input:
-        expand('deepTFactor_sprot/{sample}.csv',sample=config['samples']),
+        expand('deepTFactor_sprot/{sample}.csv',sample=config['plasmids']),
         'plasmid_summary.csv'
 
 rule remove_stop:

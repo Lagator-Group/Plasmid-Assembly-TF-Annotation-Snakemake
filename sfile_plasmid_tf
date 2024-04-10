@@ -2,8 +2,8 @@ configfile: 'config.yml'
 
 rule all:
     input:
-        expand('abricate_amr/{sample}.tab',sample=config['samples']),
-        expand('sprot_TF/{sample}.tsv',sample=config['samples'])
+        expand('abricate_amr/{sample}.tab',sample=config['plasmids']),
+        expand('sprot_TF/{sample}.tsv',sample=config['plasmids'])
 
 rule abricate_plasmid:
     input:

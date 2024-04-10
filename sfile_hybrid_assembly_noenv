@@ -2,7 +2,7 @@ configfile: 'config.yml'
 
 rule all:
     input:
-        expand('deepTFactor/{sample}',sample=config['samples'])
+        expand('deepTFactor/{sample}',sample=config['plasmids'])
 
 rule hybrid_assembly:
     input:
