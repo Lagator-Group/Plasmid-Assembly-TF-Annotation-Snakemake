@@ -33,7 +33,9 @@ try:
         print("Processing locus {}...".format(locus))
         # If this locus tag is not already in the best lists,
         # add it and its corresponding entry to the lists
-        if locus not in best_locus:
+        if locus in best_locus:
+            pass
+        else:
             best_locus.append(locus)
             best_entry.append(entry_list[n])
             print("Added best hit for locus {}: {}".format(locus, entry_list[n]))
