@@ -13,17 +13,16 @@ import time
 # create a DataFrame with the columns we need
 query_df = pd.DataFrame(columns=['Locus Tag', 'Entry'])
 
-'''plasmid = snakemake.wildcards.sample
+plasmid = snakemake.wildcards.sample
 # read in the BLAST results
 blastx_df = pd.read_csv(snakemake.input[0], delimiter='\t')
 #Ouput file
 sprot_out = snakemake.output[0]
-'''
 
-plasmid = 'CP025890.1'
+'''plasmid = 'CP025890.1'
 blastx_df = pd.read_csv(f'blastx_best/{plasmid}.tsv', delimiter='\t')
 sprot_out = f'sprot/{plasmid}.tsv'
-
+'''
 # check if there were no BLAST results
 if blastx_df['Locus Tag'][0] == 'No BLAST results':
     # create a DataFrame with the same columns and a single row for "No BLAST results"
