@@ -90,7 +90,7 @@ rule swissprot_blastx:
     params:
         db='bin/swissprot/swissprot',
         outfmt='6',
-        evalue='0.01',
+        evalue='0.001',
         max_hsps='1',
         max_seqs='10'
     threads: 8
