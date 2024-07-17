@@ -19,17 +19,20 @@ blastx_df = pd.read_csv(snakemake.input[0], delimiter='\t')
 #Ouput file
 sprot_out = snakemake.output[0]
 
-'''plasmid = 'CP025890.1'
+'''plasmid = 'AP019704.1'
 blastx_df = pd.read_csv(f'blastx_best/{plasmid}.tsv', delimiter='\t')
-sprot_out = f'sprot/{plasmid}.tsv'
-'''
+sprot_out = f'sprot/{plasmid}.tsv'''
+
 # check if there were no BLAST results
 if blastx_df['Locus Tag'][0] == 'No BLAST results':
     # create a DataFrame with the same columns and a single row for "No BLAST results"
     query_df = pd.DataFrame({'Locus Tag': ['No BLAST results'],
                              'Entry': ['No BLAST results'],
+                             'Entry Name': ['No BLAST results'],
                              'Protein names': ['No BLAST results'],
-                             'Gene Names': ['No BLAST results']})
+                             'Gene Names': ['No BLAST results'],
+                             'Organism': ['No BLAST results'],
+                             'Length': ['No BLAST results']})
 
 # if there were BLAST results
 else:
@@ -52,11 +55,11 @@ else:
     # create a DataFrame with the locus tags and entries
     query_df = pd.DataFrame({'Locus Tag': locus_list, 'Entry': entry_list})
     # create an empty DataFrame with the columns we want from UniProt
-    df = pd.DataFrame(columns=['Entry', 'Protein names', 'Gene Names'])
+    df = pd.DataFrame(columns=['Entry', 'Entry Name', 'Protein names', 'Gene Names','Organism','Length'])
     # iterate over the UniProt entries and try to get the data
     for i in query_df['Entry']:
         url = 'https://rest.uniprot.org/uniprotkb/' + i + '.tsv'
-        df = pd.concat([df, pd.read_csv(url, sep='\t', usecols=['Entry', 'Protein names', 'Gene Names'])])
+        df = pd.concat([df, pd.read_csv(url, sep='\t', usecols=['Entry', 'Entry Name', 'Protein names', 'Gene Names','Organism','Length'])])
         print(f'{i} done')
         
     query_df = query_df.merge(df, on='Entry', how='left')
