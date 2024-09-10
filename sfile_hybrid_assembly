@@ -2,18 +2,18 @@ configfile: 'config.yml'
 
 rule all:
     input:
-        expand('fasta_wgs/{sample}.fasta',sample=config['plasmids'])
+        expand('data/fasta_wgs/{sample}.fasta',sample=config['plasmids'])
 
 rule hybrid_assembly:
     input:
-        _1='fastq/{sample}_1.fastq',
-        _2='fastq/{sample}_2.fastq',
-        l='fastq/{sample}.fastq'
+        _1='data/fastq/{sample}_1.fastq',
+        _2='data/fastq/{sample}_2.fastq',
+        l='data/fastq/{sample}.fastq'
     output:
-        unicycler='unicycler/{sample}/assembly.fasta',
-        fasta='fasta_wgs/{sample}.fasta'
+        unicycler='data/unicycler/{sample}/assembly.fasta',
+        fasta='data/fasta_wgs/{sample}.fasta'
     conda:
-        'unicycler'
+        'bin/env/unicycler.yml'
     shell:
         'unicycler -1 {input._1} -2 {input._2} -l {input.l} -o {output.unicycler} &&'
         'cp {output.unicycler} {output.fasta}'

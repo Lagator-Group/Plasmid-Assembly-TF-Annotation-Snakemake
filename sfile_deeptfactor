@@ -2,59 +2,57 @@ configfile: 'config.yml'
 
 rule all:
     input:
-        expand('deepTFactor_sprot/{sample}.csv',sample=config['plasmids']),
-        'plasmid_summary.csv'
+        expand('data/deepTFactor/{sample}',sample=config['plasmids'])
 
 rule remove_stop:
     input:
-        'prokka/{sample}/{sample}.faa'
+        'data/prokka/{sample}/{sample}.faa'
     output:
-        'prokka_no_stop/{sample}.faa'
+        'data/prokka_no_stop/{sample}.faa'
     threads: 2
     script:
         'bin/scripts/remove_stop.py'
 
 rule deepTFactor:
     input:
-        'prokka_no_stop/{sample}.faa'
+        'data/prokka_no_stop/{sample}.faa'
     output:
-        directory = directory('deepTFactor/{sample}'),
-        file = 'deepTFactor/{sample}/prediction_result.txt'
+        directory('data/deepTFactor/{sample}')
     threads: config['threads']
     conda:
-        'deeptfactor'
+        'bin/env/deeptfactor.yml'
     params:
         engine= 'cpu',
         ckpt= 'bin/scripts/deeptfactor/trained_model/DeepTFactor_ckpt.pt'
     shell:
-        'python3 bin/scripts/deeptfactor/tf_running.py -i {input} -o {output.directory} -g {params.engine} -ckpt {params.ckpt}'
+        'python3 bin/scripts/deeptfactor/tf_running.py -i {input} -o {output} -g {params.engine} -ckpt {params.ckpt}'
 
 rule tabulate_all:
     input:
-        expand('deepTFactor/{sample}',sample=config['samples'])
+        expand('data/deepTFactor/{sample}',sample=config['samples'])
     output:
-        'plasmid_summary.csv'
+        'data/plasmid_summary.csv'
     threads: config['threads']
     script:
         'bin/scripts/tabulate_all.py'
         
 rule locid_hits:
     input:
-        'prokka/{sample}/{sample}.ffn',
-        'fasta_plasmid/{sample}.fasta',
-        'plasmid_summary.csv'
+        'data/prokka/{sample}/{sample}.ffn',
+        'data/fasta_plasmid/{sample}.fasta',
+        'data/plasmid_summary.csv'
     output:
-        'deepTFactor_hits/{sample}.fasta'
+        'data/deepTFactor_hits/{sample}.fasta'
     threads: 2
     script:
         'bin/scripts/deeptfactor_loci.py'
 
 rule deepTFactor_sprot:
     input:
-        prediction='deepTFactor/{sample}/prediction_result.txt',
-        sprot_in='sprot/{sample}.tsv'
+        prediction='data/deepTFactor/{sample}/prediction_result.txt',
+        sprot_in='data/sprot/{sample}.tsv'
     output:
-        sprot_out='deepTFactor_sprot/{sample}.csv'
+        sprot_out='data/deepTFactor_sprot/{sample}.csv'
     threads: 2
     script:
         'bin/scripts/deeptfactor_sprot.py'

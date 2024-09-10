@@ -2,16 +2,16 @@ configfile: 'config.yml'
 
 rule all:
     input:
-        expand('fasta_wgs/{sample}.fasta',sample=config['plasmids'])
+        expand('data/fasta_wgs/{sample}.fasta',sample=config['plasmids'])
 
 rule long_assembly:
     input:
-        l='fastq/{sample}.fastq'
+        l='data/fastq/{sample}.fastq'
     output:
-        flye='flye/{sample}/assembly.fasta',
-        fasta='fasta_wgs/{sample}.fasta'
+        flye='data/flye/{sample}/assembly.fasta',
+        fasta='data/fasta_wgs/{sample}.fasta'
     conda:
-        'flye'
+        'bin/env/flye.yml'
     threads: 8
     shell:
         'flye --nano-raw {input} -o {output.flye} -t {threads} &&'
