@@ -7,7 +7,7 @@ rule all:
 
 rule abricate_plasmid:
     input:
-        'fdata/asta_wgs/{sample}.fasta'
+        'data/fasta_wgs/{sample}.fasta'
     output:
         'data/abricate_plasmid/{sample}.tab'
     conda:
