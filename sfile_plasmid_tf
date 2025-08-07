@@ -46,7 +46,7 @@ rule prokka:
         faa='data/prokka/{sample}/{sample}.faa'
     conda:
         'bin/env/prokka.yml'
-    threads: 8
+    threads: config['threads']
     shell:
         'prokka --outdir {output.folder} --prefix {wildcards.sample} {input} --force'
 
@@ -93,7 +93,7 @@ rule swissprot_blastx:
         evalue='0.001',
         max_hsps='1',
         max_seqs='10'
-    threads: 8
+    threads: config['threads']
     shell:
         'blastx -query {input.ffn} -db {params.db}'
         ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -max_target_seqs {params.max_seqs} -num_threads {threads}'
