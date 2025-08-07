@@ -8,11 +8,11 @@ rule long_assembly:
     input:
         l='data/fastq/{sample}.fastq'
     output:
-        flye='data/flye/{sample}/assembly.fasta',
+        flye=directory('data/flye/{sample}'),
         fasta='data/fasta_wgs/{sample}.fasta'
     conda:
         'bin/env/flye.yml'
-    threads: 8
+    threads: config['threads']
     shell:
         'flye --nano-raw {input} -o {output.flye} -t {threads} &&'
-        'cp {output.flye} {output.fasta}'
+        'cp {output.flye}/assembly.fasta {output.fasta}'
