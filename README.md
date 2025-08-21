@@ -23,11 +23,11 @@ python3 bin/scripts/get_samples.py
 Will only get samples from folders further in pipeline (i.e. `fasta_plasmid` > `fasta_wgs` > `fastq`).
 
 #### Folder Description
-`fastq`: Put raw NGS/ONT reads here.
+`data/fastq`: Put raw NGS/ONT reads here.
 
-`fasta_wgs`: Put assembled WGS here.
+`data/fasta_wgs`: Put assembled WGS here.
 
-`fasta_plasmid`: Put assembled PLASMID sequences here.
+`data/fasta_plasmid`: Put assembled PLASMID sequences here.
 
 ### 2. Assembly: Hybrid, Short or Long
 If your sequences are assembled, skip to next section.
