@@ -9,10 +9,12 @@ rule short_assembly:
         _1='data/fastq/{sample}_1.fastq',
         _2='data/fastq/{sample}_2.fastq'
     output:
-        shovill='data/shovill/{sample}/assembly.fasta',
+        shovill=directory('data/shovill/{sample}'),
         fasta='data/fasta_wgs/{sample}.fasta'
     conda:
         'bin/env/shovill.yml'
+    threads: 
+        16
     shell:
-        'shovill --R1 {input._1} --R2 {input._2} --outdir {output.shovill} --force &&'
-        'cp {output.shovill} {output.fasta}'
+        'shovill --cpus {threads} --R1 {input._1} --R2 {input._2} --outdir {output.shovill} --force &&'
+        'cp {output.shovill}/contigs.fa {output.fasta}'
