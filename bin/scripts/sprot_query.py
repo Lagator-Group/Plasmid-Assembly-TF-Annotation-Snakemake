@@ -61,6 +61,7 @@ else:
         url = 'https://rest.uniprot.org/uniprotkb/' + i + '.tsv'
         df = pd.concat([df, pd.read_csv(url, sep='\t', usecols=['Entry', 'Entry Name', 'Protein names', 'Gene Names','Organism','Length'])])
         print(f'{i} done')
+        time.sleep(0.5)
         
     query_df = query_df.merge(df, on='Entry', how='left')
 
