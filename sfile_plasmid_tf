@@ -21,7 +21,7 @@ rule fasta_plasmid:
         'data/abricate_plasmid/{sample}.tab'
     output:
         'data/fasta_plasmid/{sample}.fasta'
-    threads: 2
+    threads: 1
     script:
         'bin/scripts/contig_plasmid.py'
 
@@ -46,7 +46,7 @@ rule prokka:
         faa='data/prokka/{sample}/{sample}.faa'
     conda:
         'bin/env/prokka.yml'
-    threads: config['threads']
+    threads: 8
     shell:
         'prokka --outdir {output.folder} --prefix {wildcards.sample} {input} --force'
 
@@ -57,7 +57,7 @@ rule wget_sprot:
         temp('bin/swissprot/uniprot_sprot.fasta')
     params:
         'https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz'
-    threads: 2 
+    threads: 1 
     shell:
         'wget {params} -P bin/swissprot && '
         'gunzip {output}.gz'
@@ -90,10 +90,10 @@ rule swissprot_blastx:
     params:
         db='bin/swissprot/swissprot',
         outfmt='6',
-        evalue='0.001',
+        evalue='0.00001',
         max_hsps='1',
         max_seqs='10'
-    threads: config['threads']
+    threads: 16
     shell:
         'blastx -query {input.ffn} -db {params.db}'
         ' -out {output} -outfmt {params.outfmt} -evalue {params.evalue} -max_hsps {params.max_hsps} -max_target_seqs {params.max_seqs} -num_threads {threads}'
@@ -103,7 +103,7 @@ rule blast_keep_best:
         'data/blastx/{sample}.tsv'
     output:
         'data/blastx_best/{sample}.tsv'
-    threads: 2
+    threads: 1
     script:
         'bin/scripts/blast_keep_best.py'
 
@@ -112,7 +112,7 @@ rule sprot_query:
         'data/blastx_best/{sample}.tsv'
     output:
         'data/sprot/{sample}.tsv'
-    threads: 2
+    threads: 1
     script:
         'bin/scripts/sprot_query.py'
 
@@ -121,6 +121,6 @@ rule find_TF:
         'data/sprot/{sample}.tsv'
     output:
         'data/sprot_TF/{sample}.tsv'
-    threads: 2
+    threads: 1
     script:
         'bin/scripts/find_TF.py'
