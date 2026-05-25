@@ -22,13 +22,13 @@ while n < _n:
     product = '>' + str(df['product'][n])
 
     # debug print messages
-    print('Current locus tag:', locus)
-    print('Current product:', product)
+    # print('Current locus tag:', locus)
+    # print('Current product:', product)
 
     # if product is 'hypothetical protein', add locus tag to list
     if product == '>hypothetical protein':
         locus_tags.append(locus)
-        print('Added locus tag to list:', locus)
+        # print('Added locus tag to list:', locus)
 
     # increment counter
     n = n + 1
@@ -49,7 +49,7 @@ with open(fnn, 'r') as f:
     for locus in locus_tags:
 
         # debug print messages
-        print('Current locus tag:', locus)
+        # print('Current locus tag:', locus)
 
         # find start and end indices of locus in input file
         start = data.find(locus)
@@ -59,12 +59,12 @@ with open(fnn, 'r') as f:
         result = data[start:end]
 
         # debug print message
-        print('Extracted sequence:', result)
+        # print('Extracted sequence:', result)
 
         # open output file and write extracted sequence
         with open(hypothetical_proteins, 'a') as f:
             f.write('>' + result)
-            print('Wrote extracted sequence to output file')
+            # print('Wrote extracted sequence to output file')
 
 
 

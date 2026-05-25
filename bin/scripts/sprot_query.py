@@ -49,7 +49,7 @@ else:
         end = entry.find('|')
         entry = entry[:end]
         entry_list.append(entry)
-        print(f'{locus} mapped to {entry}')
+        # print(f'{locus} mapped to {entry}')
         n += 1
 
     # create a DataFrame with the locus tags and entries
@@ -60,7 +60,7 @@ else:
     for i in query_df['Entry']:
         url = 'https://rest.uniprot.org/uniprotkb/' + i + '.tsv'
         df = pd.concat([df, pd.read_csv(url, sep='\t', usecols=['Entry', 'Entry Name', 'Protein names', 'Gene Names','Organism','Length'])])
-        print(f'{i} done')
+        # print(f'{i} done')
         time.sleep(0.5)
         
     query_df = query_df.merge(df, on='Entry', how='left')

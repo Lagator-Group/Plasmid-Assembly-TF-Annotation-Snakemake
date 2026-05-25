@@ -25,12 +25,12 @@ else:
 
     for entry in sprot_df['Entry']:
         # iterate over each entry in the BLAST results
-        print(f"Searching for {entry}")
+        # print(f"Searching for {entry}")
 
         # if the current entry is in the list of known TFs and the locus tag has not been added yet,
         # add the locus tag, entry, protein name, and gene name to their respective lists
         if entry in entries and sprot_df['Locus Tag'][n] not in locus_tag_list:
-            print(f"Found {entry}! Adding to lists.")
+            # print(f"Found {entry}! Adding to lists.")
             locus_tag_list.append(sprot_df['Locus Tag'][n])
             entry_list.append(sprot_df['Entry'][n])
             protein_list.append(sprot_df['Protein names'][n])

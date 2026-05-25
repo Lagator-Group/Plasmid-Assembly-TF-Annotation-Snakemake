@@ -16,22 +16,22 @@ def get_contig(tab):
     tab : str
         Path to tab-separated file.
     """
-    print(f"Reading tab file: {tab}")
+    # print(f"Reading tab file: {tab}")
     df = pd.read_csv(tab, sep='\t', usecols=['#FILE', 'SEQUENCE'])
-    print(f"Number of rows in df: {df.shape[0]}")
+    # print(f"Number of rows in df: {df.shape[0]}")
     _n = df.shape[0]  # number of rows in df
     n = 0  # counter for while loop
     while n < _n:  # will only run for number of rows in pd.df
-        print(f"Processing row {n+1} of {_n}")
+        # print(f"Processing row {n+1} of {_n}")
         file = str(df['#FILE'][n])  # filename from pd.df
         contig = '>' + str(df['SEQUENCE'][n])  # contig code from pd.df
         if contig in contig_list:  # if contig was already added to list, continue to next contig
-            print(f"Contig '{contig}' already extracted, skipping...")
+            # print(f"Contig '{contig}' already extracted, skipping...")
             n = n + 1
             continue
         else:
             contig_list.append(contig)
-            print(f"Adding contig '{contig}' to contig_list")
+            # print(f"Adding contig '{contig}' to contig_list")
         with open(file, 'r') as f:  # open file identified in pd.df
             data = f.read()
             start = data.find(contig)  # start of contig in file
@@ -42,7 +42,7 @@ def get_contig(tab):
             fname = _fname + '_' + str(df['SEQUENCE'][n]) + '.fasta'
             path = contig_directory + '/' + fname
             with open(snakemake.output[0], 'a') as f:  # write to output file
-                print(f"Writing contig to {path}")
+                # print(f"Writing contig to {path}")
                 f.write(result)
             f.close()
         n = n + 1
