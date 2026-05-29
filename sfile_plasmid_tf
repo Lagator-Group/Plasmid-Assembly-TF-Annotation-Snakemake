@@ -3,7 +3,9 @@ configfile: 'config.yml'
 rule all:
     input:
         expand('data/abricate_amr/{sample}.tab',sample=config['plasmids']),
-        expand('data/sprot_TF/{sample}.tsv',sample=config['plasmids'])
+        expand('data/sprot_TF/{sample}.tsv',sample=config['plasmids']),
+        expand('data/plasmidfinder/{sample}/results_tab.tsv',sample=config['plasmids']),
+        expand('data/mobsuite/{sample}.tsv',sample=config['plasmids'])
 
 rule abricate_plasmid:
     input:
@@ -25,6 +27,17 @@ rule fasta_plasmid:
     script:
         'bin/scripts/contig_plasmid.py'
 
+rule mobtyper:
+    input:
+        'data/fasta_plasmid/{sample}.fasta'
+    output:
+        'data/mobsuite/{sample}.tsv'
+    threads: 2
+    conda:
+        'bin/env/mobsuite.yml'
+    shell:
+        'mob_typer --infile {input} --out_file {output}'
+
 rule plasmid_amr:
     input:
         'data/fasta_plasmid/{sample}.fasta'
@@ -35,6 +48,29 @@ rule plasmid_amr:
     threads: 4
     shell:
         'abricate {input} > {output}'
+
+rule plasmidfinder_db:
+    input:
+    output:
+        'bin/plasmidfinder_db/config'
+    conda:
+        'bin/env/plasmidfinder.yml'
+    threads: 2
+    shell:
+        'download-db.sh bin/plasmidfinder_db/'
+
+rule plasmidfinder:
+    input:
+        'data/fasta_plasmid/{sample}.fasta',
+        'bin/plasmidfinder_db/config'
+    output:
+        'data/plasmidfinder/{sample}/results_tab.tsv',
+        directory('data/plasmidfinder/{sample}')
+    conda:
+        'bin/env/plasmidfinder.yml'
+    threads: 2
+    shell:
+        'plasmidfinder.py -i {input[0]} -o {output[1]} -x -p  bin/plasmidfinder_db'
 
 rule prokka:
     input:
