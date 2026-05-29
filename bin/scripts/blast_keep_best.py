@@ -12,9 +12,9 @@ import pandas as pd
 print("Reading input file...")
 try:
     # Read the blastx output file into a Pandas DataFrame
-    blastx_df = pd.read_csv(snakemake.input[0],
-                            header=None,  # no header in the file
-                            delimiter='\t')  # tab-delimited file
+    blastx_df = pd.read_csv(
+        snakemake.input[0], header=None, delimiter="\t"  # no header in the file
+    )  # tab-delimited file
     # print("Input file read successfully.")
 
     # Extract the locus tags and entries from the DataFrame
@@ -45,18 +45,21 @@ try:
 
     # Create a new DataFrame with the best locus and entry for each locus tag
     best_df = pd.DataFrame(
-        {'Locus Tag': best_locus,  # column names
-         'Entry': best_entry})
+        {"Locus Tag": best_locus, "Entry": best_entry}  # column names
+    )
     # print("Created final DataFrame with best hits.")
 
 except:
     # If there was an error in reading the file, create a DataFrame with a single row
-    best_df = pd.DataFrame({'Locus Tag': ['No BLAST results'],  # column names
-                            'Entry': ['No BLAST results']})
+    best_df = pd.DataFrame(
+        {
+            "Locus Tag": ["No BLAST results"],  # column names
+            "Entry": ["No BLAST results"],
+        }
+    )
     print("Error occurred while reading input file:", sys.exc_info()[0])
 
 # Write the best hits to a new file
-with open(snakemake.output[0], 'w', newline='') as f:
-    best_df.to_csv(f, index=False, sep='\t')  # write the DataFrame to file
+with open(snakemake.output[0], "w", newline="") as f:
+    best_df.to_csv(f, index=False, sep="\t")  # write the DataFrame to file
     # print("Wrote best hits to output file.")
-
